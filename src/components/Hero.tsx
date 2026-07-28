@@ -14,6 +14,9 @@ export default function Hero() {
   const rulesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Force scroll to top on mount
+    window.scrollTo(0, 0);
+
     if (!sectionRef.current || !contentRef.current) return;
 
     const ctx = gsap.context(() => {

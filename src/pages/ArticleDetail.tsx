@@ -1,5 +1,6 @@
 import { ArrowLeft, Share2, Bookmark, Printer } from 'lucide-react';
 import { useParams, Link } from 'react-router';
+import { useEffect } from 'react';
 import { articles } from '@/data/articles';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -15,6 +16,11 @@ const categoryOverlines: Record<string, string> = {
 export default function ArticleDetail() {
   const { id } = useParams();
   const article = articles.find((a) => a.id === id);
+
+  // Scroll to top on mount / article change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   if (!article) {
     return (

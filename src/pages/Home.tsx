@@ -6,13 +6,38 @@ import AboutSection from '@/components/AboutSection';
 import Footer from '@/components/Footer';
 import { articles } from '@/data/articles';
 
+const FRENCH_MONTHS: Record<string, number> = {
+  janvier: 0, février: 1, mars: 2, avril: 3, mai: 4, juin: 5,
+  juillet: 6, août: 7, septembre: 8, octobre: 9, novembre: 10, décembre: 11,
+};
+
+function parseFrenchDate(dateStr: string): Date {
+  // "28 juillet 2026" or "2026-07-28" → Date
+  if (dateStr.includes('-')) {
+    // ISO format: "2026-07-28"
+    const [y, m, d] = dateStr.split('-').map(Number);
+    return new Date(y, m - 1, d);
+  }
+  const parts = dateStr.split(' ');
+  if (parts.length < 3) return new Date(); // fallback
+  const day = parseInt(parts[0]);
+  const month = FRENCH_MONTHS[parts[1]?.toLowerCase()] ?? 0;
+  const year = parseInt(parts[2]);
+  return new Date(year, month, day);
+}
+
+// Sort articles: newest first
+const sortedArticles = [...articles].sort(
+  (a, b) => parseFrenchDate(b.date).getTime() - parseFrenchDate(a.date).getTime()
+);
+
 export default function Home() {
-  const featuredArticles = articles.filter((a) => a.featured);
+  const featuredArticles = sortedArticles.filter((a) => a.featured);
   const articlesByCategory = {
-    ia: articles.filter((a) => a.category === 'ia' && !a.featured),
-    tech: articles.filter((a) => a.category === 'tech' && !a.featured),
-    dev: articles.filter((a) => a.category === 'dev' && !a.featured),
-    politique: articles.filter((a) => a.category === 'politique' && !a.featured),
+    ia: sortedArticles.filter((a) => a.category === 'ia' && !a.featured),
+    tech: sortedArticles.filter((a) => a.category === 'tech' && !a.featured),
+    dev: sortedArticles.filter((a) => a.category === 'dev' && !a.featured),
+    politique: sortedArticles.filter((a) => a.category === 'politique' && !a.featured),
   };
 
   const categoryConfig = {

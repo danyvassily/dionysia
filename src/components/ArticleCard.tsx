@@ -25,16 +25,16 @@ export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
       <div className="w-full mb-4" style={{ borderTop: '1px solid var(--rule)' }} />
 
       {/* Overline */}
-      <span className="overline text-[var(--ink-faint)] mb-2">
+      <span className="overline text-[var(--ink-faint)] mb-2 text-xs tracking-widest">
         {categoryOverlines[article.category]}
       </span>
 
-      {/* Animated Title */}
-      <Link to={`/article/${article.id}`} className="block mb-3">
+      {/* GRAND TITRE avec animation GSAP */}
+      <Link to={`/article/${article.id}`} className="block mb-3 no-underline">
         <AnimatedArticleTitle
           text={article.title}
           as="h3"
-          className="font-editorial text-xl lg:text-2xl font-semibold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300"
+          className="font-editorial text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300"
           delay={index * 0.1}
         />
       </Link>
@@ -46,7 +46,7 @@ export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
 
       {/* Meta footer */}
       <div className="flex items-center gap-3 text-xs font-sans text-[var(--ink-faint)]">
-        <span>{article.date}</span>
+        <span className="font-medium">{article.date}</span>
         <span>·</span>
         <span className="inline-flex items-center gap-1">
           <Clock className="w-3 h-3" />
@@ -55,7 +55,7 @@ export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
         {article.tag && (
           <>
             <span>·</span>
-            <span className="text-[var(--accent-editorial)]">{article.tag}</span>
+            <span className="text-[var(--accent-editorial)] font-medium">{article.tag}</span>
           </>
         )}
         <Link

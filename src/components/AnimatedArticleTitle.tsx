@@ -25,18 +25,53 @@ export default function AnimatedArticleTitle({
     const letters = containerRef.current.querySelectorAll('.art-letter');
     const underline = containerRef.current.querySelector('.art-underline');
 
-    // Initial state: invisible, shifted down
+    // Check if element is already in viewport
+    const rect = containerRef.current.getBoundingClientRect();
+    const isAlreadyVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+    if (isAlreadyVisible) {
+      // Animate immediately — no ScrollTrigger needed
+      gsap.set(letters, {
+        opacity: 0,
+        y: 24,
+        skewY: 2,
+      });
+      if (underline) {
+        gsap.set(underline, { scaleX: 0, transformOrigin: 'left center' });
+      }
+
+      const tl = gsap.timeline({ delay });
+      tl.to(letters, {
+        opacity: 1,
+        y: 0,
+        skewY: 0,
+        duration: 0.5,
+        ease: 'power3.out',
+        stagger: 0.025,
+      });
+      if (underline) {
+        tl.to(
+          underline,
+          { scaleX: 1, duration: 0.6, ease: 'power2.inOut' },
+          '-=0.2'
+        );
+      }
+
+      return () => {
+        tl.kill();
+      };
+    }
+
+    // Element is below the fold — use ScrollTrigger
     gsap.set(letters, {
       opacity: 0,
-      y: 20,
-      skewY: 3,
+      y: 24,
+      skewY: 2,
     });
-
     if (underline) {
       gsap.set(underline, { scaleX: 0, transformOrigin: 'left center' });
     }
 
-    // Scroll-triggered animation
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
@@ -52,17 +87,13 @@ export default function AnimatedArticleTitle({
       duration: 0.5,
       ease: 'power3.out',
       stagger: 0.025,
-      delay: delay,
+      delay,
     });
 
     if (underline) {
       tl.to(
         underline,
-        {
-          scaleX: 1,
-          duration: 0.6,
-          ease: 'power2.inOut',
-        },
+        { scaleX: 1, duration: 0.6, ease: 'power2.inOut' },
         '-=0.2'
       );
     }
@@ -77,13 +108,12 @@ export default function AnimatedArticleTitle({
 
   return (
     <div ref={containerRef} className="relative inline">
-      <Tag className={`inline ${className}`}>
+      <Tag className={className}>
         {text.split('').map((char, i) => (
           <span
             key={i}
             className="art-letter inline-block"
             style={{
-              display: 'inline-block',
               whiteSpace: char === ' ' ? 'pre' : undefined,
             }}
           >
