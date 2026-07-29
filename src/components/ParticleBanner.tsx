@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback, useState } from 'react';
 import type * as THREE from 'three';
 
 // ─── CONFIG ────────────────────────────────────────────────────────────────
@@ -161,6 +161,18 @@ interface Props {
 }
 
 export default function ParticleBanner({ className = '', config = {} }: Props) {
+  // Pas de WebGL sur mobile — header épuré
+  const [isMobile, setIsMobile] = useState(
+    typeof window !== 'undefined' && window.innerWidth < 768,
+  );
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
+
   const containerRef = useRef<HTMLDivElement>(null);
   const stateRef = useRef<{
     scene?: THREE.Scene;
@@ -201,6 +213,7 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
   }, []);
 
   useEffect(() => {
+    if (isMobile) return;
     const container = containerRef.current;
     if (!container) return;
 
@@ -448,6 +461,8 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
       cfg.swirl, cfg.windDrift, cfg.windShare, cfg.scrollWind,
       cfg.scrollSensitivity, cfg.attack, cfg.release, cfg.fitMode,
       cfg.maxPixelRatio, cleanup]);
+
+  if (isMobile) return null;
 
   return (
     <div
