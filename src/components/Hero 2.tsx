@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ChevronDown } from 'lucide-react';
 import AnimatedTitle from './AnimatedTitle';
-import ParticleBanner from './ParticleBanner';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -92,9 +91,6 @@ export default function Hero() {
       className="relative pt-28 pb-16 lg:pt-32 lg:pb-20 overflow-hidden"
       style={{ background: 'var(--paper)' }}
     >
-      {/* WebGL Particle Banner — fond animé */}
-      <ParticleBanner className="h-full" config={{ imagePath: '/images/x_20260729_103229.png' }} />
-
       <div ref={contentRef} className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10">
         {/* Top meta line */}
         <div ref={metaRef} className="flex items-center justify-center gap-4 mb-8">
