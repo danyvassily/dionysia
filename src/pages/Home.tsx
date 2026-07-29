@@ -26,18 +26,27 @@ function parseFrenchDate(dateStr: string): Date {
   return new Date(year, month, day);
 }
 
+// ─── CLASSEMENT DYNAMIQUE ──────────────────────────────────────────────────
+// Les 6 articles les plus récents sont en « À la une ».
+// Les autres sont répartis dans leurs sections par catégorie.
+// Le flag `featured` dans les données n'est plus utilisé.
+const FEATURED_COUNT = 6;
+
 // Sort articles: newest first
 const sortedArticles = [...articles].sort(
   (a, b) => parseFrenchDate(b.date).getTime() - parseFrenchDate(a.date).getTime()
 );
 
 export default function Home() {
-  const featuredArticles = sortedArticles.filter((a) => a.featured);
+  // Top N → featured. Rest → categories.
+  const featuredArticles = sortedArticles.slice(0, FEATURED_COUNT);
+  const restArticles = sortedArticles.slice(FEATURED_COUNT);
+
   const articlesByCategory = {
-    ia: sortedArticles.filter((a) => a.category === 'ia' && !a.featured),
-    tech: sortedArticles.filter((a) => a.category === 'tech' && !a.featured),
-    dev: sortedArticles.filter((a) => a.category === 'dev' && !a.featured),
-    politique: sortedArticles.filter((a) => a.category === 'politique' && !a.featured),
+    ia: restArticles.filter((a) => a.category === 'ia'),
+    tech: restArticles.filter((a) => a.category === 'tech'),
+    dev: restArticles.filter((a) => a.category === 'dev'),
+    politique: restArticles.filter((a) => a.category === 'politique'),
   };
 
   const categoryConfig = {
