@@ -103,7 +103,7 @@ export default function Hero() {
         <div className="mb-6">
           <AnimatedTitle
             text="DIONYSIA"
-            className="text-7xl sm:text-8xl md:text-9xl lg:text-[10rem]"
+            className="text-5xl sm:text-7xl md:text-8xl lg:text-[10rem]"
           />
         </div>
 

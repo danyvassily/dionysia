@@ -11,6 +11,15 @@ interface AnimatedArticleTitleProps {
   delay?: number;
 }
 
+/**
+ * AnimatedArticleTitle — GSAP letter-by-letter reveal on scroll,
+ * with responsive wrapping and mobile-first sizing.
+ *
+ * Letters are `display: inline` so long titles wrap naturally —
+ * never force horizontal scroll.
+ *
+ * Guideline UX Pro Max §5 : pas de scroll horizontal.
+ */
 export default function AnimatedArticleTitle({
   text,
   className = '',
@@ -25,78 +34,54 @@ export default function AnimatedArticleTitle({
     const letters = containerRef.current.querySelectorAll('.art-letter');
     const underline = containerRef.current.querySelector('.art-underline');
 
-    // Check if element is already in viewport
+    // Check if element is already visible
     const rect = containerRef.current.getBoundingClientRect();
     const isAlreadyVisible = rect.top < window.innerHeight && rect.bottom > 0;
 
-    if (isAlreadyVisible) {
-      // Animate immediately — no ScrollTrigger needed
-      gsap.set(letters, {
-        opacity: 0,
-        y: 24,
-        skewY: 2,
-      });
-      if (underline) {
-        gsap.set(underline, { scaleX: 0, transformOrigin: 'left center' });
-      }
-
-      const tl = gsap.timeline({ delay });
+    const animate = (tl: gsap.core.Timeline) => {
       tl.to(letters, {
         opacity: 1,
         y: 0,
         skewY: 0,
-        duration: 0.5,
+        duration: 0.4,
         ease: 'power3.out',
-        stagger: 0.025,
+        stagger: 0.018,
+        delay,
       });
       if (underline) {
         tl.to(
           underline,
-          { scaleX: 1, duration: 0.6, ease: 'power2.inOut' },
-          '-=0.2'
+          { scaleX: 1, duration: 0.5, ease: 'power2.inOut' },
+          '-=0.15'
         );
       }
+    };
 
+    // Initial state
+    gsap.set(letters, { opacity: 0, y: 18, skewY: 2 });
+    if (underline) {
+      gsap.set(underline, { scaleX: 0, transformOrigin: 'left center' });
+    }
+
+    if (isAlreadyVisible) {
+      // Animate immediately
+      const tl = gsap.timeline();
+      animate(tl);
       return () => {
         tl.kill();
       };
     }
 
-    // Element is below the fold — use ScrollTrigger
-    gsap.set(letters, {
-      opacity: 0,
-      y: 24,
-      skewY: 2,
-    });
-    if (underline) {
-      gsap.set(underline, { scaleX: 0, transformOrigin: 'left center' });
-    }
-
+    // Below the fold — ScrollTrigger
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
-        start: 'top 85%',
+        start: 'top 88%',
         toggleActions: 'play none none none',
       },
     });
 
-    tl.to(letters, {
-      opacity: 1,
-      y: 0,
-      skewY: 0,
-      duration: 0.5,
-      ease: 'power3.out',
-      stagger: 0.025,
-      delay,
-    });
-
-    if (underline) {
-      tl.to(
-        underline,
-        { scaleX: 1, duration: 0.6, ease: 'power2.inOut' },
-        '-=0.2'
-      );
-    }
+    animate(tl);
 
     return () => {
       tl.kill();
@@ -107,22 +92,19 @@ export default function AnimatedArticleTitle({
   }, [text, delay]);
 
   return (
-    <div ref={containerRef} className="relative inline">
+    <div ref={containerRef} className="relative">
       <Tag className={className}>
         {text.split('').map((char, i) => (
           <span
             key={i}
-            className="art-letter inline-block"
-            style={{
-              whiteSpace: char === ' ' ? 'pre' : undefined,
-            }}
+            className="art-letter inline select-none"
           >
             {char}
           </span>
         ))}
       </Tag>
       <span
-        className="art-underline absolute -bottom-1 left-0 h-[1px] w-full block"
+        className="art-underline absolute -bottom-0.5 left-0 h-[1px] w-full block"
         style={{
           background: 'var(--accent-editorial)',
           opacity: 0.3,
