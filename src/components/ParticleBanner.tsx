@@ -198,12 +198,22 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
         container.appendChild(renderer.domElement);
         canvasRef.current = renderer.domElement;
 
-        // Texture — chargement manuel (même domaine → pas besoin de crossOrigin)
+        // Texture — fetch + blob URL (contourne tout problème CORS/navigateur)
+        const blobResp = await fetch(cfg.imagePath);
+        if (!blobResp.ok) throw new Error(`HTTP ${blobResp.status}`);
+        const blob = await blobResp.blob();
+        const objectUrl = URL.createObjectURL(blob);
         const textureImg = await new Promise<HTMLImageElement>((resolve, reject) => {
           const img = new Image();
-          img.onload = () => resolve(img);
-          img.onerror = () => reject(new Error('Échec chargement image'));
-          img.src = cfg.imagePath;
+          img.onload = () => {
+            URL.revokeObjectURL(objectUrl);
+            resolve(img);
+          };
+          img.onerror = () => {
+            URL.revokeObjectURL(objectUrl);
+            reject(new Error('Échec chargement image'));
+          };
+          img.src = objectUrl;
         });
         const texture = new THREE.Texture(textureImg);
         texture.needsUpdate = true;
