@@ -15,6 +15,8 @@ export interface ParticleBannerConfig {
   scrollSensitivity: number;
   attack: number;           // vitesse de dispersion
   release: number;          // vitesse de retour
+  hoverIntensity: number;   // intensité dispersion au hover (0..1, défaut 0.5)
+  idleDrift: number;        // vent permanent sans interaction (0..1, défaut 0.12)
   fitMode: 'cover' | 'contain';
   maxPixelRatio: number;
 }
@@ -32,6 +34,8 @@ const DEFAULT_CONFIG: ParticleBannerConfig = {
   scrollSensitivity: 0.06,
   attack: 0.14,
   release: 0.035,
+  hoverIntensity: 0.5,
+  idleDrift: 0.12,
   fitMode: 'cover',
   maxPixelRatio: 2,
 };
@@ -393,9 +397,9 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
           );
           uniforms.uScroll.value = scrollNorm;
 
-          // Target displacement
-          let target = 0;
-          if (s.mouseInside) target = Math.max(target, 1);
+          // Target displacement — vent permanent + hover adouci
+          let target = cfg.idleDrift;
+          if (s.mouseInside) target = Math.max(target, cfg.hoverIntensity);
           target = Math.max(target, Math.abs(scrollNorm));
 
           const ease = target > s.displacement ? cfg.attack : cfg.release;

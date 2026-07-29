@@ -7,13 +7,11 @@ interface AnimatedTitleProps {
 }
 
 /**
- * AnimatedTitle — GSAP letter-by-letter reveal with responsive wrapping.
+ * AnimatedTitle — GSAP letter-by-letter reveal + wave hover.
  *
- * Desktop : chaque lettre s'anime individuellement (inline, wrappable).
- * Jamais de scroll horizontal — les spans sont `display: inline` pour
- * permettre le wrapping naturel, pas `inline-block` qui casse le flux.
- *
- * Guideline UX Pro Max §5 : pas de scroll horizontal, mobile-first.
+ * Chaque lettre réagit au hover avec un effet de vague :
+ * la lettre survolée monte, et les lettres adjacentes (±2)
+ * suivent avec une intensité décroissante.
  */
 export default function AnimatedTitle({ text, className = '' }: AnimatedTitleProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -46,32 +44,60 @@ export default function AnimatedTitle({ text, className = '' }: AnimatedTitlePro
       delay: 0.15,
     });
 
-    // Subtle hover effect on desktop
+    // Wave hover effect — chaque lettre influence ses voisines
     const mm = gsap.matchMedia();
     mm.add('(min-width: 768px)', () => {
-      letters.forEach((letter) => {
-        const onEnter = () => {
-          gsap.to(letter, {
-            y: -4,
-            color: 'var(--accent-editorial)',
-            duration: 0.25,
-            ease: 'power2.out',
-          });
-        };
-        const onLeave = () => {
-          gsap.to(letter, {
-            y: 0,
-            color: 'var(--ink)',
-            duration: 0.25,
-            ease: 'power2.out',
-          });
-        };
+      const letterArray = Array.from(letters) as HTMLElement[];
+
+      // Pré-calculer les cibles d'animation pour chaque distance
+      const waveConfig = [
+        { dist: 0, y: -12, scale: 1.4, color: 'var(--accent-editorial)' },   // lettre survolée
+        { dist: 1, y: -6,  scale: 1.15, color: 'var(--ink-light)' },          // ±1
+        { dist: 2, y: -3,  scale: 1.05, color: 'var(--ink)' },                // ±2
+      ];
+
+      const animateWave = (centerIdx: number, enter: boolean) => {
+        waveConfig.forEach(({ dist, y, scale, color }) => {
+          const targets: HTMLElement[] = [];
+
+          if (dist === 0) {
+            targets.push(letterArray[centerIdx]);
+          } else {
+            const left = letterArray[centerIdx - dist];
+            const right = letterArray[centerIdx + dist];
+            if (left) targets.push(left);
+            if (right) targets.push(right);
+          }
+
+          if (targets.length === 0) return;
+
+          if (enter) {
+            gsap.to(targets, {
+              y,
+              scale,
+              color,
+              duration: 0.3,
+              ease: 'power2.out',
+              overwrite: 'auto',
+            });
+          } else {
+            gsap.to(targets, {
+              y: 0,
+              scale: 1,
+              color: 'var(--ink)',
+              duration: 0.4,
+              ease: 'power2.out',
+              overwrite: 'auto',
+            });
+          }
+        });
+      };
+
+      letterArray.forEach((letter, idx) => {
+        const onEnter = () => animateWave(idx, true);
+        const onLeave = () => animateWave(idx, false);
         letter.addEventListener('mouseenter', onEnter);
         letter.addEventListener('mouseleave', onLeave);
-        return () => {
-          letter.removeEventListener('mouseenter', onEnter);
-          letter.removeEventListener('mouseleave', onLeave);
-        };
       });
     });
 
@@ -107,17 +133,17 @@ export default function AnimatedTitle({ text, className = '' }: AnimatedTitlePro
                 lineHeight: 'inherit',
                 letterSpacing: 'inherit',
                 color: 'var(--ink)',
-                display: 'inline', // ← CRITIQUE : inline pour wrapping naturel
+                display: 'inline',
                 transformStyle: 'preserve-3d',
                 fontSize: isLastTwo ? '1.55em' : 'inherit',
+                transition: 'none', // GSAP gère tout
               }}
             >
-              {char === ' ' ? ' ' : char}
+              {char === ' ' ? '\u00A0' : char}
             </span>
           );
         })}
       </span>
-      {/* Animated underline — full width of the text block */}
       <span
         className="title-underline absolute bottom-0 left-0 right-0 h-[2px] block"
         style={{
