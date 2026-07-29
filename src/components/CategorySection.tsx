@@ -14,7 +14,7 @@ export default function CategorySection({ id, title, subtitle, articles }: Categ
 
   return (
     <section id={id} className="py-14 lg:py-20">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="flex items-end justify-between mb-10 pb-4" style={{ borderBottom: '1px solid var(--rule)' }}>
           <div>

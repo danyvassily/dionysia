@@ -34,7 +34,7 @@ export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
         <AnimatedArticleTitle
           text={article.title}
           as="h3"
-          className="font-editorial text-xl sm:text-2xl lg:text-3xl font-bold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300"
+          className="font-editorial text-base sm:text-lg lg:text-xl font-bold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300 break-words"
           delay={index * 0.1}
         />
       </Link>

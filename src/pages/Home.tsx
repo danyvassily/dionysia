@@ -66,7 +66,7 @@ export default function Home() {
 
       {/* Featured Section */}
       <section id="featured" className="py-14 lg:py-20">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section header */}
           <div className="flex items-center gap-4 mb-12 pb-4" style={{ borderBottom: '1px solid var(--rule)' }}>
             <span className="overline text-[var(--ink-faint)]">À la une</span>
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* Divider */}
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="w-full" style={{ borderTop: '1px solid var(--rule)' }} />
       </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
       ))}
 
       {/* Divider */}
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="w-full" style={{ borderTop: '1px solid var(--rule)' }} />
       </div>
 

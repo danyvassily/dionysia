@@ -9,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
-  const imageRef = useRef<HTMLImageElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const metaRef = useRef<HTMLDivElement>(null);
   const catsRef = useRef<HTMLDivElement>(null);
@@ -22,20 +21,6 @@ export default function Hero() {
     if (!sectionRef.current || !contentRef.current) return;
 
     const ctx = gsap.context(() => {
-      // Parallax: la gravure glisse doucement pendant le scroll
-      if (imageRef.current) {
-        gsap.to(imageRef.current, {
-          yPercent: 12,
-          ease: 'none',
-          scrollTrigger: {
-            trigger: sectionRef.current,
-            start: 'top top',
-            end: 'bottom top',
-            scrub: 0.5,
-          },
-        });
-      }
-
       // Parallax: content moves slower than scroll
       gsap.to(contentRef.current, {
         y: -80,
@@ -104,13 +89,13 @@ export default function Hero() {
     <section
       ref={sectionRef}
       id="hero"
-      className="relative pt-28 pb-16 lg:pt-32 lg:pb-20 overflow-hidden"
+      className="relative pt-20 pb-12 lg:pt-32 lg:pb-20 overflow-hidden"
       style={{ background: 'var(--paper)' }}
     >
       {/* Fond particules WebGL — canvas en z-0, pointer-events: none */}
       <ParticleBanner className="h-full" />
 
-      <div ref={contentRef} className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10">
+      <div ref={contentRef} className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         {/* Top meta line */}
         <div ref={metaRef} className="flex items-center justify-center gap-4 mb-8">
           <div className="h-px w-12" style={{ background: 'var(--rule)' }} />
@@ -122,7 +107,7 @@ export default function Hero() {
         <div className="mb-6">
           <AnimatedTitle
             text="DIONYSIA"
-            className="text-5xl sm:text-7xl md:text-8xl lg:text-[10rem]"
+            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl"
           />
         </div>
 
