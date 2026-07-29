@@ -34,13 +34,13 @@ export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
         <AnimatedArticleTitle
           text={article.title}
           as="h3"
-          className="font-editorial text-base sm:text-lg lg:text-xl font-bold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300 break-words"
+          className="font-editorial text-sm sm:text-base lg:text-lg font-bold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300 break-words"
           delay={index * 0.1}
         />
       </Link>
 
       {/* Excerpt */}
-      <p className="font-sans text-base text-[var(--ink-muted)] leading-relaxed mb-4 flex-1">
+      <p className="font-sans text-sm sm:text-base text-[var(--ink-muted)] leading-relaxed mb-4 flex-1">
         {article.excerpt}
       </p>
 

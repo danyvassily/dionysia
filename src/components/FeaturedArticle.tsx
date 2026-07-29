@@ -34,11 +34,11 @@ export default function FeaturedArticle({ article }: FeaturedArticleProps) {
         <Link to={`/article/${article.id}`} className="block mb-5 no-underline">
           <AnimatedTitle
             text={article.title}
-            className="font-editorial text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300 break-words"
+            className="font-editorial text-base sm:text-lg lg:text-xl xl:text-2xl font-bold text-[var(--ink)] leading-snug hover:text-[var(--accent-editorial)] transition-colors duration-300 break-words"
           />
         </Link>
 
-        <p className="font-sans text-base lg:text-lg text-[var(--ink-muted)] leading-relaxed mb-6">
+        <p className="font-sans text-sm sm:text-base lg:text-lg text-[var(--ink-muted)] leading-relaxed mb-6">
           {article.excerpt}
         </p>
 
