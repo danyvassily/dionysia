@@ -143,7 +143,7 @@ void main() {
 }`;
 
 const FRAGMENT_SHADER = /* glsl */ `
-precision highp float;
+precision mediump float;
 varying vec3 vColor;
 varying float vAlpha;
 void main() {
@@ -221,6 +221,10 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
         const h = container.clientHeight;
         if (w === 0 || h === 0) return;
 
+        // Détection mobile pour optimisations GPU
+        const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)
+                       || window.innerWidth < 768;
+
         // ── Scene + Camera (orthographique, 1 unité = 1 px CSS) ──────
         const scene = new THREE.Scene();
         const camera = new THREE.OrthographicCamera(
@@ -233,7 +237,8 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
           powerPreference: 'high-performance',
         });
         renderer.setClearColor(0x000000, 0);
-        const dpr = Math.min(window.devicePixelRatio || 1, cfg.maxPixelRatio);
+        const maxDpr = isMobile ? 1 : cfg.maxPixelRatio;
+        const dpr = Math.min(window.devicePixelRatio || 1, maxDpr);
         renderer.setPixelRatio(dpr);
         renderer.setSize(w, h);
         renderer.domElement.style.position = 'absolute';
@@ -282,7 +287,7 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
         ).data;
 
         // ── Géométrie ────────────────────────────────────────────────
-        const gap = cfg.gap;
+        const gap = isMobile ? Math.max(cfg.gap, 6) : cfg.gap;
         const cols = Math.floor(img.naturalWidth / gap);
         const rows = Math.floor(img.naturalHeight / gap);
         const count = cols * rows;
