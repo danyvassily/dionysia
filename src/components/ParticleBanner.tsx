@@ -198,10 +198,9 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
         container.appendChild(renderer.domElement);
         canvasRef.current = renderer.domElement;
 
-        // Texture — chargement manuel pour éviter les soucis CORS du TextureLoader
+        // Texture — chargement manuel (même domaine → pas besoin de crossOrigin)
         const textureImg = await new Promise<HTMLImageElement>((resolve, reject) => {
           const img = new Image();
-          img.crossOrigin = 'anonymous';
           img.onload = () => resolve(img);
           img.onerror = () => reject(new Error('Échec chargement image'));
           img.src = cfg.imagePath;
