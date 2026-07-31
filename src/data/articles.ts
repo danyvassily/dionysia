@@ -5767,5 +5767,5 @@ export const articles: Article[] = [
     readTime: '14 min',
     featured: true,
     tag: "Mobile Dev",
-  }
+  },
 ];
