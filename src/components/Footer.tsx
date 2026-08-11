@@ -40,10 +40,10 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-1.5 mt-5">
               {[
-                { icon: Twitter, href: '#', label: 'Twitter' },
+                { icon: Twitter, href: 'https://x.com', label: 'X' },
                 { icon: Github, href: '#', label: 'GitHub' },
                 { icon: Mail, href: 'mailto:hello@dionysia.fr', label: 'Email' },
-                { icon: Rss, href: '#', label: 'RSS' },
+                { icon: Rss, href: '/rss.xml', label: 'RSS' },
               ].map((s) => (
                 <a key={s.label} href={s.href} aria-label={s.label} className="w-8 h-8 inline-flex items-center justify-center rounded-full border text-[var(--ink-faint)] hover:text-[var(--ink)] hover:border-[var(--ink)] transition-colors" style={{ borderColor: 'var(--rule)' }}>
                   <s.icon className="w-3.5 h-3.5" />
@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 border-t" style={{ borderColor: 'var(--rule)' }}>
-          <p className="font-sans text-xs text-[var(--ink-faint)]">© 2026 Dany Vassily — Tous droits réservés · Fait avec exigence.</p>
+          <p className="font-sans text-xs text-[var(--ink-faint)]">© {new Date().getFullYear()} Dany Vassily — Tous droits réservés · Fait avec exigence.</p>
           <button onClick={scrollToTop} className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[var(--ink-faint)] hover:text-[var(--ink)] transition-colors group">
             Haut de page <ArrowUp className="w-3 h-3 group-hover:-translate-y-0.5 transition-transform" />
           </button>

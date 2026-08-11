@@ -28,7 +28,7 @@ export default function ArticleDetail() {
   const article = articles.find((a) => a.id === id);
   const progress = useReadingProgress();
   const [copied, setCopied] = useState(false);
-  const [saved, setSaved] = useState(false);
+  const [saved, setSaved] = useState(() => { try { return localStorage.getItem(`dionysia:bookmark:${id}`) === '1'; } catch { return false; } });
   const bodyRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, [id]);
@@ -47,6 +47,25 @@ export default function ArticleDetail() {
     });
     return { paragraphs: paras, headings: hs };
   }, [article]);
+
+  // Active TOC
+  useEffect(() => {
+    if (!headings.length || !bodyRef.current) return;
+    const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('[data-toc]'));
+    const heads = headings.map(h => document.getElementById(h.id)).filter(Boolean) as HTMLElement[];
+    if (!heads.length) return;
+    let active: string | null = null;
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) active = e.target.id; });
+      links.forEach(a => {
+        const isActive = a.getAttribute('data-toc') === active;
+        a.classList.toggle('text-[var(--accent-editorial)]', !!isActive);
+        a.classList.toggle('font-medium', !!isActive);
+      });
+    }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+    heads.forEach(h => obs.observe(h));
+    return () => obs.disconnect();
+  }, [headings]);
 
   const related = useMemo(() => {
     if (!article) return [];
@@ -115,7 +134,7 @@ export default function ArticleDetail() {
                   <button onClick={() => { navigator.clipboard.writeText(window.location.href); setCopied(true); setTimeout(()=>setCopied(false), 1600); }} className="w-8 h-8 inline-flex items-center justify-center rounded-full border text-[var(--ink-muted)] hover:text-[var(--ink)] transition-colors" style={{ borderColor: 'var(--rule)' }} aria-label="Copier le lien">
                     <Link2 className="w-3.5 h-3.5" />
                   </button>
-                  <button onClick={() => setSaved(v=>!v)} aria-pressed={saved} className={`w-8 h-8 inline-flex items-center justify-center rounded-full border transition-colors ${saved ? 'bg-[var(--ink)] text-[var(--paper)] border-[var(--ink)]' : 'text-[var(--ink-muted)] hover:text-[var(--ink)]'}`} style={{ borderColor: saved ? 'var(--ink)' : 'var(--rule)' }} aria-label="Sauvegarder">
+                  <button onClick={() => setSaved(v=>{ const nv=!v; try{ localStorage.setItem(`dionysia:bookmark:${id}`, nv?'1':'0'); }catch{} return nv; })} aria-pressed={saved} className={`w-8 h-8 inline-flex items-center justify-center rounded-full border transition-colors ${saved ? 'bg-[var(--ink)] text-[var(--paper)] border-[var(--ink)]' : 'text-[var(--ink-muted)] hover:text-[var(--ink)]'}`} style={{ borderColor: saved ? 'var(--ink)' : 'var(--rule)' }} aria-label="Sauvegarder">
                     <Bookmark className={`w-3.5 h-3.5 ${saved ? 'fill-current' : ''}`} />
                   </button>
                 </div>
@@ -178,7 +197,7 @@ export default function ArticleDetail() {
                     <p className="overline text-[var(--ink-faint)] mb-3">Sommaire</p>
                     <ol className="space-y-2">
                       {headings.map((h) => (
-                        <li key={h.id}><a href={`#${h.id}`} className="text-sm font-sans text-[var(--ink-muted)] hover:text-[var(--accent-editorial)] transition-colors line-clamp-1">{h.text}</a></li>
+                        <li key={h.id}><a href={`#${h.id}`} data-toc={h.id} className="toc-link text-sm font-sans text-[var(--ink-muted)] hover:text-[var(--accent-editorial)] transition-colors line-clamp-1">{h.text}</a></li>
                       ))}
                     </ol>
                   </nav>

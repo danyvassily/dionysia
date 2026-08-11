@@ -4,7 +4,7 @@ import AnimatedArticleTitle from './AnimatedArticleTitle';
 import type { Article } from '@/data/articles';
 
 interface ArticleCardProps { article: Article; index?: number; }
-const over: Record<string, string> = { ia: 'IA', tech: 'Tech', dev: 'Dev', politique: 'Politique' };
+const over: Record<string, string> = { ia: 'Intelligence Artificielle', tech: 'Technologie', dev: 'Développement', politique: 'Politique Numérique' };
 
 export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
   return (
@@ -29,7 +29,7 @@ export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
           <span className="font-medium text-[var(--ink-muted)]">{article.date}</span>
           <span>·</span>
           <span className="inline-flex items-center gap-1"><Clock className="w-3 h-3" />{article.readTime}</span>
-          <Link to={`/article/${article.id}`} aria-label={`Lire ${article.title}`} className="ml-auto inline-flex items-center justify-center w-7 h-7 rounded-full border bg-white hover:bg-[var(--ink)] hover:text-white hover:border-[var(--ink)] transition-colors" style={{ borderColor: 'var(--rule)' }}>
+          <Link to={`/article/${article.id}`} aria-label={`Lire ${article.title}`} className="ml-auto inline-flex items-center justify-center w-7 h-7 rounded-full border bg-[var(--paper)] hover:bg-[var(--ink)] hover:text-[var(--paper)] hover:border-[var(--ink)] transition-colors" style={{ borderColor: 'var(--rule)' }}>
             <ArrowUpRight className="w-3.5 h-3.5" />
           </Link>
         </div>
