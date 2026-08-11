@@ -1,92 +1,46 @@
 import { Feather, BookOpen, Brain, Code, Globe } from 'lucide-react';
 
 const pillars = [
-  {
-    icon: Brain,
-    title: 'Intelligence Artificielle',
-    description: "De Claude à Kimi K3, l'IA redéfinit notre rapport au code et à la création. Analyses techniques et perspectives stratégiques.",
-  },
-  {
-    icon: Code,
-    title: 'Développement',
-    description: 'Next.js, TypeScript, architectures modernes. Le code comme langage commun, le craftsmanship comme discipline.',
-  },
-  {
-    icon: Globe,
-    title: 'Politique Numérique',
-    description: "Régulation, souveraineté, éthique. Les décisions politiques d'aujourd'hui façonnent le monde numérique de demain.",
-  },
-  {
-    icon: BookOpen,
-    title: 'Veille & Analyse',
-    description: "Au-delà du bruit, les signaux faibles qui annoncent les ruptures. La curiosité comme méthode d'investigation.",
-  },
+  { icon: Brain, title: 'Intelligence Artificielle', description: "De Claude à Kimi K3, l'IA redéfinit notre rapport au code et à la création. Analyses techniques et perspectives stratégiques." },
+  { icon: Code, title: 'Développement', description: 'Next.js, TypeScript, architectures modernes. Le code comme langage commun, le craftsmanship comme discipline.' },
+  { icon: Globe, title: 'Politique Numérique', description: 'Régulation, souveraineté, éthique. Les décisions politiques façonnent le monde numérique de demain.' },
+  { icon: BookOpen, title: 'Veille & Analyse', description: 'Au-delà du bruit, les signaux faibles qui annoncent les ruptures. La curiosité comme méthode.' },
 ];
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 lg:py-24">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
-        {/* Section header with double rule */}
-        <div className="mb-12">
-          <div className="w-full mb-6" style={{ borderTop: '3px double var(--rule)' }} />
-          <div className="flex items-center gap-3 mb-6">
-            <Feather className="w-4 h-4 text-[var(--accent-editorial)]" />
-            <span className="overline text-[var(--accent-editorial)]">À propos</span>
-          </div>
+    <section id="about" className="py-14 lg:py-20">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full h-px mb-8" style={{ background: 'var(--rule-strong)' }} />
+        <div className="flex items-center gap-2 mb-8">
+          <Feather className="w-4 h-4 text-[var(--accent-editorial)]" />
+          <span className="overline text-[var(--accent-editorial)]">À propos</span>
         </div>
-
-        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
-          {/* Left: editorial text */}
+        <div className="grid lg:grid-cols-12 gap-10 lg:gap-12">
           <div className="lg:col-span-7">
-            <h2 className="font-editorial text-3xl lg:text-4xl xl:text-5xl font-semibold text-[var(--ink)] mb-6 leading-tight">
-              Entre l'analyse<br />
-              <span style={{ color: 'var(--accent-editorial)' }}>et l'enthousiasme</span>
+            <h2 className="font-editorial text-[30px] lg:text-[40px] font-semibold leading-[1.02] tracking-[-0.03em] text-[var(--ink)]">
+              Entre l'analyse<br /><span style={{ color: 'var(--accent-editorial)' }}>et l'enthousiasme</span>
             </h2>
-
-            <div className="space-y-4 font-sans text-[var(--ink-muted)] leading-relaxed">
-              <p>
-                <strong className="text-[var(--ink)] font-medium">DIONYSIA</strong> est né d'une conviction :
-                la pensée technologique mérite un cadre aussi exigeant que celui des grandes revues éditoriales.
-                Ici, l'intelligence artificielle rencontre l'écriture, la veille stratégique rencontre l'esthétique.
-              </p>
-              <p>
-                Comme les <em>Dionysies</em> athéniennes célébraient à la fois la raison et l'extase,
-                ce blog navigue entre l'analyse froide des architectures système et l'enthousiasme
-                créatif des nouvelles technologies.
-              </p>
-              <p>
-                Chaque article est une exploration — des agents IA autonomes aux régulations européennes,
-                des frameworks JavaScript aux enjeux géopolitiques du numérique.
-              </p>
+            <div className="mt-6 space-y-4 font-sans text-[14.5px] leading-relaxed text-[var(--ink-muted)] max-w-[58ch]">
+              <p><strong className="text-[var(--ink)] font-semibold">DIONYSIA</strong> est né d'une conviction : la pensée technologique mérite un cadre aussi exigeant que celui des grandes revues éditoriales.</p>
+              <p>Comme les <em>Dionysies</em> athéniennes célébraient à la fois la raison et l'extase, ce blog navigue entre l'analyse froide des architectures et l'enthousiasme créatif des nouvelles technologies.</p>
+              <p>Chaque article est une exploration — des agents IA aux régulations européennes, des frameworks aux enjeux géopolitiques.</p>
             </div>
-
-            <div className="mt-8 pt-6" style={{ borderTop: '1px solid var(--rule)' }}>
-              <p className="font-sans text-sm text-[var(--ink-faint)]">
-                Rédigé par <span className="text-[var(--ink)] font-medium">Dany Vassily</span> — développeur, veilleur, curieux.
-              </p>
+            <div className="mt-6 pt-5 border-t flex items-center gap-3" style={{ borderColor: 'var(--rule)' }}>
+              <span className="w-7 h-7 rounded-full bg-[var(--paper-soft)] border inline-flex items-center justify-center text-[10px] font-sans font-bold" style={{ borderColor: 'var(--rule)' }}>DV</span>
+              <p className="font-sans text-sm text-[var(--ink-faint)]">Par <span className="text-[var(--ink)] font-medium">Dany Vassily</span> — développeur, veilleur, curieux.</p>
             </div>
           </div>
-
-          {/* Right: pillars */}
-          <div className="lg:col-span-5 space-y-6">
-            {pillars.map((pillar, i) => (
-              <div
-                key={pillar.title}
-                className="group flex gap-4 animate-fade-in-up"
-                style={{ animationDelay: `${i * 0.08}s` }}
-              >
-                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                  <pillar.icon className="w-4 h-4 text-[var(--ink-faint)] group-hover:text-[var(--accent-editorial)] transition-colors" />
+          <div className="lg:col-span-5 grid sm:grid-cols-2 lg:grid-cols-1 gap-4">
+            {pillars.map((p) => (
+              <div key={p.title} className="group rounded-xl border p-4 hover:bg-[var(--paper-dark)] transition-colors" style={{ borderColor: 'var(--rule)' }}>
+                <div className="flex items-center gap-2 mb-1.5">
+                  <span className="w-7 h-7 rounded-full bg-[var(--paper-soft)] border inline-flex items-center justify-center" style={{ borderColor: 'var(--rule)' }}>
+                    <p.icon className="w-3.5 h-3.5 text-[var(--ink-muted)] group-hover:text-[var(--accent-editorial)] transition-colors" />
+                  </span>
+                  <h3 className="font-editorial text-[15px] font-semibold text-[var(--ink)]">{p.title}</h3>
                 </div>
-                <div>
-                  <h3 className="font-editorial text-lg font-semibold text-[var(--ink)] mb-1">
-                    {pillar.title}
-                  </h3>
-                  <p className="font-sans text-sm text-[var(--ink-muted)] leading-relaxed">
-                    {pillar.description}
-                  </p>
-                </div>
+                <p className="font-sans text-[13px] leading-relaxed text-[var(--ink-muted)]">{p.description}</p>
               </div>
             ))}
           </div>

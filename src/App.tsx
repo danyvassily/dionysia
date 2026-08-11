@@ -12,49 +12,34 @@ function AnimatedRoutes() {
   const containerRef = useRef<HTMLDivElement>(null);
   const prevPath = useRef(location.pathname);
   const [displayLocation, setDisplayLocation] = useState(location);
+  const reduceMotion = typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // Reset scroll on route change
   useEffect(() => {
     if (location.pathname === prevPath.current) return;
-
-    // Kill all ScrollTriggers from previous page to prevent scroll hijacking
     ScrollTrigger.getAll().forEach((t) => t.kill());
-    // Force scroll to top immediately
     window.scrollTo(0, 0);
+
+    if (reduceMotion) {
+      setDisplayLocation(location);
+      prevPath.current = location.pathname;
+      window.scrollTo(0, 0);
+      return;
+    }
 
     const tl = gsap.timeline({
       onComplete: () => {
         setDisplayLocation(location);
         prevPath.current = location.pathname;
-        // Force scroll to top again after content swap
         window.scrollTo(0, 0);
-        // Fade in
-        gsap.fromTo(
-          containerRef.current,
-          { opacity: 0, y: 16 },
-          { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out' }
-        );
+        gsap.fromTo(containerRef.current, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' });
       },
     });
+    tl.to(containerRef.current, { opacity: 0, y: -8, duration: 0.18, ease: 'power2.in' });
+    return () => { tl.kill(); };
+  }, [location, reduceMotion]);
 
-    // Fade out
-    tl.to(containerRef.current, {
-      opacity: 0,
-      y: -12,
-      duration: 0.2,
-      ease: 'power2.in',
-    });
-
-    return () => {
-      tl.kill();
-    };
-  }, [location]);
-
-  // On first mount, ensure we're at the top
   useEffect(() => {
-    requestAnimationFrame(() => {
-      window.scrollTo(0, 0);
-    });
+    requestAnimationFrame(() => window.scrollTo(0, 0));
     ScrollTrigger.getAll().forEach((t) => t.kill());
   }, []);
 
@@ -68,6 +53,4 @@ function AnimatedRoutes() {
   );
 }
 
-export default function App() {
-  return <AnimatedRoutes />;
-}
+export default function App() { return <AnimatedRoutes />; }

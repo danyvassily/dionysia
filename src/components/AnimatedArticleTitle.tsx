@@ -30,6 +30,7 @@ export default function AnimatedArticleTitle({
 
   useEffect(() => {
     if (!containerRef.current) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     const letters = containerRef.current.querySelectorAll('.art-letter');
     const underline = containerRef.current.querySelector('.art-underline');

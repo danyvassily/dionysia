@@ -4,30 +4,32 @@ import type * as THREE from 'three';
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 export interface ParticleBannerConfig {
   imageSrc: string;
-  gap: number;              // 1 particule tous les N px
-  particleScale: number;    // taille = gap × particleScale
+  gap: number;
+  particleScale: number;
   mouseRadius: number;
   repulsion: number;
   swirl: number;
-  windDrift: number;        // vent permanent vers la droite
-  windShare: number;        // fraction des particules emportées (0..1)
-  scrollWind: number;       // surcroît de vent au scroll
+  windDrift: number;
+  windShare: number;
+  scrollWind: number;
   scrollSensitivity: number;
-  attack: number;           // vitesse de dispersion
-  release: number;          // vitesse de retour
-  hoverIntensity: number;   // intensité dispersion au hover (0..1, défaut 0.5)
-  idleDrift: number;        // vent permanent sans interaction (0..1, défaut 0.12)
+  attack: number;
+  release: number;
+  hoverIntensity: number;
+  idleDrift: number;
   fitMode: 'cover' | 'contain';
   maxPixelRatio: number;
+  /** Cap studio : au-delà, on augmente gap automatiquement */
+  maxPoints: number;
 }
 
 const DEFAULT_CONFIG: ParticleBannerConfig = {
   imageSrc: '/images/image_header.jpg',
-  gap: 4,
-  particleScale: 0.7,
+  gap: 6, // C6: 6 par défaut (4 était 150k+ points)
+  particleScale: 0.72,
   mouseRadius: 110,
   repulsion: 40,
-  swirl: 16,
+  swirl: 14,
   windDrift: 220,
   windShare: 0.2,
   scrollWind: 200,
@@ -38,9 +40,11 @@ const DEFAULT_CONFIG: ParticleBannerConfig = {
   idleDrift: 0.12,
   fitMode: 'cover',
   maxPixelRatio: 2,
+  maxPoints: 36000, // C6: cap studio (WIRED/FT veil < 40k)
 };
 
 // ─── SHADERS ───────────────────────────────────────────────────────────────
+// C6: 1 snoise principal + 1 gust = 2 noises au lieu de 4
 const VERTEX_SHADER = /* glsl */ `
 attribute vec3 aColor;
 attribute float aRandom;
@@ -125,18 +129,17 @@ void main() {
   pos.xy += dir * force * uRepulsion * local;
   pos.z  += force * uRepulsion * 0.35 * local;
 
-  float n1 = snoise(vec3(pos.xy * 0.012, uTime * 0.25 + aRandom * 10.0));
-  float n2 = snoise(vec3(pos.yx * 0.012 + 100.0, uTime * 0.22 + aRandom * 10.0));
-  pos.xy += vec2(n1, n2) * uSwirl * local;
+  // C6: 1 bruit swirl + 1 gust partagé (était 2+2=4)
+  float n1 = snoise(vec3(pos.xy * 0.012, uTime * 0.22 + aRandom * 10.0));
+  pos.xy += vec2(n1, n1 * 0.7) * uSwirl * local;
 
   float mask = step(1.0 - uWindShare, aRandom);
-  float gust = snoise(vec3(pos.x * 0.004 - uTime * 0.6, pos.y * 0.01, aRandom * 20.0));
-  float gust2 = snoise(vec3(pos.xy * 0.008, uTime * 0.4 + aRandom * 5.0));
+  float gust = snoise(vec3(pos.x * 0.004 - uTime * 0.55, pos.y * 0.01, aRandom * 12.0));
   float drift = mask * local * (uWindDrift + abs(uScroll) * uScrollWind);
-  pos.x += drift * (0.55 + 0.45 * gust);
-  pos.y += drift * gust2 * 0.35;
+  pos.x += drift * (0.62 + 0.38 * gust);
+  pos.y += drift * gust * 0.22;
 
-  vAlpha = 1.0 - mask * local * 0.35 * (0.5 + 0.5 * gust);
+  vAlpha = 1.0 - mask * local * 0.32 * (0.55 + 0.45 * gust);
 
   gl_PointSize = uPointSize * uPixelRatio * (1.0 + force * 0.6);
   gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
@@ -154,6 +157,19 @@ void main() {
   gl_FragColor = vec4(vColor, alpha * vAlpha);
 }`;
 
+// ─── Hook hydration-safe (C5) ────────────────────────────────────────────
+function useIsMobile(breakpoint = 768) {
+  const [isMobile, setIsMobile] = useState(false); // C5: false initial = 0 mismatch SSR
+  useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${breakpoint - 1}px)`);
+    const onChange = () => setIsMobile(mq.matches);
+    onChange();
+    mq.addEventListener('change', onChange);
+    return () => mq.removeEventListener('change', onChange);
+  }, [breakpoint]);
+  return isMobile;
+}
+
 // ─── COMPOSANT ─────────────────────────────────────────────────────────────
 interface Props {
   className?: string;
@@ -161,18 +177,7 @@ interface Props {
 }
 
 export default function ParticleBanner({ className = '', config = {} }: Props) {
-  // Pas de WebGL sur mobile — header épuré
-  const [isMobile, setIsMobile] = useState(
-    typeof window !== 'undefined' && window.innerWidth < 768,
-  );
-
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth < 768);
-    check();
-    window.addEventListener('resize', check);
-    return () => window.removeEventListener('resize', check);
-  }, []);
-
+  const isMobile = useIsMobile(768); // C5
   const containerRef = useRef<HTMLDivElement>(null);
   const stateRef = useRef<{
     scene?: THREE.Scene;
@@ -186,6 +191,8 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
     mousePx: { x: number; y: number };
     lastScrollY: number;
     scrollVelocity: number;
+    visible: boolean; // C7
+    pausedByHidden: boolean;
     disposed: boolean;
   }>({
     fitScale: 1,
@@ -194,11 +201,12 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
     mousePx: { x: 99999, y: 99999 },
     lastScrollY: 0,
     scrollVelocity: 0,
+    visible: true,
+    pausedByHidden: false,
     disposed: false,
   });
   const cfg = { ...DEFAULT_CONFIG, ...config };
 
-  // ── Cleanup ──────────────────────────────────────────────────────────
   const cleanup = useCallback(() => {
     const s = stateRef.current;
     s.disposed = true;
@@ -214,15 +222,24 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
 
   useEffect(() => {
     if (isMobile) return;
+    // C7: prefers-reduced-motion → pas de WebGL animé
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
     const container = containerRef.current;
     if (!container) return;
 
     const s = stateRef.current;
     s.disposed = false;
+    s.visible = true;
+    s.pausedByHidden = document.hidden;
     s.lastScrollY = window.scrollY;
     s.scrollVelocity = 0;
     s.displacement = 0;
     s.mouseInside = false;
+
+    // C7: respect Data Saver
+    const saveData = (navigator as unknown as { connection?: { saveData?: boolean } }).connection?.saveData;
+    if (saveData) return;
 
     let disposed = false;
 
@@ -234,15 +251,8 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
         const h = container.clientHeight;
         if (w === 0 || h === 0) return;
 
-        // Détection mobile pour optimisations GPU
-        const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)
-                       || window.innerWidth < 768;
-
-        // ── Scene + Camera (orthographique, 1 unité = 1 px CSS) ──────
         const scene = new THREE.Scene();
-        const camera = new THREE.OrthographicCamera(
-          -w / 2, w / 2, h / 2, -h / 2, -1000, 1000,
-        );
+        const camera = new THREE.OrthographicCamera(-w / 2, w / 2, h / 2, -h / 2, -1000, 1000);
 
         const renderer = new THREE.WebGLRenderer({
           alpha: true,
@@ -250,13 +260,12 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
           powerPreference: 'high-performance',
         });
         renderer.setClearColor(0x000000, 0);
-        const maxDpr = isMobile ? 1 : cfg.maxPixelRatio;
-        const dpr = Math.min(window.devicePixelRatio || 1, maxDpr);
+        const dpr = Math.min(window.devicePixelRatio || 1, cfg.maxPixelRatio);
         renderer.setPixelRatio(dpr);
         renderer.setSize(w, h);
         renderer.domElement.style.position = 'absolute';
         renderer.domElement.style.inset = '0';
-        renderer.domElement.style.pointerEvents = 'none'; // ← clics traversent
+        renderer.domElement.style.pointerEvents = 'none';
         renderer.domElement.style.zIndex = '0';
         container.appendChild(renderer.domElement);
 
@@ -264,7 +273,6 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
         s.camera = camera;
         s.renderer = renderer;
 
-        // ── Uniforms ─────────────────────────────────────────────────
         const uniforms = {
           uTime: { value: 0 },
           uMouse: { value: new THREE.Vector2(99999, 99999) },
@@ -280,7 +288,6 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
           uPixelRatio: { value: dpr },
         };
 
-        // ── Chargement image + échantillonnage pixels ────────────────
         const img = await new Promise<HTMLImageElement>((resolve, reject) => {
           const el = new Image();
           el.onload = () => resolve(el);
@@ -288,22 +295,29 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
           el.src = cfg.imageSrc;
         });
 
-        if (disposed) { renderer.dispose(); return; }
+        if (disposed) {
+          renderer.dispose();
+          return;
+        }
 
         const sampleCanvas = document.createElement('canvas');
         sampleCanvas.width = img.naturalWidth;
         sampleCanvas.height = img.naturalHeight;
         const ctx = sampleCanvas.getContext('2d', { willReadFrequently: true })!;
         ctx.drawImage(img, 0, 0);
-        const pixels = ctx.getImageData(
-          0, 0, sampleCanvas.width, sampleCanvas.height,
-        ).data;
+        const pixels = ctx.getImageData(0, 0, sampleCanvas.width, sampleCanvas.height).data;
 
-        // ── Géométrie ────────────────────────────────────────────────
-        const gap = isMobile ? Math.max(cfg.gap, 6) : cfg.gap;
-        const cols = Math.floor(img.naturalWidth / gap);
-        const rows = Math.floor(img.naturalHeight / gap);
-        const count = cols * rows;
+        // C6: cap adaptatif — si > maxPoints on augmente gap
+        let gap = cfg.gap;
+        let cols = Math.floor(img.naturalWidth / gap);
+        let rows = Math.floor(img.naturalHeight / gap);
+        let count = cols * rows;
+        while (count > cfg.maxPoints && gap < 12) {
+          gap += 1;
+          cols = Math.floor(img.naturalWidth / gap);
+          rows = Math.floor(img.naturalHeight / gap);
+          count = cols * rows;
+        }
 
         const positions = new Float32Array(count * 3);
         const colors = new Float32Array(count * 3);
@@ -343,7 +357,6 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
         scene.add(points);
         s.points = points;
 
-        // ── Resize ───────────────────────────────────────────────────
         const onResize = () => {
           if (s.disposed) return;
           const bw = container.clientWidth;
@@ -357,65 +370,75 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
           renderer.setPixelRatio(ndpr);
           renderer.setSize(bw, bh);
           uniforms.uPixelRatio.value = ndpr;
-
           if (points) {
             const { imgW, imgH } = points.userData as { imgW: number; imgH: number };
             const scaleX = bw / imgW;
             const scaleY = bh / imgH;
-            s.fitScale = cfg.fitMode === 'cover'
-              ? Math.max(scaleX, scaleY)
-              : Math.min(scaleX, scaleY);
+            s.fitScale =
+              cfg.fitMode === 'cover' ? Math.max(scaleX, scaleY) : Math.min(scaleX, scaleY);
             points.scale.set(s.fitScale, s.fitScale, 1);
-            uniforms.uPointSize.value = cfg.gap * s.fitScale * cfg.particleScale;
+            uniforms.uPointSize.value = gap * s.fitScale * cfg.particleScale;
           }
         };
 
-        // ── Événements souris ────────────────────────────────────────
         const onPointerMove = (e: PointerEvent) => {
           const rect = container.getBoundingClientRect();
           s.mousePx.x = e.clientX - rect.left - rect.width / 2;
           s.mousePx.y = -(e.clientY - rect.top - rect.height / 2);
           s.mouseInside = true;
         };
-        const onPointerLeave = () => { s.mouseInside = false; };
-        const onPointerDown = (e: PointerEvent) => {
-          const rect = container.getBoundingClientRect();
-          s.mousePx.x = e.clientX - rect.left - rect.width / 2;
-          s.mousePx.y = -(e.clientY - rect.top - rect.height / 2);
-          s.mouseInside = true;
+        const onPointerLeave = () => {
+          s.mouseInside = false;
         };
-        const onPointerUp = () => { s.mouseInside = false; };
-        const onScroll = () => { /* handled in animate */ };
 
         container.addEventListener('pointermove', onPointerMove, { passive: true });
         container.addEventListener('pointerleave', onPointerLeave);
-        container.addEventListener('pointerdown', onPointerDown);
-        container.addEventListener('pointerup', onPointerUp);
-        window.addEventListener('scroll', onScroll, { passive: true });
+
+        // C7: IntersectionObserver — pause RAF hors viewport
+        const io = new IntersectionObserver(
+          ([entry]) => {
+            s.visible = entry.isIntersecting;
+            // relance la boucle si on redevient visible et pas hidden
+            if (s.visible && !s.pausedByHidden && s.animId == null && !s.disposed) {
+              s.animId = requestAnimationFrame(animate);
+            }
+          },
+          { threshold: 0 },
+        );
+        io.observe(container);
+
+        // C7: visibilitychange — pause onglet caché
+        const onVis = () => {
+          s.pausedByHidden = document.hidden;
+          if (!document.hidden && s.visible && s.animId == null && !s.disposed) {
+            s.animId = requestAnimationFrame(animate);
+          }
+        };
+        document.addEventListener('visibilitychange', onVis, { passive: true });
+
         window.addEventListener('resize', onResize, { passive: true });
 
-        // ── Resize initial ───────────────────────────────────────────
         onResize();
 
-        // ── Boucle d'animation ───────────────────────────────────────
         const clock = new THREE.Clock();
         const animate = () => {
           if (s.disposed) return;
+          // C7: skip frame si hors vue ou onglet caché
+          if (!s.visible || s.pausedByHidden) {
+            s.animId = undefined as unknown as number;
+            return;
+          }
           s.animId = requestAnimationFrame(animate);
 
           uniforms.uTime.value = clock.getElapsedTime();
 
-          // Scroll velocity
           const sy = window.scrollY;
           const delta = sy - s.lastScrollY;
           s.lastScrollY = sy;
           s.scrollVelocity += (delta - s.scrollVelocity) * 0.2;
-          const scrollNorm = THREE.MathUtils.clamp(
-            s.scrollVelocity * cfg.scrollSensitivity, -1, 1,
-          );
+          const scrollNorm = THREE.MathUtils.clamp(s.scrollVelocity * cfg.scrollSensitivity, -1, 1);
           uniforms.uScroll.value = scrollNorm;
 
-          // Target displacement — vent permanent + hover adouci
           let target = cfg.idleDrift;
           if (s.mouseInside) target = Math.max(target, cfg.hoverIntensity);
           target = Math.max(target, Math.abs(scrollNorm));
@@ -424,12 +447,8 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
           s.displacement += (target - s.displacement) * ease;
           uniforms.uDisplacement.value = s.displacement;
 
-          // Mouse in geometry space
           if (s.mouseInside) {
-            uniforms.uMouse.value.set(
-              s.mousePx.x / s.fitScale,
-              s.mousePx.y / s.fitScale,
-            );
+            uniforms.uMouse.value.set(s.mousePx.x / s.fitScale, s.mousePx.y / s.fitScale);
           } else {
             uniforms.uMouse.value.set(99999, 99999);
           }
@@ -439,8 +458,17 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
 
         s.animId = requestAnimationFrame(animate);
 
+        // cleanup additionnel
+        const extraCleanup = () => {
+          io.disconnect();
+          document.removeEventListener('visibilitychange', onVis);
+          container.removeEventListener('pointermove', onPointerMove);
+          container.removeEventListener('pointerleave', onPointerLeave);
+          window.removeEventListener('resize', onResize);
+        };
+        // stocker pour le return
+        (s as unknown as { _extraCleanup?: () => void })._extraCleanup = extraCleanup;
       } catch (err) {
-        // Silencieux — l'image de fond CSS fait office de fallback
         console.warn('[ParticleBanner] Fallback activé:', err);
         if (container) {
           container.style.backgroundImage = `url(${cfg.imageSrc})`;
@@ -455,12 +483,28 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
 
     return () => {
       disposed = true;
+      (stateRef.current as unknown as { _extraCleanup?: () => void })._extraCleanup?.();
       cleanup();
     };
-  }, [cfg.imageSrc, cfg.gap, cfg.particleScale, cfg.mouseRadius, cfg.repulsion,
-      cfg.swirl, cfg.windDrift, cfg.windShare, cfg.scrollWind,
-      cfg.scrollSensitivity, cfg.attack, cfg.release, cfg.fitMode,
-      cfg.maxPixelRatio, cleanup]);
+  }, [
+    isMobile,
+    cfg.imageSrc,
+    cfg.gap,
+    cfg.particleScale,
+    cfg.mouseRadius,
+    cfg.repulsion,
+    cfg.swirl,
+    cfg.windDrift,
+    cfg.windShare,
+    cfg.scrollWind,
+    cfg.scrollSensitivity,
+    cfg.attack,
+    cfg.release,
+    cfg.fitMode,
+    cfg.maxPixelRatio,
+    cfg.maxPoints,
+    cleanup,
+  ]);
 
   if (isMobile) return null;
 
@@ -468,6 +512,7 @@ export default function ParticleBanner({ className = '', config = {} }: Props) {
     <div
       ref={containerRef}
       className={`particle-banner ${className}`}
+      aria-hidden="true"
       style={{
         position: 'absolute',
         inset: 0,
