@@ -94,16 +94,16 @@ export default function ArticleDetail() {
 
     const visual = getArticleVisual(article);
     const canonicalUrl = `${window.location.origin}/article/${article.id}`;
-    const imageUrl = new URL(visual.src, window.location.origin).href;
     const metadata: Array<[string, string, string]> = [
       ['name', 'description', article.excerpt],
       ['property', 'og:type', 'article'],
       ['property', 'og:title', article.title],
       ['property', 'og:description', article.excerpt],
       ['property', 'og:url', canonicalUrl],
-      ['property', 'og:image', imageUrl],
       ['name', 'twitter:card', 'summary_large_image'],
     ];
+    const imageUrl = visual ? new URL(visual.src, window.location.origin).href : null;
+    if (imageUrl) metadata.push(['property', 'og:image', imageUrl]);
     const touched: Array<{ element: HTMLMetaElement; previous: string; created: boolean }> = [];
     for (const [attribute, key, value] of metadata) {
       let element = document.head.querySelector<HTMLMetaElement>(`meta[${attribute}="${key}"]`);
@@ -134,7 +134,7 @@ export default function ArticleDetail() {
       '@type': 'Article',
       headline: article.title,
       description: article.excerpt,
-      image: imageUrl,
+      ...(imageUrl ? { image: imageUrl } : {}),
       author: { '@type': 'Person', name: 'Dany Vassily' },
       publisher: { '@type': 'Organization', name: 'DIONYSIA' },
       mainEntityOfPage: canonicalUrl,

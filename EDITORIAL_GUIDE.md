@@ -90,15 +90,38 @@ Le champ image utilise cette structure optionnelle :
 
 ```ts
 image: {
-  src: '/images/articles/nom-du-fichier.webp',
+  src: '/images/articles/IDENTIFIANT-nom-du-fichier.webp',
   alt: "Description factuelle de l’image pour les lecteurs qui ne la voient pas",
   credit: 'Nom du photographe ou de l’organisation',
   sourceUrl: 'https://adresse-de-la-source-originale',
   license: 'Nom de la licence ou autorisation éditoriale',
+  kind: 'logo',
+  width: 1600,
+  height: 900,
 },
 ```
 
-Hermes ne récupère jamais une image depuis Google Images. Il privilégie, dans cet ordre, un dossier de presse officiel, Wikimedia Commons avec licence vérifiée, Unsplash ou Pexels, puis une illustration originale clairement signalée. En l’absence d’image sûre, il omet le champ : le site applique automatiquement une illustration DIONYSIA adaptée à la rubrique.
+### Politique visuelle obligatoire
+
+Chaque article doit rechercher un visuel réellement lié à son sujet. L’ordre de préférence est le suivant :
+
+1. Lorsqu’un article porte sur une entreprise, un laboratoire, un produit ou un modèle d’IA, utiliser le logo officiel en haute définition provenant du site officiel, du dépôt GitHub officiel ou du kit média officiel. Privilégier un SVG ; à défaut, utiliser un PNG ou WebP d’au moins 1 200 × 630 pixels.
+2. Lorsqu’un article porte principalement sur l’Union européenne ou un pays, utiliser le drapeau officiel correspondant, provenant d’une institution publique ou de Wikimedia Commons avec sa licence vérifiée.
+3. Pour une personnalité ou un événement, utiliser une photographie de presse officielle ou une photographie dont la réutilisation éditoriale est autorisée.
+4. Pour un sujet abstrait ne disposant d’aucun visuel officiel, utiliser une illustration originale et indiquer clairement qu’elle a été générée ou créée pour DIONYSIA.
+
+Hermes ne récupère jamais une image depuis Google Images et ne copie jamais l’adresse distante directement dans `src`. Il télécharge le fichier autorisé dans `public/images/articles/`, l’optimise et lui donne un nom commençant par l’identifiant de l’article.
+
+Une image ne peut servir qu’à un seul article, même si les articles parlent de la même entreprise ou du même pays. Avant toute publication, Hermes doit vérifier :
+
+- que le chemin `image.src` n’apparaît dans aucun autre article ;
+- que le fichier n’est pas identique à une image déjà présente, même sous un autre nom ;
+- que l’image n’a jamais été utilisée dans une publication antérieure ;
+- que le logo ou le drapeau est net, non déformé et placé avec suffisamment d’espace autour de lui ;
+- que `sourceUrl`, `credit`, `license`, `kind`, `width` et `height` sont renseignés ;
+- que le texte alternatif décrit l’information visuelle et ne répète pas simplement le titre.
+
+Les logos et drapeaux peuvent être intégrés dans une composition différente pour chaque article : cadrage, fond, couleur d’accompagnement et position doivent varier. Il est interdit de republier exactement le même fichier visuel. En l’absence d’image sûre et inédite, Hermes omet le champ `image` : le site produit automatiquement une composition typographique unique calculée à partir de l’article, sans réutiliser une image existante.
 
 ## Positionnement
 

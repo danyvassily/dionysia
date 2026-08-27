@@ -2,8 +2,11 @@ export interface ArticleImage {
   src: string;
   alt: string;
   credit: string;
-  sourceUrl?: string;
-  license?: string;
+  sourceUrl: string;
+  license: string;
+  kind: 'logo' | 'flag' | 'photo' | 'illustration';
+  width?: number;
+  height?: number;
 }
 
 export interface Article {
