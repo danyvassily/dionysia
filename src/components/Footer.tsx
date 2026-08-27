@@ -1,17 +1,17 @@
-import { ArrowUp, Github, Twitter, Mail, Rss, Check } from 'lucide-react';
+import { ArrowUp, Github, Instagram, Mail, Rss, Check } from 'lucide-react';
 import { useState } from 'react';
 
 const footerLinks = [
   { title: 'Rubriques', links: [
-    { label: 'Intelligence Artificielle', href: '#ia' },
-    { label: 'Technologie', href: '#tech' },
-    { label: 'Développement Web', href: '#dev' },
-    { label: 'Politique Numérique', href: '#politique' },
+    { label: 'Intelligence Artificielle', href: '/#ia' },
+    { label: 'Technologie', href: '/#tech' },
+    { label: 'Développement Web', href: '/#dev' },
+    { label: 'Politique Numérique', href: '/#politique' },
   ]},
   { title: 'Ressources', links: [
-    { label: 'À la une', href: '#featured' },
-    { label: 'À propos', href: '#about' },
-    { label: 'Flux RSS', href: '#' },
+    { label: 'À la une', href: '/#featured' },
+    { label: 'À propos', href: '/#about' },
+    { label: 'Flux RSS', href: '/rss.xml' },
   ]},
 ];
 
@@ -40,15 +40,25 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-1.5 mt-5">
               {[
-                { icon: Twitter, href: 'https://x.com', label: 'X' },
-                { icon: Github, href: '#', label: 'GitHub' },
-                { icon: Mail, href: 'mailto:hello@dionysia.fr', label: 'Email' },
-                { icon: Rss, href: '/rss.xml', label: 'RSS' },
+                { icon: Instagram, href: 'https://www.instagram.com/danyvassiliakos/', label: 'Instagram', external: true },
+                { icon: Github, href: 'https://github.com/danyvassily/dionysia', label: 'GitHub', external: true },
+                { icon: Mail, href: 'mailto:danyvassiliakos@gmail.com', label: 'Envoyer un e-mail', external: false },
+                { icon: Rss, href: '/rss.xml', label: 'Flux RSS', external: false },
               ].map((s) => (
-                <a key={s.label} href={s.href} aria-label={s.label} className="w-8 h-8 inline-flex items-center justify-center rounded-full border text-[var(--ink-faint)] hover:text-[var(--ink)] hover:border-[var(--ink)] transition-colors" style={{ borderColor: 'var(--rule)' }}>
+                <a key={s.label} href={s.href} aria-label={s.label} target={s.external ? '_blank' : undefined} rel={s.external ? 'noreferrer noopener' : undefined} className="w-8 h-8 inline-flex items-center justify-center rounded-full border text-[var(--ink-faint)] hover:text-[var(--ink)] hover:border-[var(--ink)] transition-colors" style={{ borderColor: 'var(--rule)' }}>
                   <s.icon className="w-3.5 h-3.5" />
                 </a>
               ))}
+            </div>
+            <div className="mt-5 space-y-2 border-t border-[var(--rule)] pt-4">
+              <a href="mailto:danyvassiliakos@gmail.com" className="group flex items-center gap-2 text-sm text-[var(--ink-muted)] hover:text-[var(--ink)]">
+                <Mail className="h-3.5 w-3.5 shrink-0 text-[var(--ink-faint)] group-hover:text-[var(--accent-editorial)]" />
+                <span className="underline decoration-[var(--rule-strong)] underline-offset-4">danyvassiliakos@gmail.com</span>
+              </a>
+              <a href="https://www.instagram.com/danyvassiliakos/" target="_blank" rel="noreferrer noopener" className="group flex items-center gap-2 text-sm text-[var(--ink-muted)] hover:text-[var(--ink)]">
+                <Instagram className="h-3.5 w-3.5 shrink-0 text-[var(--ink-faint)] group-hover:text-[var(--accent-editorial)]" />
+                <span className="underline decoration-[var(--rule-strong)] underline-offset-4">@danyvassiliakos</span>
+              </a>
             </div>
           </div>
           {footerLinks.map((group) => (
