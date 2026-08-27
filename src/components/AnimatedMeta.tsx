@@ -11,13 +11,10 @@ interface AnimatedMetaProps {
 function AnimatedNumber({ value, suffix = '' }: { value: string; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
   const [displayValue, setDisplayValue] = useState('0');
+  const num = parseInt(value.replace(/\D/g, ''), 10);
 
   useEffect(() => {
-    const num = parseInt(value.replace(/\D/g, ''), 10);
-    if (isNaN(num)) {
-      setDisplayValue(value);
-      return;
-    }
+    if (isNaN(num)) return;
 
     const obj = { val: 0 };
     gsap.to(obj, {
@@ -29,11 +26,11 @@ function AnimatedNumber({ value, suffix = '' }: { value: string; suffix?: string
         setDisplayValue(String(Math.round(obj.val)));
       },
     });
-  }, [value]);
+  }, [num]);
 
   return (
     <span ref={ref}>
-      {displayValue}
+      {isNaN(num) ? value : displayValue}
       {suffix}
     </span>
   );

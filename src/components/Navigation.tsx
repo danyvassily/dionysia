@@ -164,8 +164,8 @@ export default function Navigation() {
           role="dialog"
           aria-modal="true"
           aria-label="Menu"
-          className={`absolute top-0 right-0 h-full w-[88%] max-w-[360px] bg-[var(--paper)] border-l shadow-2xl transition-transform duration-300 ease-[cubic-bezier(.22,1,.36,1)] ${mobileOpen ? 'translate-x-0' : 'translate-x-full'}`}
-          style={{ borderColor: 'var(--rule)' }}
+          className={`absolute top-0 right-0 h-full w-[88%] max-w-[360px] bg-[var(--paper)] border-l shadow-2xl transition-transform duration-300 ${mobileOpen ? 'translate-x-0' : 'translate-x-full'}`}
+          style={{ borderColor: 'var(--rule)', transitionTimingFunction: 'cubic-bezier(0.22, 1, 0.36, 1)' }}
         >
           <div className="flex items-center justify-between h-[56px] px-6 border-b" style={{ borderColor: 'var(--rule)' }}>
             <span className="font-editorial text-sm font-semibold tracking-[0.14em]">DIONYSIA</span>
@@ -175,7 +175,7 @@ export default function Navigation() {
           </div>
           <div className="px-6 py-6">
             <p className="overline text-[var(--ink-faint)] mb-4">Rubriques</p>
-            <div className="divide-y" style={{ borderColor: 'var(--rule)' } as any}>
+            <div className="divide-y" style={{ borderColor: 'var(--rule)' }}>
               {navLinks.map((link) => (
                 <a
                   key={link.id}
@@ -191,7 +191,7 @@ export default function Navigation() {
                 À propos <span className="text-[var(--ink-faint)]">→</span>
               </a>
             </div>
-            <Link to="/#featured" onClick={(e) => handleAnchor(e as any, 'featured')} className="mt-6 inline-flex w-full items-center justify-center h-10 bg-[var(--ink)] text-[var(--paper)] text-sm font-sans font-medium hover:opacity-90 transition-opacity">Explorer les chroniques</Link>
+            <Link to="/#featured" onClick={(e) => handleAnchor(e, 'featured')} className="mt-6 inline-flex w-full items-center justify-center h-10 bg-[var(--ink)] text-[var(--paper)] text-sm font-sans font-medium hover:opacity-90 transition-opacity">Explorer les chroniques</Link>
           </div>
         </div>
       </div>

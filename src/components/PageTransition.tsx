@@ -5,12 +5,16 @@ import gsap from 'gsap';
 export default function PageTransition({ children }: { children: React.ReactNode }) {
   const location = useLocation();
   const containerRef = useRef<HTMLDivElement>(null);
+  const previousPath = useRef(location.pathname);
   const [displayChildren, setDisplayChildren] = useState(children);
   const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
-    if (location.pathname === (displayChildren as any)?.props?.location?.pathname) return;
+    if (location.pathname === previousPath.current) return;
+    previousPath.current = location.pathname;
 
+    // Animation state is intentionally synchronized with route changes.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsAnimating(true);
 
     const tl = gsap.timeline({
