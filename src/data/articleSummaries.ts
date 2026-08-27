@@ -146,17 +146,6 @@ export const articleSummaries: ArticleSummary[] = [
     "tag": "Mobile Dev"
   },
   {
-    "id": "916",
-    "title": "Sans titre",
-    "excerpt": "",
-    "category": "tech",
-    "categoryLabel": "Technologie",
-    "date": "07 August 2026",
-    "readTime": "5 min",
-    "featured": false,
-    "tag": ""
-  },
-  {
     "id": "1001",
     "title": "DeepSeek V4 : le modèle chinois open source qui tient tête à OpenAI, Anthropic et Google",
     "excerpt": "DeepSeek pulvérise un nouveau plafond de verre avec V4, un modèle qui égale les performances des géants américains tout en restant intégralement open source. Première release optimisée pour les puces Huawei Ascend, il incarne un tournant géopolitique autant que technologique.",
@@ -2674,5 +2663,16 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1230",
+    "title": "Sans titre",
+    "excerpt": "",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "27 August 2026",
+    "readTime": "5 min",
+    "featured": false,
+    "tag": ""
   }
 ];
