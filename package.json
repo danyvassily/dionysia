@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "articles:check": "node scripts/validate-articles.mjs",
+    "articles:dedupe": "node scripts/deduplicate-articles.mjs --write",
+    "articles:normalize": "node scripts/normalize-article-markdown.mjs",
+    "content:feeds": "node scripts/generate-content-feeds.mjs",
+    "build": "npm run articles:check && npm run content:feeds && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

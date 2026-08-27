@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import CategorySection from '@/components/CategorySection';
 import AboutSection from '@/components/AboutSection';
 import Footer from '@/components/Footer';
+import ArticleVisual from '@/components/ArticleVisual';
 import { categoryConfig, sortedArticles } from '@/lib/articles';
 
 export default function Home() {
@@ -50,6 +51,9 @@ export default function Home() {
                 </Link>
               </article>
               <div className="flex flex-col justify-end">
+                <Link to={`/article/${lead.id}`} className="group mb-6 block">
+                  <ArticleVisual article={lead} eager />
+                </Link>
                 <p className="text-base leading-7 text-[var(--ink-muted)]">{lead.excerpt}</p>
                 <div className="mt-6 flex items-center justify-between border-t border-[var(--rule)] pt-4 text-xs text-[var(--ink-faint)]">
                   <span>{lead.date} · {lead.readTime}</span>

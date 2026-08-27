@@ -1,6 +1,7 @@
-import { articles, type Article } from '@/data/articles';
+import type { ArticleSummary } from '@/data/articles';
+import { articleSummaries } from '@/data/articleSummaries';
 
-export type ArticleCategory = Article['category'];
+export type ArticleCategory = ArticleSummary['category'];
 
 const months: Record<string, number> = {
   janvier: 0, février: 1, mars: 2, avril: 3, mai: 4, juin: 5,
@@ -47,7 +48,7 @@ function normalizeTitle(value: string) {
   return value.toLowerCase().replace(/[^a-z0-9à-ÿ]+/g, ' ').trim();
 }
 
-export function sortAndDeduplicateArticles(items: Article[]) {
+export function sortAndDeduplicateArticles<T extends ArticleSummary>(items: T[]) {
   const seen = new Set<string>();
   return [...items]
     .sort((a, b) => parseFrenchDate(b.date).getTime() - parseFrenchDate(a.date).getTime())
@@ -59,4 +60,4 @@ export function sortAndDeduplicateArticles(items: Article[]) {
     });
 }
 
-export const sortedArticles = sortAndDeduplicateArticles(articles);
+export const sortedArticles = sortAndDeduplicateArticles(articleSummaries);

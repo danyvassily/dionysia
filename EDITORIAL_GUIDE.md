@@ -17,7 +17,8 @@ Hermes doit lire ce fichier intégralement avant chaque cycle de veille. Les rè
 7. vérifier chaque fait, chiffre, date, nom propre, citation et lien ;
 8. lancer `npm run build` avant tout commit ou push ;
 9. ne jamais publier si la compilation échoue ;
-10. conserver tous les articles existants et ne jamais réécrire l’historique Git.
+10. lancer `npm run articles:check` et corriger tout doublon avant de publier ;
+11. conserver tous les articles existants et ne jamais réécrire l’historique Git.
 
 Si une information est incertaine, Hermes doit le dire explicitement dans l’article. S’il ne peut pas vérifier une donnée importante, il doit l’omettre plutôt que l’inventer.
 
@@ -82,7 +83,22 @@ Règles techniques :
 - `date` est écrite en français sous la forme `27 août 2026` ;
 - `readTime` est réaliste et écrit sous la forme `6 min` ;
 - `tag` reste court, cohérent et utile ;
-- ne jamais ajouter de champ HTML, CSS, image ou composant dans l’objet article.
+- `image` est recommandé lorsqu’une image fiable et légalement réutilisable est disponible ;
+- ne jamais ajouter de champ HTML, CSS ou composant dans l’objet article.
+
+Le champ image utilise cette structure optionnelle :
+
+```ts
+image: {
+  src: '/images/articles/nom-du-fichier.webp',
+  alt: "Description factuelle de l’image pour les lecteurs qui ne la voient pas",
+  credit: 'Nom du photographe ou de l’organisation',
+  sourceUrl: 'https://adresse-de-la-source-originale',
+  license: 'Nom de la licence ou autorisation éditoriale',
+},
+```
+
+Hermes ne récupère jamais une image depuis Google Images. Il privilégie, dans cet ordre, un dossier de presse officiel, Wikimedia Commons avec licence vérifiée, Unsplash ou Pexels, puis une illustration originale clairement signalée. En l’absence d’image sûre, il omet le champ : le site applique automatiquement une illustration DIONYSIA adaptée à la rubrique.
 
 ## Positionnement
 

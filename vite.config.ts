@@ -4,19 +4,11 @@ import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 export default defineConfig({
-  base: './',
+  base: '/',
   plugins: [inspectAttr(), react()],
   server: { port: 3000 },
   resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          three: ['three'],
-          gsap: ['gsap', 'gsap/ScrollTrigger'],
-        }
-      }
-    },
     chunkSizeWarningLimit: 800,
   }
 });

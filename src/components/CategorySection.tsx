@@ -1,9 +1,9 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router';
 import ArticleCard from './ArticleCard';
-import type { Article } from '@/data/articles';
+import type { ArticleSummary } from '@/data/articles';
 
-interface Props { id: string; title: string; subtitle: string; articles: Article[]; totalCount: number; }
+interface Props { id: string; title: string; subtitle: string; articles: ArticleSummary[]; totalCount: number; }
 
 const shortLabel: Record<string, string> = { ia: 'IA', tech: 'Tech', dev: 'Dev', politique: 'Politique' };
 

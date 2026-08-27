@@ -6,6 +6,8 @@ import remarkGfm from 'remark-gfm';
 import { articles } from '@/data/articles';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import ArticleVisual from '@/components/ArticleVisual';
+import { getArticleVisual } from '@/lib/articleVisuals';
 
 const categoryNames: Record<string, string> = {
   ia: 'Intelligence artificielle',
@@ -88,7 +90,67 @@ export default function ArticleDetail() {
 
   useEffect(() => {
     document.title = article ? `${article.title} — DIONYSIA` : 'Article introuvable — DIONYSIA';
-    return () => { document.title = "DIONYSIA — Chroniques à l'ère du numérique"; };
+    if (!article) return () => { document.title = "DIONYSIA — Chroniques à l'ère du numérique"; };
+
+    const visual = getArticleVisual(article);
+    const canonicalUrl = `${window.location.origin}/article/${article.id}`;
+    const imageUrl = new URL(visual.src, window.location.origin).href;
+    const metadata: Array<[string, string, string]> = [
+      ['name', 'description', article.excerpt],
+      ['property', 'og:type', 'article'],
+      ['property', 'og:title', article.title],
+      ['property', 'og:description', article.excerpt],
+      ['property', 'og:url', canonicalUrl],
+      ['property', 'og:image', imageUrl],
+      ['name', 'twitter:card', 'summary_large_image'],
+    ];
+    const touched: Array<{ element: HTMLMetaElement; previous: string; created: boolean }> = [];
+    for (const [attribute, key, value] of metadata) {
+      let element = document.head.querySelector<HTMLMetaElement>(`meta[${attribute}="${key}"]`);
+      const created = !element;
+      if (!element) {
+        element = document.createElement('meta');
+        element.setAttribute(attribute, key);
+        document.head.appendChild(element);
+      }
+      const previous = element.content;
+      element.content = value;
+      touched.push({ element, previous, created });
+    }
+    let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+    const canonicalCreated = !canonical;
+    const previousCanonical = canonical?.href ?? '';
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    canonical.href = canonicalUrl;
+    const structuredData = document.createElement('script');
+    structuredData.type = 'application/ld+json';
+    structuredData.dataset.dionysiaArticle = 'true';
+    structuredData.text = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: article.title,
+      description: article.excerpt,
+      image: imageUrl,
+      author: { '@type': 'Person', name: 'Dany Vassily' },
+      publisher: { '@type': 'Organization', name: 'DIONYSIA' },
+      mainEntityOfPage: canonicalUrl,
+    });
+    document.head.appendChild(structuredData);
+
+    return () => {
+      document.title = "DIONYSIA — Chroniques à l'ère du numérique";
+      structuredData.remove();
+      touched.forEach(({ element, previous, created }) => {
+        if (created) element.remove();
+        else element.content = previous;
+      });
+      if (canonicalCreated) canonical?.remove();
+      else if (canonical) canonical.href = previousCanonical;
+    };
   }, [article]);
 
   if (!article) {
@@ -153,6 +215,7 @@ export default function ArticleDetail() {
               </div>
             </div>
           </div>
+          <ArticleVisual article={article} className="mt-8" caption eager />
         </header>
 
         <div className="mx-auto mt-10 grid max-w-[1100px] gap-12 px-5 sm:px-8 lg:grid-cols-[minmax(0,720px)_240px] lg:justify-between">

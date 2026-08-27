@@ -1,8 +1,9 @@
 import { Routes, Route, useLocation } from 'react-router';
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import Home from './pages/Home';
-import ArticleDetail from './pages/ArticleDetail';
-import CategoryArchive from './pages/CategoryArchive';
+
+const ArticleDetail = lazy(() => import('./pages/ArticleDetail'));
+const CategoryArchive = lazy(() => import('./pages/CategoryArchive'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -18,11 +19,13 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/article/:id" element={<ArticleDetail />} />
-        <Route path="/rubrique/:category" element={<CategoryArchive />} />
-      </Routes>
+      <Suspense fallback={<div className="min-h-screen bg-[var(--paper)]" aria-label="Chargement de la page" />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/article/:id" element={<ArticleDetail />} />
+          <Route path="/rubrique/:category" element={<CategoryArchive />} />
+        </Routes>
+      </Suspense>
     </>
   );
 }

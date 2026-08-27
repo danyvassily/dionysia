@@ -23,8 +23,10 @@ export default function Footer() {
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStatus('err'); return; }
-    // no backend yet — optimistic success + reset
-    setStatus('ok'); setEmail('');
+    const subject = encodeURIComponent('Inscription à la newsletter DIONYSIA');
+    const body = encodeURIComponent(`Bonjour,\n\nJe souhaite recevoir la newsletter DIONYSIA à cette adresse : ${email}`);
+    window.location.href = `mailto:danyvassiliakos@gmail.com?subject=${subject}&body=${body}`;
+    setStatus('ok');
     setTimeout(() => setStatus('idle'), 3000);
   };
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -90,7 +92,7 @@ export default function Footer() {
                 {status === 'ok' ? <><Check className="w-3.5 h-3.5" /> OK</> : 'OK'}
               </button>
             </form>
-            {status === 'ok' && <p className="text-xs font-sans text-[var(--success)] mt-2">Merci — vous êtes inscrit·e.</p>}
+            {status === 'ok' && <p className="text-xs font-sans text-[var(--success)] mt-2">Votre messagerie va s’ouvrir pour confirmer l’inscription.</p>}
             {status === 'err' && <p className="text-xs font-sans text-red-500 mt-2">Email invalide.</p>}
           </div>
         </div>

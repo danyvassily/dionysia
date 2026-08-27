@@ -25,6 +25,8 @@ export default function AboutSection() {
               <p><strong className="text-[var(--ink)] font-semibold">DIONYSIA</strong> est né d'une conviction : la pensée technologique mérite un cadre aussi exigeant que celui des grandes revues éditoriales.</p>
               <p>Comme les <em>Dionysies</em> athéniennes célébraient à la fois la raison et l'extase, ce blog navigue entre l'analyse froide des architectures et l'enthousiasme créatif des nouvelles technologies.</p>
               <p>Chaque article est une exploration — des agents IA aux régulations européennes, des frameworks aux enjeux géopolitiques.</p>
+              <p>La veille et la préparation des textes peuvent être assistées par l’intelligence artificielle. La ligne éditoriale impose néanmoins des sources identifiables, l’attribution des citations et une distinction explicite entre faits, déclarations et analyse.</p>
+              <p>Une erreur ou une précision à apporter ? <a href="mailto:danyvassiliakos@gmail.com?subject=Correction%20DIONYSIA" className="font-medium text-[var(--ink)] underline decoration-[var(--rule-strong)] underline-offset-4 hover:text-[var(--accent-editorial)]">Signaler une correction</a>.</p>
             </div>
             <div className="mt-6 pt-5 border-t flex items-center gap-3" style={{ borderColor: 'var(--rule)' }}>
               <span className="w-7 h-7 rounded-full bg-[var(--paper-soft)] border inline-flex items-center justify-center text-[10px] font-sans font-bold" style={{ borderColor: 'var(--rule)' }}>DV</span>

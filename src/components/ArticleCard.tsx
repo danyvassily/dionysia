@@ -1,10 +1,11 @@
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router';
-import type { Article } from '@/data/articles';
+import type { ArticleSummary } from '@/data/articles';
+import ArticleVisual from './ArticleVisual';
 
-interface ArticleCardProps { article: Article; index?: number }
+interface ArticleCardProps { article: ArticleSummary; index?: number }
 
-const labels: Record<Article['category'], string> = {
+const labels: Record<ArticleSummary['category'], string> = {
   ia: 'IA', tech: 'Tech', dev: 'Dev', politique: 'Politique',
 };
 
@@ -15,6 +16,12 @@ export default function ArticleCard({ article, index = 0 }: ArticleCardProps) {
         <span>{labels[article.category]}{article.tag ? ` · ${article.tag}` : ''}</span>
         <span>{String(index + 1).padStart(2, '0')}</span>
       </div>
+
+      {index % 3 === 0 && (
+        <Link to={`/article/${article.id}`} className="mt-4 block" aria-label={`Lire : ${article.title}`}>
+          <ArticleVisual article={article} />
+        </Link>
+      )}
 
       <Link to={`/article/${article.id}`} className="mt-4 block">
         <h3 className="font-editorial text-[1.65rem] font-semibold leading-[1.04] tracking-[-0.02em] text-[var(--ink)] transition-colors group-hover:text-[var(--accent-editorial)]">
