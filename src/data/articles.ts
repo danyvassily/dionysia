@@ -2948,4 +2948,17 @@ export const articles: Article[] = [
     "featured": false,
     "tag": "IA"
   }
+,
+  {
+    id: '1230',
+    title: "Sans titre",
+    excerpt: "",
+    content: "",
+    category: 'tech',
+    categoryLabel: 'Technologie',
+    date: '27 August 2026',
+    readTime: '5 min',
+    featured: false,
+    tag: "",
+  }
 ];
