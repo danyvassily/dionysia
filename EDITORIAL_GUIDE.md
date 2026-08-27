@@ -31,6 +31,8 @@ La page d’accueil affiche automatiquement :
 - le plus récent comme article principal ;
 - les quatre suivants comme brèves ;
 - jusqu’à six articles supplémentaires par rubrique ;
+- un CTA d’archives sous chaque rubrique, avec le nombre total d’articles ;
+- une page `/rubrique/CATEGORIE` qui donne accès à tout l’historique avec recherche et pagination ;
 - les catégories `ia`, `tech`, `dev` et `politique` uniquement.
 
 La page article transforme automatiquement :
