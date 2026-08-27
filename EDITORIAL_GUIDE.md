@@ -123,6 +123,10 @@ Une image ne peut servir qu’à un seul article, même si les articles parlent 
 
 Les logos et drapeaux peuvent être intégrés dans une composition différente pour chaque article : cadrage, fond, couleur d’accompagnement et position doivent varier. Il est interdit de republier exactement le même fichier visuel. En l’absence d’image sûre et inédite, Hermes omet le champ `image` : le site produit automatiquement une composition typographique unique calculée à partir de l’article, sans réutiliser une image existante.
 
+Le site possède une bibliothèque contrôlée dans `public/images/brands/` et `public/images/flags/`. Elle reconnaît automatiquement dans le titre et le chapô Apple, DeepSeek, OpenAI, Anthropic, Google/Gemini, Mistral, Microsoft, NVIDIA, Meta, Qwen, Alibaba, Nous Research/Hermes, Hugging Face, GitHub, Kimi, AWS, Stripe, PayPal, TypeScript, Bun et Debian, ainsi que plusieurs pays et l’Union européenne.
+
+Ces fichiers maîtres peuvent être réutilisés uniquement comme éléments officiels à l’intérieur de compositions calculées différemment pour chaque article. Ils ne doivent jamais être copiés pour servir seuls de couverture répétée. Si une marque importante n’est pas encore reconnue, Hermes ajoute une seule version officielle du logo dans la bibliothèque, documente sa provenance dans `public/images/brands/SOURCES.md`, puis ajoute sa règle de détection dans `src/lib/articleBrands.ts`.
+
 ## Positionnement
 
 DIONYSIA est une revue française consacrée à l’intelligence artificielle, au développement, à la technologie et au pouvoir numérique. Elle explique les faits avec précision, sans adopter le ton d’un communiqué de presse ni celui d’un fil de réseau social.

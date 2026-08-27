@@ -1,4 +1,5 @@
 import type { ArticleSummary } from '@/data/articles';
+import { getArticleBrandMarks } from '@/lib/articleBrands';
 import { getArticleVisual } from '@/lib/articleVisuals';
 
 const categoryNames: Record<ArticleSummary['category'], string> = {
@@ -26,6 +27,7 @@ function hashArticle(article: ArticleSummary) {
 
 function UniqueEditorialVisual({ article }: { article: ArticleSummary }) {
   const seed = hashArticle(article);
+  const marks = getArticleBrandMarks(article);
   const accent = categoryAccents[article.category];
   const rotation = (seed % 28) - 14;
   const x = 18 + (seed % 54);
@@ -43,10 +45,12 @@ function UniqueEditorialVisual({ article }: { article: ArticleSummary }) {
       }}
     >
       <div className="absolute inset-y-0 right-0 w-[38%] bg-[#171713]" style={{ clipPath: `polygon(${seed % 35}% 0, 100% 0, 100% 100%, 0 100%)` }} />
-      <div
-        className="absolute rounded-full opacity-90 mix-blend-multiply"
-        style={{ width: `${size}%`, aspectRatio: '1', left: `${x}%`, top: `${y}%`, background: accent, transform: `translate(-50%, -50%) rotate(${rotation}deg)` }}
-      />
+      {marks.length === 0 && (
+        <div
+          className="absolute rounded-full opacity-90 mix-blend-multiply"
+          style={{ width: `${size}%`, aspectRatio: '1', left: `${x}%`, top: `${y}%`, background: accent, transform: `translate(-50%, -50%) rotate(${rotation}deg)` }}
+        />
+      )}
       <div
         className="absolute border border-[#171713]/45 bg-[#f5efe4]/55"
         style={{ width: `${24 + (seed % 22)}%`, aspectRatio: '1.4', left: `${8 + ((seed >>> 4) % 52)}%`, bottom: `${4 + ((seed >>> 11) % 23)}%`, transform: `rotate(${-rotation}deg)` }}
@@ -56,9 +60,25 @@ function UniqueEditorialVisual({ article }: { article: ArticleSummary }) {
           <span>{categoryNames[article.category]}</span>
           <span className="text-[#f5efe4]">N° {index}</span>
         </div>
-        <p className="relative z-10 max-w-[62%] font-editorial text-[clamp(1.05rem,2.7vw,2.15rem)] font-semibold leading-[0.94] tracking-[-0.035em] line-clamp-3">
-          {article.tag ?? article.title}
-        </p>
+        {marks.length > 0 ? (
+          <div className={`relative z-10 grid max-w-[76%] gap-2 ${marks.length > 1 ? 'grid-cols-2' : 'grid-cols-1'}`}>
+            {marks.map((mark) => (
+              <div key={mark.src} className="flex min-h-[clamp(3.8rem,9vw,7rem)] items-center justify-center border border-black/10 bg-white/95 p-[clamp(.65rem,2vw,1.25rem)] shadow-sm">
+                <img
+                  src={mark.src}
+                  alt={`${mark.kind === 'flag' ? 'Drapeau' : 'Logo'} ${mark.label}`}
+                  loading="lazy"
+                  decoding="async"
+                  className={`max-h-[clamp(2.3rem,6vw,4.8rem)] w-full object-contain ${mark.kind === 'flag' ? 'max-w-[8rem]' : 'max-w-[10rem]'}`}
+                />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="relative z-10 max-w-[62%] font-editorial text-[clamp(1.05rem,2.7vw,2.15rem)] font-semibold leading-[0.94] tracking-[-0.035em] line-clamp-3">
+            {article.tag ?? article.title}
+          </p>
+        )}
       </div>
     </div>
   );
