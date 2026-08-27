@@ -1,5 +1,6 @@
 import { ArrowUp, Github, Instagram, Mail, Rss, Check } from 'lucide-react';
 import { useState } from 'react';
+import { useLanguage } from '@/hooks/useLanguage';
 
 const footerLinks = [
   { title: 'Rubriques', links: [
@@ -16,6 +17,7 @@ const footerLinks = [
 ];
 
 export default function Footer() {
+  const { language } = useLanguage();
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'ok' | 'err'>('idle');
   const submit = (e: React.FormEvent) => {
@@ -93,7 +95,14 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 border-t" style={{ borderColor: 'var(--rule)' }}>
-          <p className="font-sans text-xs text-[var(--ink-faint)]">© {new Date().getFullYear()} Dany Vassily — Tous droits réservés · Fait avec exigence.</p>
+          <div>
+            <p className="font-sans text-xs text-[var(--ink-faint)]">© {new Date().getFullYear()} Dany Vassily — Tous droits réservés · Fait avec exigence.</p>
+            {language === 'en' && (
+              <p className="notranslate mt-1 text-[10px] text-[var(--ink-faint)]" translate="no">
+                Automatic English translation powered by Google Translate. The French version is the original.
+              </p>
+            )}
+          </div>
           <button onClick={scrollToTop} className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[var(--ink-faint)] hover:text-[var(--ink)] transition-colors group">
             Haut de page <ArrowUp className="w-3 h-3 group-hover:-translate-y-0.5 transition-transform" />
           </button>

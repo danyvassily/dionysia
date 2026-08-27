@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { useTheme } from '@/hooks/useTheme';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const navLinks = [
   { label: 'IA', href: '/#ia', id: 'ia' },
@@ -126,6 +127,7 @@ export default function Navigation() {
               >
                 À la une
               </Link>
+              <LanguageSwitcher />
               <button
                 onClick={toggleTheme}
                 aria-label={theme === 'light' ? 'Activer le mode sombre' : 'Activer le mode clair'}

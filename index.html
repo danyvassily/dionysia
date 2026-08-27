@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DIONYSIA — Chroniques à l'ère du numérique</title>
     <meta name="description" content="DIONYSIA — Blog éditorial sur l'IA, la technologie, le développement web et la politique numérique." />
+    <script>
+      try {
+        const savedLanguage = localStorage.getItem('dionysia-language');
+        const browserLanguage = (navigator.languages && navigator.languages[0]) || navigator.language || 'fr';
+        const preferredLanguage = savedLanguage === 'fr' || savedLanguage === 'en'
+          ? savedLanguage
+          : (browserLanguage.toLowerCase().startsWith('en') ? 'en' : 'fr');
+        document.documentElement.lang = preferredLanguage;
+        if (preferredLanguage === 'en') {
+          document.documentElement.classList.add('translation-pending');
+          document.cookie = 'googtrans=/fr/en; path=/; max-age=31536000; SameSite=Lax';
+        }
+      } catch (_) {
+        document.documentElement.lang = 'fr';
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />

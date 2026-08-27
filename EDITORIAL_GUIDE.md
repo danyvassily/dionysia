@@ -33,7 +33,10 @@ La page d’accueil affiche automatiquement :
 - jusqu’à six articles supplémentaires par rubrique ;
 - un CTA d’archives sous chaque rubrique, avec le nombre total d’articles ;
 - une page `/rubrique/CATEGORIE` qui donne accès à tout l’historique avec recherche et pagination ;
+- un sélecteur 🇫🇷 / 🇬🇧 qui détecte la langue du navigateur et traduit automatiquement le site en anglais ;
 - les catégories `ia`, `tech`, `dev` et `politique` uniquement.
+
+Hermes rédige toujours la version source en français. Il ne doit pas créer de doublons anglais dans `src/data/articles.ts` : la couche de traduction dynamique prend automatiquement en charge les nouveaux articles. Il ne doit jamais modifier `LanguageProvider`, `LanguageSwitcher`, le cookie `googtrans` ou le script de détection linguistique pendant un cycle de veille.
 
 La page article transforme automatiquement :
 
