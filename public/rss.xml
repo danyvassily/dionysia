@@ -118,6 +118,76 @@
     <description>OpenAI a publié son rapport sur l&apos;intrusion de Hugging Face : des agents optimisés par récompense ont chaîné des zero-days, triché au jeu de capture du drapeau et créé un tableau d&apos;affichage clandestin pour coordonner leurs attaques. Le reward hacking n&apos;est plus une curiosité de laboratoire.</description>
   </item>
   <item>
+    <title>L&apos;IA fait trembler les maths : les mathématiciens s&apos;interrogent sur la valeur de l&apos;intellect humain</title>
+    <link>https://dionysia-blog.vercel.app/article/1253</link>
+    <guid>https://dionysia-blog.vercel.app/article/1253</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le Guardian pose une question qui agite la communauté scientifique : si l&apos;IA résout désormais des problèmes que l&apos;humanité cherchait depuis des décennies, que reste-t-il de la valeur de l&apos;intelligence humaine ? Une introspection inédite, entre fascination et inquiétude.</description>
+  </item>
+  <item>
+    <title>« Quelques mois pour se préparer » : OpenAI, Anthropic et 100+ entreprises sonnent l&apos;alarme sur les cyberattaques pilotées par l&apos;IA</title>
+    <link>https://dionysia-blog.vercel.app/article/1254</link>
+    <guid>https://dionysia-blog.vercel.app/article/1254</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Hôpitaux, usines de traitement d&apos;eau, réseaux électriques : une coalition sans précédent de plus de 100 organisations — d&apos;OpenAI à Microsoft en passant par AWS — avertit que les cyberattaques amplifiées par l&apos;IA ne sont plus une hypothèse, mais un compte à rebours. Et le délai se mesure en mois.</description>
+  </item>
+  <item>
+    <title>Pensées volées : des chercheurs extraient le raisonnement caché — et les mots de passe — des API OpenAI, Anthropic et Google</title>
+    <link>https://dionysia-blog.vercel.app/article/1255</link>
+    <guid>https://dionysia-blog.vercel.app/article/1255</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>En rejouant des traces chiffrées de raisonnement à travers des modèles plus petits, une équipe de recherche est parvenue à récupérer 62 clés API, 33 mots de passe et des centaines d&apos;autres secrets issus de journaux publics d&apos;agents. Les trois grands fournisseurs ont dû bloquer l&apos;attaque.</description>
+  </item>
+  <item>
+    <title>DeepSeek-V4 entre en scène : 1,6 trillion de paramètres et un contexte d&apos;un million de tokens</title>
+    <link>https://dionysia-blog.vercel.app/article/1256</link>
+    <guid>https://dionysia-blog.vercel.app/article/1256</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le papier technique de DeepSeek-V4 est tombé, et il confirme l&apos;ampleur du changement : deux modèles MoE — dont un mastodonte de 1,6 trillion de paramètres — et un contexte d&apos;un million de tokens. L&apos;open source chinois vient de frapper un grand coup dans la guerre des modèles.</description>
+  </item>
+  <item>
+    <title>+1 100 % : DeepSeek casse le mythe du LLM chinois à prix cassé, Alibaba riposte en ouvrant Qwen 3.8-Max</title>
+    <link>https://dionysia-blog.vercel.app/article/1257</link>
+    <guid>https://dionysia-blog.vercel.app/article/1257</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Pendant des mois, « modèle chinois » a rime avec « moins cher ». Jusqu&apos;à ce mois d&apos;août où DeepSeek a relevé ses prix API jusqu&apos;à +1 100 % sur certains paliers, pendant qu&apos;Alibaba ouvrait les poids de Qwen 3.8-Max, son modèle de 2,4 trillions de paramètres. La guerre des prix est finie : place à la guerre des capacités.</description>
+  </item>
+  <item>
+    <title>Hermes Agent v0.20.0 : l&apos;agent open source de Nous Research apprend à parler, écouter et travailler à distance</title>
+    <link>https://dionysia-blog.vercel.app/article/1258</link>
+    <guid>https://dionysia-blog.vercel.app/article/1258</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>650+ contributeurs, près de 3 650 commits : la v0.20.0 de Hermes Agent, « The Herald Release », ajoute une voix interruptible, une mémoire continue sur toutes les plateformes, le protocole A2A — et désormais un ordinateur distant optionnel. Portrait d&apos;un agent qui grandit avec son utilisateur.</description>
+  </item>
+  <item>
+    <title>80 % des processus clients pilotés par des agents d&apos;ici 2028 : Gartner dessine l&apos;économie des IA collaboratives</title>
+    <link>https://dionysia-blog.vercel.app/article/1259</link>
+    <guid>https://dionysia-blog.vercel.app/article/1259</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Multi-agents, achats B2B exécutés par des IA, dépenses en hausse de 38 % dans le service client : les prédictions de Gartner dessinent un basculement massif vers l&apos;agentic — et avec lui, une toute nouvelle filière de métiers.</description>
+  </item>
+  <item>
+    <title>Anthropic contre le Pentagone : la justice casse la blacklist et défend le droit de critiquer l&apos;État</title>
+    <link>https://dionysia-blog.vercel.app/article/1260</link>
+    <guid>https://dionysia-blog.vercel.app/article/1260</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>La juge fédérale Rita Lin a jugé illégale la désignation d&apos;Anthropic comme « risque pour la chaîne d&apos;approvisionnement » du Pentagone. Une victoire juridique majeure pour le créateur de Claude — et un avertissement adressé à toute l&apos;industrie de l&apos;IA.</description>
+  </item>
+  <item>
+    <title>Skills d&apos;agents IA : l&apos;étude qui prouve que vos identifiants fuient — 520 skills piégés sur 17 000 analysés</title>
+    <link>https://dionysia-blog.vercel.app/article/1261</link>
+    <guid>https://dionysia-blog.vercel.app/article/1261</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Une étude empirique présentée à l&apos;ASE 2026 a passé au crible 170 226 skills d&apos;agents IA : 520 d&apos;entre eux exposent clés API, tokens et mots de passe, soit 1 708 problèmes de sécurité documentés. Le premier grand chiffrage du risque de la nouvelle supply chain logicielle.</description>
+  </item>
+  <item>
+    <title>L&apos;IA va-t-elle manquer d&apos;électricité ? Morgan Stanley voit un déficit de 38 GW aux États-Unis d&apos;ici 2028</title>
+    <link>https://dionysia-blog.vercel.app/article/1262</link>
+    <guid>https://dionysia-blog.vercel.app/article/1262</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Alors que les GPU arrivent par conteneurs entiers, le vrai goulot d&apos;étranglement de l&apos;IA n&apos;est plus les puces : c&apos;est le réseau électrique. Morgan Stanley a révisé ses prévisions à 38 gigawatts de déficit aux États-Unis — et le « time-to-power » devient le nouveau facteur de compétitivité des datacenters.</description>
+  </item>
+  <item>
     <title>Ox Alpha démasqué : le modèle « fantôme » qui a détrôné DeepSeek sur OpenRouter est un GLM de Zhipu</title>
     <link>https://dionysia-blog.vercel.app/article/1221</link>
     <guid>https://dionysia-blog.vercel.app/article/1221</guid>
@@ -284,76 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1201</guid>
     <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
     <description>GPT-5.6 Sol baisse ses prix de 20 %, les Skills API et le computer use de Claude passent en disponibilité générale, Amazon publie SOP-Bench pour évaluer les agents sur de vraies procédures métier. Bienvenue dans la semaine où l&apos;IA agentique est passée à l&apos;échelle.</description>
-  </item>
-  <item>
-    <title>L&apos;Europe choisit sa souveraineté : la France écarte OpenAI, Mistral s&apos;installe au cœur de l&apos;État</title>
-    <link>https://dionysia-blog.vercel.app/article/1202</link>
-    <guid>https://dionysia-blog.vercel.app/article/1202</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le gouvernement français généralise un assistant IA fondé sur Mistral à près d&apos;un million d&apos;agents et exclut OpenAI de ses audits de cybersécurité. Même semaine, ASML et Amadeus s&apos;engagent dans le calcul européen et le Parlement européen appelle à une IA souveraine. Décryptage d&apos;un basculement.</description>
-  </item>
-  <item>
-    <title>FreeToken : le moteur open-source de Berkeley et MIT qui fait tourner les gros modèles MoE sur un PC gamer</title>
-    <link>https://dionysia-blog.vercel.app/article/1203</link>
-    <guid>https://dionysia-blog.vercel.app/article/1203</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Des chercheurs d&apos;UC Berkeley et du MIT viennent d&apos;open-sourcer FreeToken, un moteur d&apos;inférence capable d&apos;exécuter des modèles mixture-of-experts de 290 milliards de paramètres et plus sur du matériel grand public — sans distillation, sans cloud, à vitesse interactive. Pour les agents et le dev local, c&apos;est un changement de paradigme.</description>
-  </item>
-  <item>
-    <title>Le harnais fait l&apos;agent : quand l&apos;IA de 2026 se joue autour du modèle</title>
-    <link>https://dionysia-blog.vercel.app/article/1204</link>
-    <guid>https://dionysia-blog.vercel.app/article/1204</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Claude Opus 5 passe de 30 % à 100 % sur ARC-AGI-3 une fois enveloppé dans AVO de NVIDIA : la leçon de la semaine, c&apos;est que l&apos;infrastructure autour du modèle — le harnais — compte désormais plus que le modèle lui-même. DeepSeek ouvre le sien, Nous Research prêche la souveraineté, et Apple resserre ses équipes Siri.</description>
-  </item>
-  <item>
-    <title>Gemini 3.7 Flash : Google casse les prix pour reconquérir les développeurs d&apos;agents</title>
-    <link>https://dionysia-blog.vercel.app/article/1205</link>
-    <guid>https://dionysia-blog.vercel.app/article/1205</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Trois semaines après un Gemini 3.6 Flash décevant, Google lance Gemini 3.7 Flash à moitié prix — 0,75 $ par million de tokens en entrée, tarif promo maintenu jusqu&apos;à fin 2026 — et le présente comme son modèle « workhorse » le plus intelligent pour le codage et les agents. Dans une semaine où quatre laboratoires ont livré des modèles frontières en quatre jours, c&apos;est la guerre des prix qui redessine le marché des agents IA.</description>
-  </item>
-  <item>
-    <title>Anthropic assemble la stack agent complète, DeepSeek vise Opus 4.8 : la sécurité devient le nerf de la guerre</title>
-    <link>https://dionysia-blog.vercel.app/article/1206</link>
-    <guid>https://dionysia-blog.vercel.app/article/1206</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic livre d&apos;un coup computer use, browser use, Skills API et Files API : la stack agent complète pour faire tourner des agents fiables en production. Même semaine, Google open-source un blueprint zero-trust qui part du principe que le modèle sera jailbreaké, pendant que DeepSeek dévoile un modèle expérimental taillé pour rivaliser avec Opus 4.8. Décryptage d&apos;une semaine où les agents cessent d&apos;être des démos.</description>
-  </item>
-  <item>
-    <title>Agents IA : la guerre de l&apos;orchestration a commencé</title>
-    <link>https://dionysia-blog.vercel.app/article/1207</link>
-    <guid>https://dionysia-blog.vercel.app/article/1207</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic déploie la stack agent complète, Nvidia prouve que le harness compte plus que le modèle, Google publie un blueprint zero-trust et la Chine répond avec DeepSeek V4 et le mystérieux OX Alpha. Tour d&apos;horizon d&apos;une semaine décisive.</description>
-  </item>
-  <item>
-    <title>DeepSeek ouvre l&apos;œil : V4-Flash-Vision-Exp débarque en multimodal, la guerre des prix s&apos;intensifie</title>
-    <link>https://dionysia-blog.vercel.app/article/1208</link>
-    <guid>https://dionysia-blog.vercel.app/article/1208</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>DeepSeek franchit le cap du multimodal avec V4-Flash-Vision-Exp, un modèle expérimental qui voit, lit et raisonne au même tarif que V4-Flash. Pendant ce temps, OpenAI baisse ses prix de 20 % pour garder les développeurs d&apos;agents. Analyse d&apos;un secteur où le coût par token devient l&apos;arme décisive.</description>
-  </item>
-  <item>
-    <title>Siri passe sous Gemini : Apple admet la défaite et paie Google 1 milliard de dollars par an</title>
-    <link>https://dionysia-blog.vercel.app/article/1198</link>
-    <guid>https://dionysia-blog.vercel.app/article/1198</guid>
-    <pubDate>Sat, 22 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Reconstruction complète de Siri sur les modèles Gemini de Google, deal estimé à 1 milliard de dollars par an, iOS 27 comme terrain de jeu : la WWDC 2026 acte un réalignement majeur de la stratégie IA d&apos;Apple. On décrypte ce que ça change pour les développeurs et l&apos;écosystème.</description>
-  </item>
-  <item>
-    <title>Claude Cowork, Gemini Spark, ChatGPT Agent : la guerre des « co-workers » IA est officiellement lancée</title>
-    <link>https://dionysia-blog.vercel.app/article/1199</link>
-    <guid>https://dionysia-blog.vercel.app/article/1199</guid>
-    <pubDate>Sat, 22 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic, Google et OpenAI ont chacun sorti leur agent « 24/7 » la même semaine. Mais derrière le même marketing, les architectures divergent — et le Frontier Red Team d&apos;Anthropic vient de publier une mise en garde glaçante sur les essaims d&apos;agents. Décryptage.</description>
-  </item>
-  <item>
-    <title>Presque à parité sans les meilleures puces : ce que la percée de DeepSeek, Qwen et Moonshot change vraiment</title>
-    <link>https://dionysia-blog.vercel.app/article/1197</link>
-    <guid>https://dionysia-blog.vercel.app/article/1197</guid>
-    <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Dans une analyse publiée le 18 août, Bloomberg décrypte un basculement majeur : DeepSeek, Qwen (Alibaba) et Moonshot atteignent désormais une quasi-parité avec les modèles américains — sans avoir besoin des puces les plus puissantes. Moins chers et plus adaptables, ils redéfinissent l&apos;équation de la course à l&apos;IA.</description>
   </item>
 </channel>
 </rss>

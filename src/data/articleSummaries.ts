@@ -2916,5 +2916,115 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1253",
+    "title": "L'IA fait trembler les maths : les mathématiciens s'interrogent sur la valeur de l'intellect humain",
+    "excerpt": "Le Guardian pose une question qui agite la communauté scientifique : si l'IA résout désormais des problèmes que l'humanité cherchait depuis des décennies, que reste-t-il de la valeur de l'intelligence humaine ? Une introspection inédite, entre fascination et inquiétude.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "mathématiques"
+  },
+  {
+    "id": "1254",
+    "title": "« Quelques mois pour se préparer » : OpenAI, Anthropic et 100+ entreprises sonnent l'alarme sur les cyberattaques pilotées par l'IA",
+    "excerpt": "Hôpitaux, usines de traitement d'eau, réseaux électriques : une coalition sans précédent de plus de 100 organisations — d'OpenAI à Microsoft en passant par AWS — avertit que les cyberattaques amplifiées par l'IA ne sont plus une hypothèse, mais un compte à rebours. Et le délai se mesure en mois.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "cybersecurite"
+  },
+  {
+    "id": "1255",
+    "title": "Pensées volées : des chercheurs extraient le raisonnement caché — et les mots de passe — des API OpenAI, Anthropic et Google",
+    "excerpt": "En rejouant des traces chiffrées de raisonnement à travers des modèles plus petits, une équipe de recherche est parvenue à récupérer 62 clés API, 33 mots de passe et des centaines d'autres secrets issus de journaux publics d'agents. Les trois grands fournisseurs ont dû bloquer l'attaque.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "securite-api"
+  },
+  {
+    "id": "1256",
+    "title": "DeepSeek-V4 entre en scène : 1,6 trillion de paramètres et un contexte d'un million de tokens",
+    "excerpt": "Le papier technique de DeepSeek-V4 est tombé, et il confirme l'ampleur du changement : deux modèles MoE — dont un mastodonte de 1,6 trillion de paramètres — et un contexte d'un million de tokens. L'open source chinois vient de frapper un grand coup dans la guerre des modèles.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "deepseek"
+  },
+  {
+    "id": "1257",
+    "title": "+1 100 % : DeepSeek casse le mythe du LLM chinois à prix cassé, Alibaba riposte en ouvrant Qwen 3.8-Max",
+    "excerpt": "Pendant des mois, « modèle chinois » a rime avec « moins cher ». Jusqu'à ce mois d'août où DeepSeek a relevé ses prix API jusqu'à +1 100 % sur certains paliers, pendant qu'Alibaba ouvrait les poids de Qwen 3.8-Max, son modèle de 2,4 trillions de paramètres. La guerre des prix est finie : place à la guerre des capacités.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "deepseek"
+  },
+  {
+    "id": "1258",
+    "title": "Hermes Agent v0.20.0 : l'agent open source de Nous Research apprend à parler, écouter et travailler à distance",
+    "excerpt": "650+ contributeurs, près de 3 650 commits : la v0.20.0 de Hermes Agent, « The Herald Release », ajoute une voix interruptible, une mémoire continue sur toutes les plateformes, le protocole A2A — et désormais un ordinateur distant optionnel. Portrait d'un agent qui grandit avec son utilisateur.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "hermes-agent"
+  },
+  {
+    "id": "1259",
+    "title": "80 % des processus clients pilotés par des agents d'ici 2028 : Gartner dessine l'économie des IA collaboratives",
+    "excerpt": "Multi-agents, achats B2B exécutés par des IA, dépenses en hausse de 38 % dans le service client : les prédictions de Gartner dessinent un basculement massif vers l'agentic — et avec lui, une toute nouvelle filière de métiers.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "28 août 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "agentic-ai"
+  },
+  {
+    "id": "1260",
+    "title": "Anthropic contre le Pentagone : la justice casse la blacklist et défend le droit de critiquer l'État",
+    "excerpt": "La juge fédérale Rita Lin a jugé illégale la désignation d'Anthropic comme « risque pour la chaîne d'approvisionnement » du Pentagone. Une victoire juridique majeure pour le créateur de Claude — et un avertissement adressé à toute l'industrie de l'IA.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "28 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Anthropic"
+  },
+  {
+    "id": "1261",
+    "title": "Skills d'agents IA : l'étude qui prouve que vos identifiants fuient — 520 skills piégés sur 17 000 analysés",
+    "excerpt": "Une étude empirique présentée à l'ASE 2026 a passé au crible 170 226 skills d'agents IA : 520 d'entre eux exposent clés API, tokens et mots de passe, soit 1 708 problèmes de sécurité documentés. Le premier grand chiffrage du risque de la nouvelle supply chain logicielle.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1262",
+    "title": "L'IA va-t-elle manquer d'électricité ? Morgan Stanley voit un déficit de 38 GW aux États-Unis d'ici 2028",
+    "excerpt": "Alors que les GPU arrivent par conteneurs entiers, le vrai goulot d'étranglement de l'IA n'est plus les puces : c'est le réseau électrique. Morgan Stanley a révisé ses prévisions à 38 gigawatts de déficit aux États-Unis — et le « time-to-power » devient le nouveau facteur de compétitivité des datacenters.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
