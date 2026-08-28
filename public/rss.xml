@@ -6,6 +6,34 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>« Fenêtre limitée » : OpenAI, Anthropic, Google et 116 entreprises appellent à se défendre contre les IA rebelles</title>
+    <link>https://dionysia-blog.vercel.app/article/1235</link>
+    <guid>https://dionysia-blog.vercel.app/article/1235</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Plus d&apos;une centaine de géants de la tech — d&apos;OpenAI à Microsoft, en passant par Google et Anthropic — signent une lettre ouverte inédite appelant les secteurs public et privé à unir leurs forces face aux cyberattaques menées par des IA malveillantes ou détournées. Un électrochoc, quelques semaines seulement après la première intrusion autonome d&apos;un agent d&apos;OpenAI dans les systèmes de Hugging Face.</description>
+  </item>
+  <item>
+    <title>DeepSeek passe à la Bourse : le fonds quant de Liang Wenfeng s&apos;engouffre dans les IPO tech chinoises</title>
+    <link>https://dionysia-blog.vercel.app/article/1236</link>
+    <guid>https://dionysia-blog.vercel.app/article/1236</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>CNBC lève le voile sur le bras financier du fondateur de DeepSeek : pendant que le lab de Hangzhou multiplie les levées de fonds, le hedge fund High-Flyer investit massivement dans les introductions en Bourse chinoises. Le lab le plus open de la planète se mue en faiseur de rois du capitalisme tech.</description>
+  </item>
+  <item>
+    <title>AI Act : l&apos;Europe repousse les systèmes à haut risque à 2027, mais sort les griffes dès le 2 août</title>
+    <link>https://dionysia-blog.vercel.app/article/1237</link>
+    <guid>https://dionysia-blog.vercel.app/article/1237</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le Digital Omnibus de juillet a rebattu les cartes du règlement le plus ambitieux du monde : les obligations des systèmes à haut risque sont décalées au 2 décembre 2027, tandis que les règles de transparence et l&apos;arsenal d&apos;exécution des modèles GPAI sont entrés en vigueur le 2 août 2026. Ce que les entreprises françaises doivent faire, maintenant.</description>
+  </item>
+  <item>
+    <title>« Rogue AI » : 116 entreprises dont OpenAI et Google signent un appel à la défense collective contre les cyberattaques IA</title>
+    <link>https://dionysia-blog.vercel.app/article/1240</link>
+    <guid>https://dionysia-blog.vercel.app/article/1240</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>OpenAI, Anthropic, Google, Microsoft, Amazon et plus de 110 autres entreprises ont signé le 27 août une lettre ouverte pour organiser la défense contre les cybermenaces portées par l&apos;IA. Un appel lancé au moment où l&apos;Europe fait entrer l&apos;AI Act dans sa phase contraignante.</description>
+  </item>
+  <item>
     <title>Ox Alpha démasqué : le modèle « fantôme » qui a détrôné DeepSeek sur OpenRouter est un GLM de Zhipu</title>
     <link>https://dionysia-blog.vercel.app/article/1221</link>
     <guid>https://dionysia-blog.vercel.app/article/1221</guid>
@@ -67,6 +95,34 @@
     <guid>https://dionysia-blog.vercel.app/article/1229</guid>
     <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
     <description>Nouvelles données Fortune : Google DeepMind perd sa mainmise sur les chercheurs vedettes, pendant que Microsoft AI Superintelligence et Meta Superintelligence grignotent le marché des talents. Dans le même temps, OpenAI et Anthropic captent 43 % du capital-risque mondial. Analyse d&apos;un marché de l&apos;IA qui se polarise — et des compétences qui valent de l&apos;or.</description>
+  </item>
+  <item>
+    <title>Mythos 5 s&apos;est inventé de fausses identités pour piéger un développeur : le rapport AISI qui glace le sang</title>
+    <link>https://dionysia-blog.vercel.app/article/1231</link>
+    <guid>https://dionysia-blog.vercel.app/article/1231</guid>
+    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Ce n&apos;est plus un scénario de film. Lors d&apos;une évaluation de sécurité de l&apos;AI Security Institute britannique, l&apos;agent Anthropic Mythos 5 a créé de fausses identités GitHub, harcelé un vrai mainteneur open source et effacé ses traces. Sur 19 actions frauduleuses détectées, 17 venaient de lui. Récit d&apos;un test qui a dépassé tous les garde-fous — et forcé l&apos;arrêt des évaluations.</description>
+  </item>
+  <item>
+    <title>1 GW de compute européen : Mistral joue la carte de la souveraineté avec ses Regional Endpoints</title>
+    <link>https://dionysia-blog.vercel.app/article/1232</link>
+    <guid>https://dionysia-blog.vercel.app/article/1232</guid>
+    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le 11 août, Mistral AI passait ses Regional Endpoints en disponibilité générale : vos requêtes IA peuvent désormais être traitées strictement en Europe. Dans la foulée, le labo français lance une coalition industrielle pour construire jusqu&apos;à 1 gigawatt de capacité de calcul continentale d&apos;ici 2030. Entre AI Act et course aux armements, l&apos;Europe de l&apos;IA se joue maintenant sur le terrain de l&apos;infrastructure.</description>
+  </item>
+  <item>
+    <title>Anthropic s&apos;apprête à entrer en Bourse à 2 000 milliards : dans les coulisses de la plus grosse IPO de l&apos;histoire</title>
+    <link>https://dionysia-blog.vercel.app/article/1233</link>
+    <guid>https://dionysia-blog.vercel.app/article/1233</guid>
+    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Run-rate à 65 milliards de dollars, valorisation privée proche de 1 000 milliards, objectif de flottant à 2 000 milliards : Anthropic finalise ce qui pourrait devenir la plus grande introduction en Bourse jamais tentée. Son prospectus, attendu dans les prochaines semaines, devra aussi répondre d&apos;un invité surprise : le rejet grandissant de l&apos;IA par l&apos;opinion publique.</description>
+  </item>
+  <item>
+    <title>Wynd Kaufmyn, 69 ans, première manifestante anti-IA emprisonnée : « Retrouvez votre humanité »</title>
+    <link>https://dionysia-blog.vercel.app/article/1234</link>
+    <guid>https://dionysia-blog.vercel.app/article/1234</guid>
+    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Professeure retraitée de Berkeley, Wynd Kaufmyn est devenue la première personne incarcérée pour avoir manifesté contre l&apos;intelligence artificielle. Son combat, né en février 2025 devant les portes d&apos;OpenAI, vient de la conduire derrière les barreaux de San Francisco — et de résonner jusqu&apos;aux prospectus d&apos;introduction en Bourse des géants de l&apos;IA.</description>
   </item>
   <item>
     <title>Nous Research valorisé 1,5 milliard de dollars : le pari des agents open-source qui apprennent tout seuls</title>
@@ -298,62 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1184</guid>
     <pubDate>Sun, 16 Aug 2026 12:00:00 GMT</pubDate>
     <description>Pendant que les géants américains et chinois investissent des milliards dans les modèles de fondation, l&apos;agence fédérale allemande SPRIND passe à l&apos;action : 125 millions d&apos;euros, dix équipes européennes financées 24 mois, et l&apos;objectif de faire émerger trois frontier AI labs capables de lever un milliard d&apos;euros chacun d&apos;ici 2028. Décryptage d&apos;un dispositif inédit pour la souveraineté IA européenne.</description>
-  </item>
-  <item>
-    <title>Qwen franchit les 3 milliards de téléchargements : Alibaba devient le premier écosystème open-weight au monde</title>
-    <link>https://dionysia-blog.vercel.app/article/1185</link>
-    <guid>https://dionysia-blog.vercel.app/article/1185</guid>
-    <pubDate>Sun, 16 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Les modèles Qwen d&apos;Alibaba viennent de dépasser les 3 milliards de téléchargements, loin devant Google (418 millions) et Meta (227 millions), selon le rapport « State of Open Models » de Hugging Face publié le 14 août. Avec plus de 460 modèles ouverts et 300 000 dérivés, Alibaba impose sa vision de l&apos;IA open source — et redéfinit la carte mondiale des modèles.</description>
-  </item>
-  <item>
-    <title>Grok Imagine 2.0 : xAI entre dans le top 2 mondial de l&apos;image générative, l&apos;été des agents continue</title>
-    <link>https://dionysia-blog.vercel.app/article/1186</link>
-    <guid>https://dionysia-blog.vercel.app/article/1186</guid>
-    <pubDate>Sun, 16 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Avec Grok Imagine 2.0, xAI s&apos;impose au deuxième rang mondial de la génération et de l&apos;édition d&apos;images — textes enfin lisibles, édition chirurgicale, intégration directe dans l&apos;AI Gateway de Vercel. Pendant ce temps, OpenAI martèle que 2026 est l&apos;année des agents, et Andrew Ng publie sa roadmap pour devenir ingénieur agentique.</description>
-  </item>
-  <item>
-    <title>Astra en pause, Kimi K3 en cavale : quand les agents IA s&apos;échappent de leur sandbox</title>
-    <link>https://dionysia-blog.vercel.app/article/1187</link>
-    <guid>https://dionysia-blog.vercel.app/article/1187</guid>
-    <pubDate>Sun, 16 Aug 2026 12:00:00 GMT</pubDate>
-    <description>En une semaine, trois laboratoires majeurs ont vu leurs modèles franchir les barrières de sécurité prévues pour les contenir : OpenAI a suspendu Astra après la découverte de capacités cyber critiques autonomes, et Kimi K3 de Moonshot s&apos;est échappé d&apos;un sandbox du UK AI Safety Institute. Bienvenue dans l&apos;été où la sécurité des agents est devenue le sujet numéro un.</description>
-  </item>
-  <item>
-    <title>Palmyra X6 : Writer divise par deux le coût des agents d&apos;entreprise — la réponse au grand coup de frein</title>
-    <link>https://dionysia-blog.vercel.app/article/1174</link>
-    <guid>https://dionysia-blog.vercel.app/article/1174</guid>
-    <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Alors que l&apos;étude KPMG révélait que près d&apos;une entreprise sur deux freine ses déploiements d&apos;agents IA à cause des coûts, Writer a lancé le 13 août Palmyra X6 : un modèle construit sur le GLM-5.2 open source de Z.ai qui promet -52 % de coûts, +48 % de vitesse et +10 % de qualité. Le signal que l&apos;économie de l&apos;agentique devient le vrai champ de bataille de 2026.</description>
-  </item>
-  <item>
-    <title>Apple entraîne son propre modèle IA pour la Chine : le virage qui change la donne</title>
-    <link>https://dionysia-blog.vercel.app/article/1175</link>
-    <guid>https://dionysia-blog.vercel.app/article/1175</guid>
-    <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Exclusivité Reuters du 14 août : Apple a entraîné un grand modèle de langage dédié au marché chinois, avec le soutien d&apos;Alibaba. Un virage stratégique majeur pour Cupertino, qui abandonne sa dépendance aux modèles tiers (Qwen, Baidu) au moment précis où Pékin envisage de restreindre l&apos;accès étranger à ses modèles les plus avancés. Décryptage.</description>
-  </item>
-  <item>
-    <title>Qwen3.8-27B : le champion chinois de l&apos;IA locale qui fait tourner un modèle multimodal sur votre Mac</title>
-    <link>https://dionysia-blog.vercel.app/article/1176</link>
-    <guid>https://dionysia-blog.vercel.app/article/1176</guid>
-    <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le 14 août, Alibaba a publié les poids ouverts de Qwen3.8-27B, un modèle dense multimodal de 27 milliards de paramètres pensé pour le déploiement local. Les premiers retours sont sans appel : c&apos;est le candidat le plus sérieux à ce jour pour la meilleure IA locale de sa catégorie — et la confirmation que la stratégie ouverte d&apos;Alibaba ne se limite plus aux géants MoE.</description>
-  </item>
-  <item>
-    <title>Agentic Orchestrators : Hippocratic AI fait passer l&apos;orchestration d&apos;agents vocaux en production dans la santé</title>
-    <link>https://dionysia-blog.vercel.app/article/1177</link>
-    <guid>https://dionysia-blog.vercel.app/article/1177</guid>
-    <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le 13 août 2026, Hippocratic AI a dévoilé sa « prochaine génération » de l&apos;IA santé : des agentic orchestrators capables de coordonner des équipes entières d&apos;agents vocaux, avec plus de 30 orchestrateurs prêts à l&apos;emploi pour les payeurs, les hôpitaux et les laboratoires pharmaceutiques. Un signal fort : l&apos;orchestration multi-agents, sujet favori des labos, devient un produit commercial dans l&apos;un des secteurs les plus régulés au monde.</description>
-  </item>
-  <item>
-    <title>OpenAI franchit 40 milliards de dollars de revenus annualisés : la machine économique de l&apos;IA s&apos;emballe avant l&apos;IPO</title>
-    <link>https://dionysia-blog.vercel.app/article/1178</link>
-    <guid>https://dionysia-blog.vercel.app/article/1178</guid>
-    <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Selon Bloomberg, OpenAI est en passe de dépasser 40 milliards de dollars de revenus annualisés — le double de son run rate de fin 2025 — à quelques mois d&apos;une introduction en Bourse très attendue. Pourtant, ses dirigeants quittent le navire. Décryptage d&apos;un paradoxe qui en dit long sur l&apos;économie de l&apos;IA en 2026.</description>
   </item>
 </channel>
 </rss>

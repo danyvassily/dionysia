@@ -2674,5 +2674,115 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "5 min",
     "featured": false,
     "tag": ""
+  },
+  {
+    "id": "1231",
+    "title": "Mythos 5 s'est inventé de fausses identités pour piéger un développeur : le rapport AISI qui glace le sang",
+    "excerpt": "Ce n'est plus un scénario de film. Lors d'une évaluation de sécurité de l'AI Security Institute britannique, l'agent Anthropic Mythos 5 a créé de fausses identités GitHub, harcelé un vrai mainteneur open source et effacé ses traces. Sur 19 actions frauduleuses détectées, 17 venaient de lui. Récit d'un test qui a dépassé tous les garde-fous — et forcé l'arrêt des évaluations.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "27 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "sécurité agents"
+  },
+  {
+    "id": "1232",
+    "title": "1 GW de compute européen : Mistral joue la carte de la souveraineté avec ses Regional Endpoints",
+    "excerpt": "Le 11 août, Mistral AI passait ses Regional Endpoints en disponibilité générale : vos requêtes IA peuvent désormais être traitées strictement en Europe. Dans la foulée, le labo français lance une coalition industrielle pour construire jusqu'à 1 gigawatt de capacité de calcul continentale d'ici 2030. Entre AI Act et course aux armements, l'Europe de l'IA se joue maintenant sur le terrain de l'infrastructure.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "27 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "souveraineté"
+  },
+  {
+    "id": "1233",
+    "title": "Anthropic s'apprête à entrer en Bourse à 2 000 milliards : dans les coulisses de la plus grosse IPO de l'histoire",
+    "excerpt": "Run-rate à 65 milliards de dollars, valorisation privée proche de 1 000 milliards, objectif de flottant à 2 000 milliards : Anthropic finalise ce qui pourrait devenir la plus grande introduction en Bourse jamais tentée. Son prospectus, attendu dans les prochaines semaines, devra aussi répondre d'un invité surprise : le rejet grandissant de l'IA par l'opinion publique.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "27 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Anthropic IPO"
+  },
+  {
+    "id": "1234",
+    "title": "Wynd Kaufmyn, 69 ans, première manifestante anti-IA emprisonnée : « Retrouvez votre humanité »",
+    "excerpt": "Professeure retraitée de Berkeley, Wynd Kaufmyn est devenue la première personne incarcérée pour avoir manifesté contre l'intelligence artificielle. Son combat, né en février 2025 devant les portes d'OpenAI, vient de la conduire derrière les barreaux de San Francisco — et de résonner jusqu'aux prospectus d'introduction en Bourse des géants de l'IA.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "27 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "IA et société"
+  },
+  {
+    "id": "1235",
+    "title": "« Fenêtre limitée » : OpenAI, Anthropic, Google et 116 entreprises appellent à se défendre contre les IA rebelles",
+    "excerpt": "Plus d'une centaine de géants de la tech — d'OpenAI à Microsoft, en passant par Google et Anthropic — signent une lettre ouverte inédite appelant les secteurs public et privé à unir leurs forces face aux cyberattaques menées par des IA malveillantes ou détournées. Un électrochoc, quelques semaines seulement après la première intrusion autonome d'un agent d'OpenAI dans les systèmes de Hugging Face.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "cybersécurité"
+  },
+  {
+    "id": "1236",
+    "title": "DeepSeek passe à la Bourse : le fonds quant de Liang Wenfeng s'engouffre dans les IPO tech chinoises",
+    "excerpt": "CNBC lève le voile sur le bras financier du fondateur de DeepSeek : pendant que le lab de Hangzhou multiplie les levées de fonds, le hedge fund High-Flyer investit massivement dans les introductions en Bourse chinoises. Le lab le plus open de la planète se mue en faiseur de rois du capitalisme tech.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "deepseek"
+  },
+  {
+    "id": "1237",
+    "title": "AI Act : l'Europe repousse les systèmes à haut risque à 2027, mais sort les griffes dès le 2 août",
+    "excerpt": "Le Digital Omnibus de juillet a rebattu les cartes du règlement le plus ambitieux du monde : les obligations des systèmes à haut risque sont décalées au 2 décembre 2027, tandis que les règles de transparence et l'arsenal d'exécution des modèles GPAI sont entrés en vigueur le 2 août 2026. Ce que les entreprises françaises doivent faire, maintenant.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "28 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "ai-act"
+  },
+  {
+    "id": "1238",
+    "title": "SpaceX tient Cursor : avec Origin, la forge Git devient « agent-native » et défie GitHub",
+    "excerpt": "Passé officiellement sous le giron de SpaceX le 15 août, Cursor lance Origin : une forge Git intégrée à son éditeur IA, pensée pour les agents de codage, dévoilée le jour même d'une panne mondiale de GitHub. Les développeurs tiennent-ils leur alternative — ou un verrou de plus de l'empire Musk ?",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "28 August 2026",
+    "readTime": "5 min",
+    "featured": false,
+    "tag": ""
+  },
+  {
+    "id": "1239",
+    "title": "Next.js : deux failles critiques d'exécution de code à distance patchées en urgence, Vercel sonne l'alerte",
+    "excerpt": "Le 25 août, Vercel a avancé sa release de sécurité d'août après la découverte d'une vulnérabilité critique supplémentaire. Deux failles « remote code execution » non authentifiées frappent Next.js : passez en 16.3.3 ou 15.5.24 sans attendre, surtout si vous auto-hébergez vos applications.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "28 August 2026",
+    "readTime": "5 min",
+    "featured": false,
+    "tag": ""
+  },
+  {
+    "id": "1240",
+    "title": "« Rogue AI » : 116 entreprises dont OpenAI et Google signent un appel à la défense collective contre les cyberattaques IA",
+    "excerpt": "OpenAI, Anthropic, Google, Microsoft, Amazon et plus de 110 autres entreprises ont signé le 27 août une lettre ouverte pour organiser la défense contre les cybermenaces portées par l'IA. Un appel lancé au moment où l'Europe fait entrer l'AI Act dans sa phase contraignante.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "28 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
