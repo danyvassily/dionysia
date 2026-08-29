@@ -3026,5 +3026,137 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1263",
+    "title": "Hermes Agent dévore OpenRouter : 1,5 trillion de tokens, plus que toutes les autres applications réunies",
+    "excerpt": "Le chiffre a de quoi faire tourner les têtes : en début d'août 2026, l'agent open source de Nous Research a consommé 1,5 trillion de tokens sur OpenRouter — un volume quasi égal à la production combinée de toutes les autres applications suivies sur la plateforme. Décryptage d'une domination qui n'a rien d'un feu de paille.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "hermes-agent"
+  },
+  {
+    "id": "1264",
+    "title": "DeepSeek tourne la page de l'autofinancement : 7,4 milliards levés et un empire quant qui mise sur les IPOs chinoises",
+    "excerpt": "Le labo de Hangzhou, symbole de l'IA frugale, a bouclé sa toute première levée de fonds externe : plus de 7,4 milliards de dollars pour une valorisation dépassant 50 milliards. En coulisses, le fonds quant du fondateur Liang Wenfeng investit massivement dans les introductions en bourse tech — et redessine la carte du financement de l'IA chinoise.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "deepseek"
+  },
+  {
+    "id": "1265",
+    "title": "Mac mini M6 et M5 Pro : Apple transforme le desktop en machine à agents « toujours allumée »",
+    "excerpt": "Avec ses nouveaux Mac mini M6 et M5 Pro, Apple ne vend plus seulement un ordinateur de bureau : elle vend une plateforme d'« always-on agentic computing ». Le desktop, nouveau terrain de jeu des agents IA ? Analyse d'une annonce qui dit beaucoup de la stratégie d'Apple.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "apple"
+  },
+  {
+    "id": "1266",
+    "title": "Mistral muscle son jeu européen : 830 millions de dette, un rachat autrichien et un Parlement qui applaudit",
+    "excerpt": "Le même jour, le Parlement européen réclamait un LLM souverain et Mistral annonçait le rachat d'Emmi AI. Entre data center financé par 830 M$ de dette et endpoints régionaux, le fleuron français joue la carte de l'industrie — pas seulement du chatbot.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Mistral AI"
+  },
+  {
+    "id": "1267",
+    "title": "Nvidia courtise DeepSeek et Qwen pendant que la Chine menace de fermer le robinet open-weight",
+    "excerpt": "Nvidia optimise ses puces pour les modèles chinois, la Chine étudierait un embargo sur leur exportation, et 140 000 milliards de tokens s'échangent chaque jour à Hangzhou : le monde de l'IA open-weight vit sur une ligne de faille géopolitique.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Open-weight"
+  },
+  {
+    "id": "1268",
+    "title": "OpenAI, Anthropic, Google et 100 autres entreprises sonnent l'alarme : il faut se défendre contre les IA malveillantes",
+    "excerpt": "Une lettre ouverte inédite signée par plus d'une centaine d'acteurs tech appelle secteurs public et privé à coopérer contre les cybermenaces liées à l'IA. Alors que les agents offensifs se multiplient, la sécurité cesse d'être un argument marketing.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Sécurité IA"
+  },
+  {
+    "id": "1269",
+    "title": "GLM-5.3 bat GPT-5.6 Sol sur la cybersécurité : le pari open weight de Z.ai paie encore",
+    "excerpt": "Le lab chinois Z.ai a livré GLM-5.3, un open weight construit uniquement par post-training, qui coiffe les meilleurs modèles fermés américains sur le benchmark CyberGym. Moins d'une semaine plus tard, GLM-5.3-Flash ajoutait la multimodalité native. Décryptage d'une stratégie qui change la donne.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "GLM-5.3"
+  },
+  {
+    "id": "1270",
+    "title": "Kimi K3 : Moonshot pose un modèle frontière de 2,8 billions de paramètres, open weight, et l'écart avec les USA se referme",
+    "excerpt": "Avec Kimi K3, Moonshot AI a lancé le plus grand modèle ouvert de l'histoire : 2,8 billions de paramètres, un million de tokens de contexte, et une troisième place sur l'Artificial Analysis Intelligence Index, devant Claude Opus 4.8. Foreign Policy y voit un signal : la Chine n'est plus en rattrapage, elle est dans la course.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Kimi K3"
+  },
+  {
+    "id": "1271",
+    "title": "Hermes Agent v0.20.6 : 525 pull requests livrées dans un silence radio assumé, et c'est une stratégie",
+    "excerpt": "Deux semaines sans annonce, six release tags, puis un tag stable qui condense environ 525 pull requests. Nous Research a expédié Hermes Agent v0.20.6 le 27 août sans fanfare. Décryptage d'un mode de livraison qui en dit long sur la maturité du projet open source le plus utilisé de l'écosystème agents.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": true,
+    "tag": "Hermes Agent"
+  },
+  {
+    "id": "1272",
+    "title": "Les agents IA prennent le contrôle des machines : Anthropic dévoile le Model Hardware Standard",
+    "excerpt": "Jusqu'ici, un agent IA vivait dans un écran. Le 27 août, Anthropic a levé le voile sur le Model Hardware Standard (MHS), une spécification ouverte qui permet à Claude — et à n'importe quel agent — de découvrir et piloter microscopes, bras robotiques et équipements de laboratoire. Une promesse qui réduit des mois de mise en place à quelques heures… et soulève de nouvelles questions de sécurité.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1273",
+    "title": "Nvidia optimise ses puces pour DeepSeek et Qwen : le hardware américain est devenu l'otage de l'IA chinoise",
+    "excerpt": "Le 27 août, CNBC révélait que Nvidia optimise ses GPU pour les modèles chinois DeepSeek et Qwen, tout en avertissant que d'éventuelles restrictions américaines sur ces modèles pénaliseraient son propre chiffre d'affaires. Un paradoxe qui dit tout de l'interdépendance entre le hardware américain et l'open-weight chinois.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1274",
+    "title": "Hermes Agent, machine à tokens : 1,5 trillion sur OpenRouter et une v0.20.6 discrète mais massive",
+    "excerpt": "L'agent open source de Nous Research a traité 1,5 trillion de tokens sur OpenRouter début août, presque autant que toutes les autres applications suivies réunies. Pendant ce temps, la v0.20.6 regroupait silencieusement ~525 PR. Décryptage d'une domination qui se mesure désormais en volumes de production.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];

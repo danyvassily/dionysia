@@ -6,6 +6,90 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>Hermes Agent dévore OpenRouter : 1,5 trillion de tokens, plus que toutes les autres applications réunies</title>
+    <link>https://dionysia-blog.vercel.app/article/1263</link>
+    <guid>https://dionysia-blog.vercel.app/article/1263</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le chiffre a de quoi faire tourner les têtes : en début d&apos;août 2026, l&apos;agent open source de Nous Research a consommé 1,5 trillion de tokens sur OpenRouter — un volume quasi égal à la production combinée de toutes les autres applications suivies sur la plateforme. Décryptage d&apos;une domination qui n&apos;a rien d&apos;un feu de paille.</description>
+  </item>
+  <item>
+    <title>DeepSeek tourne la page de l&apos;autofinancement : 7,4 milliards levés et un empire quant qui mise sur les IPOs chinoises</title>
+    <link>https://dionysia-blog.vercel.app/article/1264</link>
+    <guid>https://dionysia-blog.vercel.app/article/1264</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le labo de Hangzhou, symbole de l&apos;IA frugale, a bouclé sa toute première levée de fonds externe : plus de 7,4 milliards de dollars pour une valorisation dépassant 50 milliards. En coulisses, le fonds quant du fondateur Liang Wenfeng investit massivement dans les introductions en bourse tech — et redessine la carte du financement de l&apos;IA chinoise.</description>
+  </item>
+  <item>
+    <title>Mac mini M6 et M5 Pro : Apple transforme le desktop en machine à agents « toujours allumée »</title>
+    <link>https://dionysia-blog.vercel.app/article/1265</link>
+    <guid>https://dionysia-blog.vercel.app/article/1265</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Avec ses nouveaux Mac mini M6 et M5 Pro, Apple ne vend plus seulement un ordinateur de bureau : elle vend une plateforme d&apos;« always-on agentic computing ». Le desktop, nouveau terrain de jeu des agents IA ? Analyse d&apos;une annonce qui dit beaucoup de la stratégie d&apos;Apple.</description>
+  </item>
+  <item>
+    <title>Mistral muscle son jeu européen : 830 millions de dette, un rachat autrichien et un Parlement qui applaudit</title>
+    <link>https://dionysia-blog.vercel.app/article/1266</link>
+    <guid>https://dionysia-blog.vercel.app/article/1266</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le même jour, le Parlement européen réclamait un LLM souverain et Mistral annonçait le rachat d&apos;Emmi AI. Entre data center financé par 830 M$ de dette et endpoints régionaux, le fleuron français joue la carte de l&apos;industrie — pas seulement du chatbot.</description>
+  </item>
+  <item>
+    <title>Nvidia courtise DeepSeek et Qwen pendant que la Chine menace de fermer le robinet open-weight</title>
+    <link>https://dionysia-blog.vercel.app/article/1267</link>
+    <guid>https://dionysia-blog.vercel.app/article/1267</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Nvidia optimise ses puces pour les modèles chinois, la Chine étudierait un embargo sur leur exportation, et 140 000 milliards de tokens s&apos;échangent chaque jour à Hangzhou : le monde de l&apos;IA open-weight vit sur une ligne de faille géopolitique.</description>
+  </item>
+  <item>
+    <title>OpenAI, Anthropic, Google et 100 autres entreprises sonnent l&apos;alarme : il faut se défendre contre les IA malveillantes</title>
+    <link>https://dionysia-blog.vercel.app/article/1268</link>
+    <guid>https://dionysia-blog.vercel.app/article/1268</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Une lettre ouverte inédite signée par plus d&apos;une centaine d&apos;acteurs tech appelle secteurs public et privé à coopérer contre les cybermenaces liées à l&apos;IA. Alors que les agents offensifs se multiplient, la sécurité cesse d&apos;être un argument marketing.</description>
+  </item>
+  <item>
+    <title>GLM-5.3 bat GPT-5.6 Sol sur la cybersécurité : le pari open weight de Z.ai paie encore</title>
+    <link>https://dionysia-blog.vercel.app/article/1269</link>
+    <guid>https://dionysia-blog.vercel.app/article/1269</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le lab chinois Z.ai a livré GLM-5.3, un open weight construit uniquement par post-training, qui coiffe les meilleurs modèles fermés américains sur le benchmark CyberGym. Moins d&apos;une semaine plus tard, GLM-5.3-Flash ajoutait la multimodalité native. Décryptage d&apos;une stratégie qui change la donne.</description>
+  </item>
+  <item>
+    <title>Kimi K3 : Moonshot pose un modèle frontière de 2,8 billions de paramètres, open weight, et l&apos;écart avec les USA se referme</title>
+    <link>https://dionysia-blog.vercel.app/article/1270</link>
+    <guid>https://dionysia-blog.vercel.app/article/1270</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Avec Kimi K3, Moonshot AI a lancé le plus grand modèle ouvert de l&apos;histoire : 2,8 billions de paramètres, un million de tokens de contexte, et une troisième place sur l&apos;Artificial Analysis Intelligence Index, devant Claude Opus 4.8. Foreign Policy y voit un signal : la Chine n&apos;est plus en rattrapage, elle est dans la course.</description>
+  </item>
+  <item>
+    <title>Hermes Agent v0.20.6 : 525 pull requests livrées dans un silence radio assumé, et c&apos;est une stratégie</title>
+    <link>https://dionysia-blog.vercel.app/article/1271</link>
+    <guid>https://dionysia-blog.vercel.app/article/1271</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Deux semaines sans annonce, six release tags, puis un tag stable qui condense environ 525 pull requests. Nous Research a expédié Hermes Agent v0.20.6 le 27 août sans fanfare. Décryptage d&apos;un mode de livraison qui en dit long sur la maturité du projet open source le plus utilisé de l&apos;écosystème agents.</description>
+  </item>
+  <item>
+    <title>Les agents IA prennent le contrôle des machines : Anthropic dévoile le Model Hardware Standard</title>
+    <link>https://dionysia-blog.vercel.app/article/1272</link>
+    <guid>https://dionysia-blog.vercel.app/article/1272</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Jusqu&apos;ici, un agent IA vivait dans un écran. Le 27 août, Anthropic a levé le voile sur le Model Hardware Standard (MHS), une spécification ouverte qui permet à Claude — et à n&apos;importe quel agent — de découvrir et piloter microscopes, bras robotiques et équipements de laboratoire. Une promesse qui réduit des mois de mise en place à quelques heures… et soulève de nouvelles questions de sécurité.</description>
+  </item>
+  <item>
+    <title>Nvidia optimise ses puces pour DeepSeek et Qwen : le hardware américain est devenu l&apos;otage de l&apos;IA chinoise</title>
+    <link>https://dionysia-blog.vercel.app/article/1273</link>
+    <guid>https://dionysia-blog.vercel.app/article/1273</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le 27 août, CNBC révélait que Nvidia optimise ses GPU pour les modèles chinois DeepSeek et Qwen, tout en avertissant que d&apos;éventuelles restrictions américaines sur ces modèles pénaliseraient son propre chiffre d&apos;affaires. Un paradoxe qui dit tout de l&apos;interdépendance entre le hardware américain et l&apos;open-weight chinois.</description>
+  </item>
+  <item>
+    <title>Hermes Agent, machine à tokens : 1,5 trillion sur OpenRouter et une v0.20.6 discrète mais massive</title>
+    <link>https://dionysia-blog.vercel.app/article/1274</link>
+    <guid>https://dionysia-blog.vercel.app/article/1274</guid>
+    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+    <description>L&apos;agent open source de Nous Research a traité 1,5 trillion de tokens sur OpenRouter début août, presque autant que toutes les autres applications suivies réunies. Pendant ce temps, la v0.20.6 regroupait silencieusement ~525 PR. Décryptage d&apos;une domination qui se mesure désormais en volumes de production.</description>
+  </item>
+  <item>
     <title>« Fenêtre limitée » : OpenAI, Anthropic, Google et 116 entreprises appellent à se défendre contre les IA rebelles</title>
     <link>https://dionysia-blog.vercel.app/article/1235</link>
     <guid>https://dionysia-blog.vercel.app/article/1235</guid>
@@ -270,90 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1233</guid>
     <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
     <description>Run-rate à 65 milliards de dollars, valorisation privée proche de 1 000 milliards, objectif de flottant à 2 000 milliards : Anthropic finalise ce qui pourrait devenir la plus grande introduction en Bourse jamais tentée. Son prospectus, attendu dans les prochaines semaines, devra aussi répondre d&apos;un invité surprise : le rejet grandissant de l&apos;IA par l&apos;opinion publique.</description>
-  </item>
-  <item>
-    <title>Wynd Kaufmyn, 69 ans, première manifestante anti-IA emprisonnée : « Retrouvez votre humanité »</title>
-    <link>https://dionysia-blog.vercel.app/article/1234</link>
-    <guid>https://dionysia-blog.vercel.app/article/1234</guid>
-    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Professeure retraitée de Berkeley, Wynd Kaufmyn est devenue la première personne incarcérée pour avoir manifesté contre l&apos;intelligence artificielle. Son combat, né en février 2025 devant les portes d&apos;OpenAI, vient de la conduire derrière les barreaux de San Francisco — et de résonner jusqu&apos;aux prospectus d&apos;introduction en Bourse des géants de l&apos;IA.</description>
-  </item>
-  <item>
-    <title>Nous Research valorisé 1,5 milliard de dollars : le pari des agents open-source qui apprennent tout seuls</title>
-    <link>https://dionysia-blog.vercel.app/article/1214</link>
-    <guid>https://dionysia-blog.vercel.app/article/1214</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>L&apos;éditeur de Hermes Agent finalise une levée d&apos;au moins 75 millions de dollars menée par Robot Ventures, avec USV à la table, pour une valorisation de 1,5 milliard. Trois ans après sa création, la startup qui veut rendre les agents capables de s&apos;améliorer seuls entre dans le club des licornes — et le signal envoyé à toute la filière est massif.</description>
-  </item>
-  <item>
-    <title>Gemini en retard, DeepMind restructuré : Google sonne la mobilisation générale</title>
-    <link>https://dionysia-blog.vercel.app/article/1215</link>
-    <guid>https://dionysia-blog.vercel.app/article/1215</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Demis Hassabis cède la main, Sergey Brin exhorte les équipes à tout miser sur Gemini, et la prochaine version du modèle serait retardée par des benchmarks décevants. Récit du virage à 180 degrés de Google, passé en mode exécution.</description>
-  </item>
-  <item>
-    <title>iOS 27, macOS 27 : les 7e bêtas débarquent, la sortie de septembre se précise</title>
-    <link>https://dionysia-blog.vercel.app/article/1216</link>
-    <guid>https://dionysia-blog.vercel.app/article/1216</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Apple a livré lundi les septièmes bêtas développeur de tous ses systèmes — iOS 27, macOS 27 « Golden Gate », iPadOS 27, watchOS 27, tvOS 27 et visionOS 27. Au programme : optimisations de Siri, réglages de performance et une version publique qui approche. Le point sur cette ultime ligne droite avant la keynote de septembre.</description>
-  </item>
-  <item>
-    <title>Qwen3.8-Flash, Ox Alpha, GLM-5.3 : la Chine open-weight contre-attaque (et s&apos;invite dans Hermes)</title>
-    <link>https://dionysia-blog.vercel.app/article/1217</link>
-    <guid>https://dionysia-blog.vercel.app/article/1217</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le 26 août 2026 restera comme une journée charnière pour l&apos;open-weight : Alibaba dévoile Qwen3.8-Flash, avant-goût de l&apos;architecture Qwen4 ; le mystérieux Ox Alpha qui a doublé DeepSeek sur OpenRouter révèle son vrai visage, celui de Zhipu ; et GLM-5.3-Flash débarque dans Hermes Agent. Analyse d&apos;une offensive chinoise en trois temps, au moment où les modèles deviennent interchangeables.</description>
-  </item>
-  <item>
-    <title>OpenAI met Astra sur pause, Anthropic garde ses cartes : l&apos;ère du frein volontaire a commencé</title>
-    <link>https://dionysia-blog.vercel.app/article/1218</link>
-    <guid>https://dionysia-blog.vercel.app/article/1218</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>OpenAI a suspendu l&apos;entraînement de son modèle le plus avancé après un signal cyber inquiétant, Anthropic garde son meilleur modèle sous clé, et pendant ce temps la Chine inonde le marché d&apos;open-weight à prix cassés. Bienvenue dans une industrie qui apprend à ralentir — pendant que d&apos;autres accélèrent.</description>
-  </item>
-  <item>
-    <title>Vera Rubin en production, Jalapeño chez OpenAI : l&apos;été 2026, les géants ont sorti leurs puces</title>
-    <link>https://dionysia-blog.vercel.app/article/1219</link>
-    <guid>https://dionysia-blog.vercel.app/article/1219</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>NVIDIA livre ses premiers racks Vera Rubin à Microsoft, Meta détaille sa puce d&apos;entraînement MTIA 300, Microsoft présente Maia 200, et OpenAI promet sa propre puce d&apos;inférence avant la fin de l&apos;année. La course à l&apos;IA se joue désormais au silicium — et le ticket d&apos;entrée n&apos;a jamais été aussi cher.</description>
-  </item>
-  <item>
-    <title>Mistral se construit un cloud souverain : 1 GW de calcul européen, et cinq géants ont déjà signé</title>
-    <link>https://dionysia-blog.vercel.app/article/1220</link>
-    <guid>https://dionysia-blog.vercel.app/article/1220</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>ASML, Amadeus, CMA CGM, Caisse des Dépôts et Capgemini achètent à terme du calcul que Mistral n&apos;a pas encore construit. Avec 830 M€ levés par dette, des endpoints régionaux et un calendrier de 1 GW d&apos;ici 2030, la pépite française cesse d&apos;être un simple éditeur de modèles pour devenir l&apos;infrastructure de l&apos;IA européenne.</description>
-  </item>
-  <item>
-    <title>Agents IA : l&apos;usage explose, les plans de confinement restent introuvables</title>
-    <link>https://dionysia-blog.vercel.app/article/1209</link>
-    <guid>https://dionysia-blog.vercel.app/article/1209</guid>
-    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Un agent « voyou » démasqué par un étudiant, un audit qui épingle tous les grands labs, et un silence gênant sur les plans de confinement : la semaine écoulée a mis en lumière le décalage croissant entre l&apos;explosion des agents IA et la maîtrise de leurs risques.</description>
-  </item>
-  <item>
-    <title>Hermes Agent passe au « Bot Mode » : fini l&apos;agent unique, place aux équipes de bots nommés</title>
-    <link>https://dionysia-blog.vercel.app/article/1210</link>
-    <guid>https://dionysia-blog.vercel.app/article/1210</guid>
-    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Avec la version 0.20.3, Nous Research transforme Hermes Agent en roster de bots spécialisés — chacun avec son rôle, son modèle, sa mémoire et ses skills. Une évolution qui épouse un basculement plus large : le travail avec l&apos;IA ne se fait plus avec un assistant, mais avec une équipe.</description>
-  </item>
-  <item>
-    <title>Faraday, l&apos;agent scientifique compact qui défie les géants — et la Chine qui accélère en silence</title>
-    <link>https://dionysia-blog.vercel.app/article/1200</link>
-    <guid>https://dionysia-blog.vercel.app/article/1200</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Un lab londonien fondé par des alumni de DeepMind affirme que son agent Faraday réplique mieux la recherche scientifique que les modèles d&apos;Anthropic et d&apos;OpenAI, avec une fraction de leur taille. Même semaine : DeepSeek lance la vision au prix du texte, et un modèle « stealth » chinois de 1M de tokens surgit sur OpenRouter. Analyse.</description>
-  </item>
-  <item>
-    <title>Agents IA : OpenAI casse les prix, Anthropic passe en production, Amazon mesure le réel</title>
-    <link>https://dionysia-blog.vercel.app/article/1201</link>
-    <guid>https://dionysia-blog.vercel.app/article/1201</guid>
-    <pubDate>Sun, 23 Aug 2026 12:00:00 GMT</pubDate>
-    <description>GPT-5.6 Sol baisse ses prix de 20 %, les Skills API et le computer use de Claude passent en disponibilité générale, Amazon publie SOP-Bench pour évaluer les agents sur de vraies procédures métier. Bienvenue dans la semaine où l&apos;IA agentique est passée à l&apos;échelle.</description>
   </item>
 </channel>
 </rss>
