@@ -3158,5 +3158,115 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1275",
+    "title": "Google DeepMind perd l'Europe : sa part des talents IA d'élite s'effondre de 49 % à 18,6 %",
+    "excerpt": "Selon une analyse de Zeki Data relayée par Fortune le 27 août, DeepMind n'attire plus que 18,6 % des embauches de recherche en IA en EMEA, contre 49 % il y a trois ans. Microsoft AI Superintelligence, Meta, OpenAI et Anthropic siphonnent ses effectifs : le bastion européen de l'IA craque.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1276",
+    "title": "Mac mini M6 : la petite boîte d'Apple passe au 2 nm et met l'IA locale au centre du jeu",
+    "excerpt": "Annoncé par surprise le 25 août, le Mac mini M6 inaugure la gravure 2 nm d'Apple et promet une IA locale nettement plus musclée. CPU 40 % plus rapide, graphismes doublés, et des précommandes déjà ouvertes : la plus discrète des machines d'Apple n'a jamais été aussi importante.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Mac mini M6"
+  },
+  {
+    "id": "1277",
+    "title": "Google DeepMind saigne : Noam Shazeer part chez OpenAI, John Jumper chez Anthropic, et l'Europe regarde",
+    "excerpt": "Selon des données exclusives partagées avec Fortune, Google DeepMind est passé du statut d'aimant à celui de vivier. En une semaine, le labo perd un prix Nobel (John Jumper, parti chez Anthropic) et un co-leader de Gemini (Noam Shazeer, parti chez OpenAI). Analyse d'un exode qui redessine la carte de l'IA.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "DeepMind"
+  },
+  {
+    "id": "1278",
+    "title": "TIME100 AI 2026 : Altman, Musk et la nouvelle garde chinoise dans le palmarès qui compte",
+    "excerpt": "TIME a dévoilé le 26 août sa quatrième édition du TIME100 AI, les 100 personnalités les plus influentes de l'intelligence artificielle. Au-delà du jeu des chaises musicales entre labos américains, la liste 2026 confirme une bascule historique : la Chine y pèse de tout son poids, et l'IA n'est plus une affaire de chercheurs, mais d'États et de milliards.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1279",
+    "title": "Hermes Agent se met à la vidéo : le skill Manim qui reproduit la magie de 3Blue1Brown",
+    "excerpt": "Nous Research vient d'ajouter un skill Manim à Hermes Agent : un simple prompt texte suffit désormais pour générer une vidéo d'animation mathématique ou technique complète. Le moteur ? Manim Community Edition, l'outil qui a fait la gloire de la chaîne 3Blue1Brown. L'agent open source ajoute une corde de plus à un arc déjà bien chargé.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1280",
+    "title": "Qwen3.8-Max : Alibaba pose 2,4 billions de paramètres open-weight et met le feu à l'économie de l'IA",
+    "excerpt": "Préviewé mi-août, le modèle MoE d'Alibaba atteint 2,4 billions de paramètres avec 95 milliards d'actifs par requête, et ses poids doivent être ouverts. Dans la même semaine, DeepSeek augmentait ses prix API jusqu'à 1 100 % : l'open-weight chinois est en train de réécrire les règles du marché.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "2 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1281",
+    "title": "Cyberattaques pilotées par IA : le jour où 100 entreprises ont sonné l'alarme",
+    "excerpt": "OpenAI, Anthropic, AWS et Microsoft ont signé un avertissement commun : les organisations n'ont plus que quelques mois avant que les cyberattaques activées par l'IA ne deviennent la norme. Entre agents capables d'enchaîner des zero-days et attaques autonomes, la menace n'est plus théorique.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1282",
+    "title": "Fini les migrations à la main : l'agent d'Android Studio convertit React Native en Kotlin, Netlify lance ses Agent Runners",
+    "excerpt": "Google a présenté à l'I/O 2026 un agent de migration intégré à Android Studio qui convertit du React Native, du web ou de l'iOS vers du Kotlin natif. Dans le même temps, Netlify a généralisé ses Agent Runners : construire des outils internes depuis le dashboard, sans serveur à gérer. Bienvenue dans l'ère des agents développeur.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "29 août 2026",
+    "readTime": "2 min",
+    "featured": false,
+    "tag": "dev"
+  },
+  {
+    "id": "1283",
+    "title": "TIME100 AI 2026 : les 100 qui gouvernent l'IA — et l'absence de Jensen Huang qui fait parler",
+    "excerpt": "TIME a dévoilé sa quatrième liste des 100 personnalités les plus influentes de l'IA. OpenAI et Anthropic trustent la catégorie Leaders, les labs chinois montent en puissance… et le patron de Nvidia, Jensen Huang, brille par son absence.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1284",
+    "title": "IA et cybersécurité : OpenAI, Anthropic, AWS et Microsoft préviennent que le pire arrive",
+    "excerpt": "Plus de 100 entreprises technologiques, dont OpenAI, Anthropic, AWS et Microsoft, avertissent que les organisations n'ont plus que quelques mois pour se préparer aux cyberattaques pilotées par IA. Hôpitaux et infrastructures critiques sont dans le viseur — et les preuves de capacité s'accumulent.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "29 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
