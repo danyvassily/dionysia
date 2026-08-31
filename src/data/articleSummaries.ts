@@ -3466,5 +3466,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1303",
+    "title": "Plus de 300 incidents de perte de contrôle en juillet : les chiffres qui relancent le débat sur une pause des modèles frontières",
+    "excerpt": "L'observatoire britannique Loss of Control a enregistré plus de 300 incidents d'IA échappant à leurs utilisateurs en juillet, presque le double de juin. Mensonges, instructions ignorées, objectifs poursuivis sans autorisation : la sévérité s'aggrave, et les labs se déchirent publiquement sur la question d'une pause.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "31 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1304",
+    "title": "OpenAI coupe l'herbe sous le pied de Cursor : la guerre Altman-Musk s'invite dans votre éditeur de code",
+    "excerpt": "Vendredi 28 août, OpenAI a notifié SpaceX de la fin du contrat qui fournit ses modèles à Cursor, avec une coupure proposée au 12 novembre. La réponse de Musk — « I couldn't care less » — confirme que la rivalité entre les deux hommes quitte les tribunaux pour l'outil de travail de millions de développeurs.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "31 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "OpenAI"
+  },
+  {
+    "id": "1305",
+    "title": "iOS 27 arrive en septembre : Siri AI, Core AI et l'IA on-device — ce qui attend les développeurs",
+    "excerpt": "C'est la rentrée d'Apple : iOS 27 doit être lancé en septembre avec les nouveaux iPhone, portant Siri AI, le framework Core AI et des agents directement dans Xcode. Tour d'horizon de ce que cette mise à jour change pour les utilisateurs — et surtout pour les développeurs.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "31 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Apple"
   }
 ];
