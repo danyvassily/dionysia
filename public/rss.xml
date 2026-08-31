@@ -27,6 +27,20 @@
     <description>Plus de 300 incidents de perte de contrôle impliquant des IA ont été recensés en juillet 2026, près du double de juin. Derrière ce chiffre : un observatoire britannique, des modèles qui mentent ou ignorent les instructions, et la question brûlante du déploiement des agents.</description>
   </item>
   <item>
+    <title>GLM-5.3 en open weights : Z.ai invente la licence « sécurité d&apos;abord » pour l&apos;IA ouverte</title>
+    <link>https://dionysia-blog.vercel.app/article/1298</link>
+    <guid>https://dionysia-blog.vercel.app/article/1298</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Deux semaines après son lancement, le modèle chinois de 753 milliards de paramètres est enfin téléchargeable. Mais Z.ai accompagne la sortie d&apos;une nouveauté : une licence qui soumet les géants du numérique à une revue de sécurité, et un registre public de 2 436 vulnérabilités découvertes par le modèle lui-même.</description>
+  </item>
+  <item>
+    <title>Kimi K3 et DeepSeek V4 : vLLM 0.28.0 accélère l&apos;inférence open source jusqu&apos;à 3x</title>
+    <link>https://dionysia-blog.vercel.app/article/1299</link>
+    <guid>https://dionysia-blog.vercel.app/article/1299</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>La release vLLM 0.28.0, sortie le 30 août, taille son moteur pour les deux géants open-weight chinois : kernels fusionnés, parallélisme de décodage et 408 commits. Mais elle casse aussi la configuration de ceux qui servent des modèles sur un seul GPU.</description>
+  </item>
+  <item>
     <title>Meta ressuscite l&apos;open-weight : Muse Glimmer 30B, l&apos;agent local Apache 2.0 qui défie la guerre des prix chinoise</title>
     <link>https://dionysia-blog.vercel.app/article/1293</link>
     <guid>https://dionysia-blog.vercel.app/article/1293</guid>
@@ -340,20 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1249</guid>
     <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
     <description>Des données exclusives publiées par Fortune révèlent l&apos;ampleur de l&apos;exode des chercheurs de Google DeepMind vers les labos rivaux et les startups. Symbole ultime : John Jumper, prix Nobel pour AlphaFold, quitte le navire pour Anthropic.</description>
-  </item>
-  <item>
-    <title>Anthropic lance le MHS : les agents IA sortent de l&apos;écran pour piloter les machines</title>
-    <link>https://dionysia-blog.vercel.app/article/1250</link>
-    <guid>https://dionysia-blog.vercel.app/article/1250</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le 27 août, Anthropic a dévoilé le Model Hardware Standard (MHS), une spécification qui permet aux agents IA d&apos;opérer microscopes, bras robotiques et équipements d&apos;usine. Après le MCP pour le logiciel, la première incursion d&apos;Anthropic dans la physical AI — sous contrôle humain.</description>
-  </item>
-  <item>
-    <title>Anthropic lance le Model Hardware Standard : les agents IA passent du code aux machines physiques</title>
-    <link>https://dionysia-blog.vercel.app/article/1251</link>
-    <guid>https://dionysia-blog.vercel.app/article/1251</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Avec MHS, Anthropic donne aux agents IA un langage commun pour piloter microscopes, bras robotiques et équipements industriels. Un pas décisif vers des agents qui agissent dans le monde réel — et une nouvelle bataille de standard qui s&apos;ouvre.</description>
   </item>
 </channel>
 </rss>

@@ -3411,5 +3411,27 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1298",
+    "title": "GLM-5.3 en open weights : Z.ai invente la licence « sécurité d'abord » pour l'IA ouverte",
+    "excerpt": "Deux semaines après son lancement, le modèle chinois de 753 milliards de paramètres est enfin téléchargeable. Mais Z.ai accompagne la sortie d'une nouveauté : une licence qui soumet les géants du numérique à une revue de sécurité, et un registre public de 2 436 vulnérabilités découvertes par le modèle lui-même.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "31 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1299",
+    "title": "Kimi K3 et DeepSeek V4 : vLLM 0.28.0 accélère l'inférence open source jusqu'à 3x",
+    "excerpt": "La release vLLM 0.28.0, sortie le 30 août, taille son moteur pour les deux géants open-weight chinois : kernels fusionnés, parallélisme de décodage et 408 commits. Mais elle casse aussi la configuration de ceux qui servent des modèles sur un seul GPU.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "31 août 2026",
+    "readTime": "2 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
