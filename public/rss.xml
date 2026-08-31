@@ -41,6 +41,27 @@
     <description>La release vLLM 0.28.0, sortie le 30 août, taille son moteur pour les deux géants open-weight chinois : kernels fusionnés, parallélisme de décodage et 408 commits. Mais elle casse aussi la configuration de ceux qui servent des modèles sur un seul GPU.</description>
   </item>
   <item>
+    <title>Un train de matières dangereuses, une IA fautive et un humain qui dit non : la semaine où l&apos;audit des agents est devenu vital</title>
+    <link>https://dionysia-blog.vercel.app/article/1300</link>
+    <guid>https://dionysia-blog.vercel.app/article/1300</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le 16 juin, un planificateur IA de BNSF a failli envoyer un train de 146 wagons de matières dangereuses vers un travailleur. L&apos;information n&apos;a éclaté que fin août — la même semaine où la Linux Foundation a lancé TRACE, un standard pour prouver cryptographiquement ce que font les agents IA.</description>
+  </item>
+  <item>
+    <title>GPT-6 Astra en fuite : le modèle d&apos;OpenAI qui code un jeu complet en un seul prompt</title>
+    <link>https://dionysia-blog.vercel.app/article/1301</link>
+    <guid>https://dionysia-blog.vercel.app/article/1301</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Le checkpoint « mozaik-alpha-fdm » d&apos;OpenAI a livré ses premiers outputs publics : un jeu façon GTA 2, des sites web détaillés et des mondes voxel générés zéro-shot. OpenAI élargit les tests internes, des partenaires reçoivent déjà le modèle sous le nom Ultima Alpha — et la sécurité freine encore.</description>
+  </item>
+  <item>
+    <title>Guerre des talents IA : Google DeepMind saigne, OpenAI et Anthropic raflent les cerveaux</title>
+    <link>https://dionysia-blog.vercel.app/article/1302</link>
+    <guid>https://dionysia-blog.vercel.app/article/1302</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Deux prix Nobel ou presque partis en 48 heures, des données exclusives sur la fuite des chercheurs d&apos;élite, et une startup de 45 personnes qui bat OpenAI sur un recrutement : la bataille des cerveaux de l&apos;IA s&apos;intensifie, et elle change ce que les développeurs valent vraiment.</description>
+  </item>
+  <item>
     <title>Meta ressuscite l&apos;open-weight : Muse Glimmer 30B, l&apos;agent local Apache 2.0 qui défie la guerre des prix chinoise</title>
     <link>https://dionysia-blog.vercel.app/article/1293</link>
     <guid>https://dionysia-blog.vercel.app/article/1293</guid>
@@ -333,27 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1246</guid>
     <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
     <description>Perplexity a dévoilé le 25 août une version on-device de son agent Computer, propulsée par son modèle maison PPLX 27B et la DGX Spark de Nvidia. Orchestrateur, sous-agents, recherche : tout tourne en local, sans un seul token envoyé au cloud.</description>
-  </item>
-  <item>
-    <title>Nvidia peaufine ses GPU pour DeepSeek et Qwen — et redoute que Washington casse la machine</title>
-    <link>https://dionysia-blog.vercel.app/article/1247</link>
-    <guid>https://dionysia-blog.vercel.app/article/1247</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le géant des puces optimise officiellement ses cartes pour les modèles chinois les plus populaires du moment, tout en alertant sur le risque de restrictions américaines. Un aveu d&apos;interdépendance qui dit tout de la nouvelle géographie de l&apos;IA.</description>
-  </item>
-  <item>
-    <title>Souveraineté numérique : Mistral verrouille l&apos;Europe, des endpoints régionaux au data center de 830 M$</title>
-    <link>https://dionysia-blog.vercel.app/article/1248</link>
-    <guid>https://dionysia-blog.vercel.app/article/1248</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le champion français de l&apos;IA muscle sa stratégie de souveraineté : traitement des données strictement européen, data center géant financé par un emprunt record, et rachat d&apos;une pépite autrichienne de physique numérique. Pendant que Bruxelles cherche son LLM souverain.</description>
-  </item>
-  <item>
-    <title>Fuite des cerveaux chez Google DeepMind : le Nobel John Jumper file chez Anthropic</title>
-    <link>https://dionysia-blog.vercel.app/article/1249</link>
-    <guid>https://dionysia-blog.vercel.app/article/1249</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Des données exclusives publiées par Fortune révèlent l&apos;ampleur de l&apos;exode des chercheurs de Google DeepMind vers les labos rivaux et les startups. Symbole ultime : John Jumper, prix Nobel pour AlphaFold, quitte le navire pour Anthropic.</description>
   </item>
 </channel>
 </rss>

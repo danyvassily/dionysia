@@ -3433,5 +3433,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "2 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1300",
+    "title": "Un train de matières dangereuses, une IA fautive et un humain qui dit non : la semaine où l'audit des agents est devenu vital",
+    "excerpt": "Le 16 juin, un planificateur IA de BNSF a failli envoyer un train de 146 wagons de matières dangereuses vers un travailleur. L'information n'a éclaté que fin août — la même semaine où la Linux Foundation a lancé TRACE, un standard pour prouver cryptographiquement ce que font les agents IA.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "31 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1301",
+    "title": "GPT-6 Astra en fuite : le modèle d'OpenAI qui code un jeu complet en un seul prompt",
+    "excerpt": "Le checkpoint « mozaik-alpha-fdm » d'OpenAI a livré ses premiers outputs publics : un jeu façon GTA 2, des sites web détaillés et des mondes voxel générés zéro-shot. OpenAI élargit les tests internes, des partenaires reçoivent déjà le modèle sous le nom Ultima Alpha — et la sécurité freine encore.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "31 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "OpenAI"
+  },
+  {
+    "id": "1302",
+    "title": "Guerre des talents IA : Google DeepMind saigne, OpenAI et Anthropic raflent les cerveaux",
+    "excerpt": "Deux prix Nobel ou presque partis en 48 heures, des données exclusives sur la fuite des chercheurs d'élite, et une startup de 45 personnes qui bat OpenAI sur un recrutement : la bataille des cerveaux de l'IA s'intensifie, et elle change ce que les développeurs valent vraiment.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "31 août 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
