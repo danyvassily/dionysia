@@ -3499,5 +3499,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "Apple"
+  },
+  {
+    "id": "1306",
+    "title": "OpenAI sort Jalapeño, sa puce d'inférence maison, et s'attaque frontalement à Nvidia",
+    "excerpt": "Le 25 août, OpenAI a publié les premiers benchmarks de Jalapeño, sa puce d'inférence développée avec Broadcom : jusqu'à 3,6 fois moins de latence que les systèmes Nvidia GB300. Une verticalisation qui dit beaucoup de la course au coût du calcul — et de l'arrivée des agents.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1307",
+    "title": "Rentrée de l'inférence : Gemini 3.7 Flash fonce, DeepSeek augmente ses prix, Qwen libère ses poids",
+    "excerpt": "Gemini 3.7 Flash tourne à 340 tokens par seconde, presque trois fois plus vite que GPT-5.6 Terra, pendant que DeepSeek augmente ses prix API jusqu'à 1100 %. Pendant ce temps, Alibaba confirme la mise en open source de Qwen3.8-Max (2,4 T de paramètres). Décryptage de ce qui change vraiment pour les développeurs.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1308",
+    "title": "L'IA qui améliore l'IA : Anthropic dévoile son « chercheur d'alignement » automatique",
+    "excerpt": "Chez Anthropic, un système conçu par des modèles bat des chercheurs humains en sécurité, en moins de six heures en moyenne. L'aperçu du papier sur l'Automated Alignment Researcher, publié fin août, donne un avant-goût concret de l'IA auto-améliorante — et de ses limites.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];

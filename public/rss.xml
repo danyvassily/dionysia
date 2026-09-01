@@ -6,6 +6,27 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>OpenAI sort Jalapeño, sa puce d&apos;inférence maison, et s&apos;attaque frontalement à Nvidia</title>
+    <link>https://dionysia-blog.vercel.app/article/1306</link>
+    <guid>https://dionysia-blog.vercel.app/article/1306</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 25 août, OpenAI a publié les premiers benchmarks de Jalapeño, sa puce d&apos;inférence développée avec Broadcom : jusqu&apos;à 3,6 fois moins de latence que les systèmes Nvidia GB300. Une verticalisation qui dit beaucoup de la course au coût du calcul — et de l&apos;arrivée des agents.</description>
+  </item>
+  <item>
+    <title>Rentrée de l&apos;inférence : Gemini 3.7 Flash fonce, DeepSeek augmente ses prix, Qwen libère ses poids</title>
+    <link>https://dionysia-blog.vercel.app/article/1307</link>
+    <guid>https://dionysia-blog.vercel.app/article/1307</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Gemini 3.7 Flash tourne à 340 tokens par seconde, presque trois fois plus vite que GPT-5.6 Terra, pendant que DeepSeek augmente ses prix API jusqu&apos;à 1100 %. Pendant ce temps, Alibaba confirme la mise en open source de Qwen3.8-Max (2,4 T de paramètres). Décryptage de ce qui change vraiment pour les développeurs.</description>
+  </item>
+  <item>
+    <title>L&apos;IA qui améliore l&apos;IA : Anthropic dévoile son « chercheur d&apos;alignement » automatique</title>
+    <link>https://dionysia-blog.vercel.app/article/1308</link>
+    <guid>https://dionysia-blog.vercel.app/article/1308</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Chez Anthropic, un système conçu par des modèles bat des chercheurs humains en sécurité, en moins de six heures en moyenne. L&apos;aperçu du papier sur l&apos;Automated Alignment Researcher, publié fin août, donne un avant-goût concret de l&apos;IA auto-améliorante — et de ses limites.</description>
+  </item>
+  <item>
     <title>IA hors de contrôle : 1 600 incidents recensés en 2026, et la tendance s&apos;aggrave</title>
     <link>https://dionysia-blog.vercel.app/article/1295</link>
     <guid>https://dionysia-blog.vercel.app/article/1295</guid>
@@ -333,27 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1240</guid>
     <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
     <description>OpenAI, Anthropic, Google, Microsoft, Amazon et plus de 110 autres entreprises ont signé le 27 août une lettre ouverte pour organiser la défense contre les cybermenaces portées par l&apos;IA. Un appel lancé au moment où l&apos;Europe fait entrer l&apos;AI Act dans sa phase contraignante.</description>
-  </item>
-  <item>
-    <title>65 milliards de dollars, puis le monde physique : Anthropic change de dimension</title>
-    <link>https://dionysia-blog.vercel.app/article/1241</link>
-    <guid>https://dionysia-blog.vercel.app/article/1241</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le 17 août, Anthropic révélait un revenu annualisé de 65 milliards de dollars — sept fois plus qu&apos;il y a un an, et au-dessus du run-rate d&apos;OpenAI. Dix jours plus tard, le lab annonce un standard ouvert pour faire piloter des machines industrielles par ses agents. Claude ne veut plus seulement écrire : il veut agir.</description>
-  </item>
-  <item>
-    <title>Sergey Brin reprend la main chez Google : tout miser sur Gemini pour dépasser Claude</title>
-    <link>https://dionysia-blog.vercel.app/article/1242</link>
-    <guid>https://dionysia-blog.vercel.app/article/1242</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le cofondateur de Google sort de sa réserve et pilote directement la stratégie IA de DeepMind. Objectif : combler l&apos;écart avec OpenAI et Anthropic, alors que Gemini a glissé dans les classements. Avec Gemini 3.7 Flash, Google croit tenir la preuve que la vitesse peut refaire la différence.</description>
-  </item>
-  <item>
-    <title>Qwen3.8-Flash-Next fait tomber Claude sur le code : la Chine des open weights accélère encore</title>
-    <link>https://dionysia-blog.vercel.app/article/1243</link>
-    <guid>https://dionysia-blog.vercel.app/article/1243</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Alibaba publie un modèle open-weight de 125 milliards de paramètres qui bat Claude Opus 4.6 Max sur la plupart des benchmarks de code et d&apos;agents. Pendant ce temps, DeepSeek passe sa V4 Flash en bêta publique et les modèles chinois pèsent déjà 30 % de l&apos;usage mondial. Tour d&apos;horizon d&apos;un écosystème qui ne ralentit pas.</description>
   </item>
 </channel>
 </rss>
