@@ -3532,5 +3532,27 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1309",
+    "title": "Apple confirme son événement du 9 septembre : l'iPhone pliable entre enfin en scène",
+    "excerpt": "Apple a officiellement confirmé la tenue de son événement de rentrée le 9 septembre. Au programme attendu : iPhone 18 Pro, iPhone 18 Pro Max, nouvelles Apple Watch — et surtout le premier iPhone pliable de son histoire, peut-être baptisé « iPhone Ultra ».",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Apple"
+  },
+  {
+    "id": "1310",
+    "title": "Hermes Agent v0.21.0 « Pantheon » : l'agent open source de Nous Research passe au mode bot-à-bot",
+    "excerpt": "Le 31 août, Nous Research a livré la plus grosse mise à jour d'Hermes Agent depuis sa création : Bot Mode, conversations durables entre agents, cron jobs avec mémoire et contrôle du navigateur. Décryptage de ce que la v0.21.0 change concrètement pour les développeurs.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Hermes Agent"
   }
 ];

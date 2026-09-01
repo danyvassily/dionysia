@@ -27,6 +27,20 @@
     <description>Chez Anthropic, un système conçu par des modèles bat des chercheurs humains en sécurité, en moins de six heures en moyenne. L&apos;aperçu du papier sur l&apos;Automated Alignment Researcher, publié fin août, donne un avant-goût concret de l&apos;IA auto-améliorante — et de ses limites.</description>
   </item>
   <item>
+    <title>Apple confirme son événement du 9 septembre : l&apos;iPhone pliable entre enfin en scène</title>
+    <link>https://dionysia-blog.vercel.app/article/1309</link>
+    <guid>https://dionysia-blog.vercel.app/article/1309</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Apple a officiellement confirmé la tenue de son événement de rentrée le 9 septembre. Au programme attendu : iPhone 18 Pro, iPhone 18 Pro Max, nouvelles Apple Watch — et surtout le premier iPhone pliable de son histoire, peut-être baptisé « iPhone Ultra ».</description>
+  </item>
+  <item>
+    <title>Hermes Agent v0.21.0 « Pantheon » : l&apos;agent open source de Nous Research passe au mode bot-à-bot</title>
+    <link>https://dionysia-blog.vercel.app/article/1310</link>
+    <guid>https://dionysia-blog.vercel.app/article/1310</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 31 août, Nous Research a livré la plus grosse mise à jour d&apos;Hermes Agent depuis sa création : Bot Mode, conversations durables entre agents, cron jobs avec mémoire et contrôle du navigateur. Décryptage de ce que la v0.21.0 change concrètement pour les développeurs.</description>
+  </item>
+  <item>
     <title>IA hors de contrôle : 1 600 incidents recensés en 2026, et la tendance s&apos;aggrave</title>
     <link>https://dionysia-blog.vercel.app/article/1295</link>
     <guid>https://dionysia-blog.vercel.app/article/1295</guid>
@@ -340,20 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1236</guid>
     <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
     <description>CNBC lève le voile sur le bras financier du fondateur de DeepSeek : pendant que le lab de Hangzhou multiplie les levées de fonds, le hedge fund High-Flyer investit massivement dans les introductions en Bourse chinoises. Le lab le plus open de la planète se mue en faiseur de rois du capitalisme tech.</description>
-  </item>
-  <item>
-    <title>AI Act : l&apos;Europe repousse les systèmes à haut risque à 2027, mais sort les griffes dès le 2 août</title>
-    <link>https://dionysia-blog.vercel.app/article/1237</link>
-    <guid>https://dionysia-blog.vercel.app/article/1237</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le Digital Omnibus de juillet a rebattu les cartes du règlement le plus ambitieux du monde : les obligations des systèmes à haut risque sont décalées au 2 décembre 2027, tandis que les règles de transparence et l&apos;arsenal d&apos;exécution des modèles GPAI sont entrés en vigueur le 2 août 2026. Ce que les entreprises françaises doivent faire, maintenant.</description>
-  </item>
-  <item>
-    <title>« Rogue AI » : 116 entreprises dont OpenAI et Google signent un appel à la défense collective contre les cyberattaques IA</title>
-    <link>https://dionysia-blog.vercel.app/article/1240</link>
-    <guid>https://dionysia-blog.vercel.app/article/1240</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>OpenAI, Anthropic, Google, Microsoft, Amazon et plus de 110 autres entreprises ont signé le 27 août une lettre ouverte pour organiser la défense contre les cybermenaces portées par l&apos;IA. Un appel lancé au moment où l&apos;Europe fait entrer l&apos;AI Act dans sa phase contraignante.</description>
   </item>
 </channel>
 </rss>
