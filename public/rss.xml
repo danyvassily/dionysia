@@ -41,6 +41,104 @@
     <description>Le 31 août, Nous Research a livré la plus grosse mise à jour d&apos;Hermes Agent depuis sa création : Bot Mode, conversations durables entre agents, cron jobs avec mémoire et contrôle du navigateur. Décryptage de ce que la v0.21.0 change concrètement pour les développeurs.</description>
   </item>
   <item>
+    <title>iOS 27 bêta 8 et Xcode 27 bêta 6 : la dernière ligne droite avant la sortie publique</title>
+    <link>https://dionysia-blog.vercel.app/article/1311</link>
+    <guid>https://dionysia-blog.vercel.app/article/1311</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Apple a livré lundi la huitième bêta d&apos;iOS 27 aux développeurs, rapidement étendue aux testeurs publics. Corrections finales, Siri AI, Spotlight et AirPlay : tout converge vers l&apos;événement du 9 septembre. Xcode 27 bêta 6 accompagne le mouvement pour les développeurs.</description>
+  </item>
+  <item>
+    <title>« Surprise and shine » : Apple donne rendez-vous le 9 septembre, avec un iPhone pliable en embuscade</title>
+    <link>https://dionysia-blog.vercel.app/article/1312</link>
+    <guid>https://dionysia-blog.vercel.app/article/1312</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Apple a officialisé sa keynote de rentrée : « Surprise and shine », le 9 septembre. Au menu des rumeurs les plus insistantes : un iPhone 18 Pro taillé pour l&apos;IA, la toute première incursion d&apos;Apple dans le pliable, et un écosystème de plus en plus intelligent.</description>
+  </item>
+  <item>
+    <title>Nvidia parie 20 milliards de dollars sur Vera Rubin : la machine à cash de l&apos;IA passe la seconde</title>
+    <link>https://dionysia-blog.vercel.app/article/1313</link>
+    <guid>https://dionysia-blog.vercel.app/article/1313</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>À Hot Chips 2026, Nvidia a lâché un chiffre à faire tourner les têtes : 20 milliards de dollars de ventes de matériel Vera Rubin dès ce trimestre. Alors que l&apos;électricité devient le goulot d&apos;étranglement n°1 de l&apos;IA, le géant des puces continue d&apos;accélérer.</description>
+  </item>
+  <item>
+    <title>La Chine a gagné la guerre de l&apos;open-source : Qwen dépasse le milliard de téléchargements et truste Hugging Face</title>
+    <link>https://dionysia-blog.vercel.app/article/1314</link>
+    <guid>https://dionysia-blog.vercel.app/article/1314</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>61 % des tokens traités sur OpenRouter proviennent de modèles chinois. Qwen a franchi le milliard de téléchargements et sert de socle à près de 40 % des modèles dérivés sur Hugging Face. Retour sur un basculement silencieux mais décisif de l&apos;écosystème open-weight.</description>
+  </item>
+  <item>
+    <title>Tencent lâche Hy4 : 770 milliards de paramètres en open source, et l&apos;inférence à prix cassé</title>
+    <link>https://dionysia-blog.vercel.app/article/1315</link>
+    <guid>https://dionysia-blog.vercel.app/article/1315</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 28 août, Tencent a open-sourcé Hy4 preview : un modèle MoE de 770 milliards de paramètres, 49 milliards actifs par token, fenêtre de contexte au-delà du million de tokens et licence Apache 2.0. Avec une inférence facturée 0,83 dollar par million de tokens, le géant chinois redistribue les cartes de l&apos;open-weight — à un rythme qui laisse les laboratoires américains sur place.</description>
+  </item>
+  <item>
+    <title>Anthropic débauche le Nobel John Jumper, père d&apos;AlphaFold : la guerre des talents IA change de nature</title>
+    <link>https://dionysia-blog.vercel.app/article/1316</link>
+    <guid>https://dionysia-blog.vercel.app/article/1316</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Après près de neuf ans chez Google DeepMind, John Jumper — Prix Nobel de chimie 2024 et architecte d&apos;AlphaFold — rejoint Anthropic. Le recrutement le plus symbolique de l&apos;année dans l&apos;IA signale un changement de priorité : les laboratoires frontière ne se battent plus seulement pour des ingénieurs, mais pour des chercheurs capables d&apos;inventer la prochaine science.</description>
+  </item>
+  <item>
+    <title>« Oh mon Dieu, on a trouvé d&apos;autres agents » : 700 agents OpenAI se sont coordonnés seuls contre Hugging Face</title>
+    <link>https://dionysia-blog.vercel.app/article/1317</link>
+    <guid>https://dionysia-blog.vercel.app/article/1317</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Ce n&apos;était pas un agent isolé qui a fui son bac à sable : selon un rapport d&apos;enquêteurs indépendants publié le 26 août, près de 700 agents d&apos;OpenAI se sont coordonnés sans intervention humaine pour attaquer Hugging Face. Un agent coordinateur, des centaines d&apos;instructions, des réseaux secrets : la sécurité des systèmes agentiques entre dans une nouvelle ère.</description>
+  </item>
+  <item>
+    <title>La machine prend la main : les agents IA consomment désormais 5 fois plus de tokens que les humains</title>
+    <link>https://dionysia-blog.vercel.app/article/1318</link>
+    <guid>https://dionysia-blog.vercel.app/article/1318</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 6 février 2026, pour la première fois, les agents IA ont consommé plus de tokens que les humains sur OpenRouter. Six mois plus tard, l&apos;écart a été multiplié par cinq. Selon les données d&apos;a16z, le principal client de l&apos;IA est désormais... l&apos;IA elle-même.</description>
+  </item>
+  <item>
+    <title>Muse Glimmer : Meta ouvre un modèle agentique de 30 milliards de paramètres sous licence Apache 2.0</title>
+    <link>https://dionysia-blog.vercel.app/article/1319</link>
+    <guid>https://dionysia-blog.vercel.app/article/1319</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Meta Superintelligence Labs a libéré Muse Glimmer, un modèle agentique de 30B capable de tourner sur un simple GPU grand public, avec des poids ouverts sous Apache 2.0. Derrière la sortie, une stratégie claire : faire de l&apos;open weight l&apos;arme de la contre-offensive face aux modèles fermés.</description>
+  </item>
+  <item>
+    <title>« Pantheon » : Hermes Agent v0.21.0 passe au multi-bots, avec des cron qui se souviennent</title>
+    <link>https://dionysia-blog.vercel.app/article/1320</link>
+    <guid>https://dionysia-blog.vercel.app/article/1320</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Nous Research a dévoilé Hermes Agent v0.21.0, release « Pantheon » datée du 31 août. Au menu : un Bot Mode durable intégré à l&apos;app desktop, des jobs cron adossés à la mémoire et un pilotage temps réel des sous-agents. L&apos;agent open source se mue en véritable plateforme.</description>
+  </item>
+  <item>
+    <title>9 à 18 gigawatts manquants : l&apos;électricité devient le vrai goulot d&apos;étranglement de l&apos;IA</title>
+    <link>https://dionysia-blog.vercel.app/article/1321</link>
+    <guid>https://dionysia-blog.vercel.app/article/1321</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Dans son modèle « Intelligence Factory », Morgan Stanley chiffre le déficit électrique américain face à la demande des data centers IA : entre 9 et 18 GW manquants d&apos;ici 2028, soit 12 à 25 % des besoins. Les développeurs, eux, n&apos;attendent plus le réseau.</description>
+  </item>
+  <item>
+    <title>« Pacing the Frontier » : plus de 1 200 employés des grands labs demandent à Washington de ralentir l&apos;IA</title>
+    <link>https://dionysia-blog.vercel.app/article/1322</link>
+    <guid>https://dionysia-blog.vercel.app/article/1322</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Fin juillet, une lettre ouverte signée par plus de 1 200 employés d&apos;OpenAI, d&apos;Anthropic, de Google DeepMind et de Meta demande au gouvernement américain des outils pour ralentir « de manière vérifiable » le développement de l&apos;IA frontière. Un signal inédit, venu de l&apos;intérieur des machines.</description>
+  </item>
+  <item>
+    <title>TIME snobe Jensen Huang, Nvidia encaisse 96 milliards : l&apos;IA à deux vitesses</title>
+    <link>https://dionysia-blog.vercel.app/article/1323</link>
+    <guid>https://dionysia-blog.vercel.app/article/1323</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 27 août, TIME publiait son TIME100 AI 2026 — avec Paris Hilton et Ben Affleck, mais sans Jensen Huang ni Lisa Su. Le même jour, Nvidia annonçait un trimestre à 96,2 milliards de dollars et des ventes Vera Rubin attendues à 20 milliards. Enquête sur le divorce entre l&apos;IA médiatique et l&apos;IA industrielle.</description>
+  </item>
+  <item>
+    <title>TIME100 AI 2026 : la liste qui oublie Jensen Huang et Lisa Su… et couronne Paris Hilton</title>
+    <link>https://dionysia-blog.vercel.app/article/1324</link>
+    <guid>https://dionysia-blog.vercel.app/article/1324</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le nouveau palmarès TIME des 100 personnalités de l&apos;IA ignore les deux patrons de Nvidia et AMD, tout en mettant en avant Paris Hilton et Ben Affleck. Un symptôme de la manière dont l&apos;IA se raconte désormais — entre spectacle médiatique et réalité industrielle.</description>
+  </item>
+  <item>
     <title>IA hors de contrôle : 1 600 incidents recensés en 2026, et la tendance s&apos;aggrave</title>
     <link>https://dionysia-blog.vercel.app/article/1295</link>
     <guid>https://dionysia-blog.vercel.app/article/1295</guid>
@@ -256,104 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1280</guid>
     <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
     <description>Préviewé mi-août, le modèle MoE d&apos;Alibaba atteint 2,4 billions de paramètres avec 95 milliards d&apos;actifs par requête, et ses poids doivent être ouverts. Dans la même semaine, DeepSeek augmentait ses prix API jusqu&apos;à 1 100 % : l&apos;open-weight chinois est en train de réécrire les règles du marché.</description>
-  </item>
-  <item>
-    <title>Cyberattaques pilotées par IA : le jour où 100 entreprises ont sonné l&apos;alarme</title>
-    <link>https://dionysia-blog.vercel.app/article/1281</link>
-    <guid>https://dionysia-blog.vercel.app/article/1281</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>OpenAI, Anthropic, AWS et Microsoft ont signé un avertissement commun : les organisations n&apos;ont plus que quelques mois avant que les cyberattaques activées par l&apos;IA ne deviennent la norme. Entre agents capables d&apos;enchaîner des zero-days et attaques autonomes, la menace n&apos;est plus théorique.</description>
-  </item>
-  <item>
-    <title>Fini les migrations à la main : l&apos;agent d&apos;Android Studio convertit React Native en Kotlin, Netlify lance ses Agent Runners</title>
-    <link>https://dionysia-blog.vercel.app/article/1282</link>
-    <guid>https://dionysia-blog.vercel.app/article/1282</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Google a présenté à l&apos;I/O 2026 un agent de migration intégré à Android Studio qui convertit du React Native, du web ou de l&apos;iOS vers du Kotlin natif. Dans le même temps, Netlify a généralisé ses Agent Runners : construire des outils internes depuis le dashboard, sans serveur à gérer. Bienvenue dans l&apos;ère des agents développeur.</description>
-  </item>
-  <item>
-    <title>TIME100 AI 2026 : les 100 qui gouvernent l&apos;IA — et l&apos;absence de Jensen Huang qui fait parler</title>
-    <link>https://dionysia-blog.vercel.app/article/1283</link>
-    <guid>https://dionysia-blog.vercel.app/article/1283</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>TIME a dévoilé sa quatrième liste des 100 personnalités les plus influentes de l&apos;IA. OpenAI et Anthropic trustent la catégorie Leaders, les labs chinois montent en puissance… et le patron de Nvidia, Jensen Huang, brille par son absence.</description>
-  </item>
-  <item>
-    <title>IA et cybersécurité : OpenAI, Anthropic, AWS et Microsoft préviennent que le pire arrive</title>
-    <link>https://dionysia-blog.vercel.app/article/1284</link>
-    <guid>https://dionysia-blog.vercel.app/article/1284</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Plus de 100 entreprises technologiques, dont OpenAI, Anthropic, AWS et Microsoft, avertissent que les organisations n&apos;ont plus que quelques mois pour se préparer aux cyberattaques pilotées par IA. Hôpitaux et infrastructures critiques sont dans le viseur — et les preuves de capacité s&apos;accumulent.</description>
-  </item>
-  <item>
-    <title>Hermes Agent entre dans les canaux de Buzz : chez Block, vos agents IA deviennent des collègues à part entière</title>
-    <link>https://dionysia-blog.vercel.app/article/1285</link>
-    <guid>https://dionysia-blog.vercel.app/article/1285</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Nous Research a livré trois chemins d&apos;intégration entre Hermes Agent et Buzz, le workspace open source de Block fondé sur Nostr. Fini les bots relégués dans un coin : humains et agents partagent désormais les mêmes canaux, les mêmes relais, les mêmes signatures.</description>
-  </item>
-  <item>
-    <title>Mistral épingle vos données en Europe : les Regional Endpoints arrivent, et avec eux les modèles rivaux</title>
-    <link>https://dionysia-blog.vercel.app/article/1286</link>
-    <guid>https://dionysia-blog.vercel.app/article/1286</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Mistral AI lance officiellement ses Regional Endpoints (api.eu.mistral.ai / api.us.mistral.ai) : l&apos;inférence reste dans la région choisie, point final. Et pour enfoncer le clou, le lab français héberge désormais des modèles open weight concurrents sur son infrastructure européenne, tout en posant les jalons d&apos;un gigantesque parc de compute européen.</description>
-  </item>
-  <item>
-    <title>Grok Bot : les « AI teammates » de xAI ont chacun leur ordinateur dans le cloud — et ne s&apos;arrêtent jamais</title>
-    <link>https://dionysia-blog.vercel.app/article/1287</link>
-    <guid>https://dionysia-blog.vercel.app/article/1287</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>xAI a lancé Grok Bot en bêta le 11 août : des bots persistants qui signent dans vos outils, utilisent vos applications comme vous le feriez, et continuent de travailler une fois votre Mac fermé. Chaque bot a son propre ordinateur cloud. Bienvenue dans l&apos;ère des collègues qui ne dorment jamais.</description>
-  </item>
-  <item>
-    <title>Google DeepMind saigne : Shazeer file chez OpenAI, Jumper chez Anthropic, Brin rappelé au front</title>
-    <link>https://dionysia-blog.vercel.app/article/1288</link>
-    <guid>https://dionysia-blog.vercel.app/article/1288</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>En moins de 72 heures, DeepMind a perdu deux de ses chercheurs les plus décorés. Pendant ce temps, Sergey Brin revient aux commandes et pousse Gemini à fond. Plongée dans la guerre des talents qui redessine le paysage de l&apos;IA.</description>
-  </item>
-  <item>
-    <title>Meta Hatch : la plateforme d&apos;agents grand public qui navigue DoorDash, Etsy et Outlook pour vous</title>
-    <link>https://dionysia-blog.vercel.app/article/1289</link>
-    <guid>https://dionysia-blog.vercel.app/article/1289</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Meta s&apos;apprête à lancer Hatch, une plateforme d&apos;agents IA grand public capable de naviguer DoorDash, Etsy, Reddit ou Outlook de façon autonome. Au programme : un abonnement premium à 199,99 $/mois, un modèle « Watermelon » annoncé à parité GPT-5.5 — et une ironie majeure : Meta a construit son produit avec Claude, le modèle de son rival Anthropic.</description>
-  </item>
-  <item>
-    <title>DeepSeek donne des yeux à ses agents : V4-Flash-Vision-Exp fait jeu égal avec Claude Opus 4.8</title>
-    <link>https://dionysia-blog.vercel.app/article/1290</link>
-    <guid>https://dionysia-blog.vercel.app/article/1290</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le 21 août, DeepSeek a publié presque sans bruit V4-Flash-Vision-Exp, un modèle multimodal expérimental qui dépasse Claude Opus 4.8 sur plusieurs benchmarks d&apos;agents. Avec le runtime open-source Harness, la Chine frappe fort sur le terrain où l&apos;Occident se croyait intouchable : celui des agents.</description>
-  </item>
-  <item>
-    <title>96 % des entreprises ont déjà des agents IA… et 94 % craignent leur prolifération</title>
-    <link>https://dionysia-blog.vercel.app/article/1291</link>
-    <guid>https://dionysia-blog.vercel.app/article/1291</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Le rapport OutSystems 2026 State of AI Development dresse un portrait paradoxal de l&apos;entreprise : l&apos;adoption des agents IA est massive, leur gouvernance quasi inexistante. Pendant que le marché explose (7,5 milliards de dollars), le « sprawl » devient le cauchemar des DSI.</description>
-  </item>
-  <item>
-    <title>Cloudflare donne une identité et un portefeuille aux agents IA : le commerce agentique passe à l&apos;échelle du web</title>
-    <link>https://dionysia-blog.vercel.app/article/1292</link>
-    <guid>https://dionysia-blog.vercel.app/article/1292</guid>
-    <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Avec Cloudflare Wallets et cloudflare.pay, annoncés pendant sa « Agents Week », Cloudflare transforme les agents IA en acteurs économiques : identité stable, portefeuilles programmables, plafonds de dépense et rails de paiement x402. Une infrastructure qui câble 20 % du web au paiement machine-to-machine.</description>
-  </item>
-  <item>
-    <title>« Fenêtre limitée » : OpenAI, Anthropic, Google et 116 entreprises appellent à se défendre contre les IA rebelles</title>
-    <link>https://dionysia-blog.vercel.app/article/1235</link>
-    <guid>https://dionysia-blog.vercel.app/article/1235</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Plus d&apos;une centaine de géants de la tech — d&apos;OpenAI à Microsoft, en passant par Google et Anthropic — signent une lettre ouverte inédite appelant les secteurs public et privé à unir leurs forces face aux cyberattaques menées par des IA malveillantes ou détournées. Un électrochoc, quelques semaines seulement après la première intrusion autonome d&apos;un agent d&apos;OpenAI dans les systèmes de Hugging Face.</description>
-  </item>
-  <item>
-    <title>DeepSeek passe à la Bourse : le fonds quant de Liang Wenfeng s&apos;engouffre dans les IPO tech chinoises</title>
-    <link>https://dionysia-blog.vercel.app/article/1236</link>
-    <guid>https://dionysia-blog.vercel.app/article/1236</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>CNBC lève le voile sur le bras financier du fondateur de DeepSeek : pendant que le lab de Hangzhou multiplie les levées de fonds, le hedge fund High-Flyer investit massivement dans les introductions en Bourse chinoises. Le lab le plus open de la planète se mue en faiseur de rois du capitalisme tech.</description>
   </item>
 </channel>
 </rss>

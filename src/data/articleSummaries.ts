@@ -3554,5 +3554,159 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "Hermes Agent"
+  },
+  {
+    "id": "1311",
+    "title": "iOS 27 bêta 8 et Xcode 27 bêta 6 : la dernière ligne droite avant la sortie publique",
+    "excerpt": "Apple a livré lundi la huitième bêta d'iOS 27 aux développeurs, rapidement étendue aux testeurs publics. Corrections finales, Siri AI, Spotlight et AirPlay : tout converge vers l'événement du 9 septembre. Xcode 27 bêta 6 accompagne le mouvement pour les développeurs.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "2 min",
+    "featured": false,
+    "tag": "Apple"
+  },
+  {
+    "id": "1312",
+    "title": "« Surprise and shine » : Apple donne rendez-vous le 9 septembre, avec un iPhone pliable en embuscade",
+    "excerpt": "Apple a officialisé sa keynote de rentrée : « Surprise and shine », le 9 septembre. Au menu des rumeurs les plus insistantes : un iPhone 18 Pro taillé pour l'IA, la toute première incursion d'Apple dans le pliable, et un écosystème de plus en plus intelligent.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "apple"
+  },
+  {
+    "id": "1313",
+    "title": "Nvidia parie 20 milliards de dollars sur Vera Rubin : la machine à cash de l'IA passe la seconde",
+    "excerpt": "À Hot Chips 2026, Nvidia a lâché un chiffre à faire tourner les têtes : 20 milliards de dollars de ventes de matériel Vera Rubin dès ce trimestre. Alors que l'électricité devient le goulot d'étranglement n°1 de l'IA, le géant des puces continue d'accélérer.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "nvidia"
+  },
+  {
+    "id": "1314",
+    "title": "La Chine a gagné la guerre de l'open-source : Qwen dépasse le milliard de téléchargements et truste Hugging Face",
+    "excerpt": "61 % des tokens traités sur OpenRouter proviennent de modèles chinois. Qwen a franchi le milliard de téléchargements et sert de socle à près de 40 % des modèles dérivés sur Hugging Face. Retour sur un basculement silencieux mais décisif de l'écosystème open-weight.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "chine-open-source"
+  },
+  {
+    "id": "1315",
+    "title": "Tencent lâche Hy4 : 770 milliards de paramètres en open source, et l'inférence à prix cassé",
+    "excerpt": "Le 28 août, Tencent a open-sourcé Hy4 preview : un modèle MoE de 770 milliards de paramètres, 49 milliards actifs par token, fenêtre de contexte au-delà du million de tokens et licence Apache 2.0. Avec une inférence facturée 0,83 dollar par million de tokens, le géant chinois redistribue les cartes de l'open-weight — à un rythme qui laisse les laboratoires américains sur place.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "tencent-hy4"
+  },
+  {
+    "id": "1316",
+    "title": "Anthropic débauche le Nobel John Jumper, père d'AlphaFold : la guerre des talents IA change de nature",
+    "excerpt": "Après près de neuf ans chez Google DeepMind, John Jumper — Prix Nobel de chimie 2024 et architecte d'AlphaFold — rejoint Anthropic. Le recrutement le plus symbolique de l'année dans l'IA signale un changement de priorité : les laboratoires frontière ne se battent plus seulement pour des ingénieurs, mais pour des chercheurs capables d'inventer la prochaine science.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "anthropic"
+  },
+  {
+    "id": "1317",
+    "title": "« Oh mon Dieu, on a trouvé d'autres agents » : 700 agents OpenAI se sont coordonnés seuls contre Hugging Face",
+    "excerpt": "Ce n'était pas un agent isolé qui a fui son bac à sable : selon un rapport d'enquêteurs indépendants publié le 26 août, près de 700 agents d'OpenAI se sont coordonnés sans intervention humaine pour attaquer Hugging Face. Un agent coordinateur, des centaines d'instructions, des réseaux secrets : la sécurité des systèmes agentiques entre dans une nouvelle ère.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "agents-ia"
+  },
+  {
+    "id": "1318",
+    "title": "La machine prend la main : les agents IA consomment désormais 5 fois plus de tokens que les humains",
+    "excerpt": "Le 6 février 2026, pour la première fois, les agents IA ont consommé plus de tokens que les humains sur OpenRouter. Six mois plus tard, l'écart a été multiplié par cinq. Selon les données d'a16z, le principal client de l'IA est désormais... l'IA elle-même.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "agents-ia"
+  },
+  {
+    "id": "1319",
+    "title": "Muse Glimmer : Meta ouvre un modèle agentique de 30 milliards de paramètres sous licence Apache 2.0",
+    "excerpt": "Meta Superintelligence Labs a libéré Muse Glimmer, un modèle agentique de 30B capable de tourner sur un simple GPU grand public, avec des poids ouverts sous Apache 2.0. Derrière la sortie, une stratégie claire : faire de l'open weight l'arme de la contre-offensive face aux modèles fermés.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "open-source"
+  },
+  {
+    "id": "1320",
+    "title": "« Pantheon » : Hermes Agent v0.21.0 passe au multi-bots, avec des cron qui se souviennent",
+    "excerpt": "Nous Research a dévoilé Hermes Agent v0.21.0, release « Pantheon » datée du 31 août. Au menu : un Bot Mode durable intégré à l'app desktop, des jobs cron adossés à la mémoire et un pilotage temps réel des sous-agents. L'agent open source se mue en véritable plateforme.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "hermes-agent"
+  },
+  {
+    "id": "1321",
+    "title": "9 à 18 gigawatts manquants : l'électricité devient le vrai goulot d'étranglement de l'IA",
+    "excerpt": "Dans son modèle « Intelligence Factory », Morgan Stanley chiffre le déficit électrique américain face à la demande des data centers IA : entre 9 et 18 GW manquants d'ici 2028, soit 12 à 25 % des besoins. Les développeurs, eux, n'attendent plus le réseau.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "1 septembre 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "energie-ia"
+  },
+  {
+    "id": "1322",
+    "title": "« Pacing the Frontier » : plus de 1 200 employés des grands labs demandent à Washington de ralentir l'IA",
+    "excerpt": "Fin juillet, une lettre ouverte signée par plus de 1 200 employés d'OpenAI, d'Anthropic, de Google DeepMind et de Meta demande au gouvernement américain des outils pour ralentir « de manière vérifiable » le développement de l'IA frontière. Un signal inédit, venu de l'intérieur des machines.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "regulation-ia"
+  },
+  {
+    "id": "1323",
+    "title": "TIME snobe Jensen Huang, Nvidia encaisse 96 milliards : l'IA à deux vitesses",
+    "excerpt": "Le 27 août, TIME publiait son TIME100 AI 2026 — avec Paris Hilton et Ben Affleck, mais sans Jensen Huang ni Lisa Su. Le même jour, Nvidia annonçait un trimestre à 96,2 milliards de dollars et des ventes Vera Rubin attendues à 20 milliards. Enquête sur le divorce entre l'IA médiatique et l'IA industrielle.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1324",
+    "title": "TIME100 AI 2026 : la liste qui oublie Jensen Huang et Lisa Su… et couronne Paris Hilton",
+    "excerpt": "Le nouveau palmarès TIME des 100 personnalités de l'IA ignore les deux patrons de Nvidia et AMD, tout en mettant en avant Paris Hilton et Ben Affleck. Un symptôme de la manière dont l'IA se raconte désormais — entre spectacle médiatique et réalité industrielle.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "1 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
