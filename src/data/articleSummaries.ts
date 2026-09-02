@@ -3708,5 +3708,148 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1325",
+    "title": "Anthropic devance OpenAI dans la course aux milliards — et l'IPO de l'automne se joue maintenant",
+    "excerpt": "Pour la première fois, Anthropic affiche un revenu annualisé supérieur à celui d'OpenAI : plus de 30 milliards de dollars contre 25. Avec un S-1 déposé en juin et une fenêtre d'introduction en Bourse évoquée pour septembre-octobre, le duel des deux labs les plus valués de la planète entre dans sa phase décisive.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "ipo-ia"
+  },
+  {
+    "id": "1326",
+    "title": "Apple contre OpenAI : la guerre des secrets industriels se jouera au tribunal le 1er octobre",
+    "excerpt": "La plainte d'Apple contre OpenAI pour vol de secrets industriels connaît un rebondissement majeur : OpenAI demande le rejet de l'affaire, qualifiant la procédure de « pourrie jusqu'à l'os ». Une audience décisive est fixée au 1er octobre.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "apple-openai"
+  },
+  {
+    "id": "1327",
+    "title": "Hermes Agent passe en Bot Mode : votre agent IA devient une équipe de bots qui se parlent",
+    "excerpt": "Nous Research intègre le Bot Mode en standard dans Hermes Desktop : chaque profil devient un bot nommé, avec sa propre mémoire, ses skills et son modèle — et les bots peuvent dialoguer entre eux. La multi-agentisation des assistants personnels prend un tour concret.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "hermes-agent"
+  },
+  {
+    "id": "1328",
+    "title": "Bots IA : Cloudflare instaure le code de la route du web — Search, Agent, Training, chacun sa voie",
+    "excerpt": "Fini le bouton unique anti-bots. Cloudflare classe désormais les robots d'IA en trois catégories — moteurs de recherche, agents et crawlers d'entraînement — et bloque par défaut les deux dernières sur les pages financées par la publicité. Une bascule discrète mais structurelle pour les webmasters, et un précédent qui redessine l'économie du web face à l'IA.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "bots-ia"
+  },
+  {
+    "id": "1329",
+    "title": "GLM-5.3-Flash : Z.ai casse le prix des agents multimodaux avec un modèle MIT à 18 milliards de paramètres actifs",
+    "excerpt": "Le 26 août, Z.ai (Zhipu) a ouvert GLM-5.3-Flash : premier GLM-5 nativement multimodal, 320 milliards de paramètres dont 18 actifs, licence MIT et contexte d'un million de tokens. Un modèle taillé pour faire tourner des agents toute la journée, à un prix qui relance la guerre de l'inférence.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "2 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1330",
+    "title": "Bots IA : dès le 15 septembre, Cloudflare bloque par défaut les crawlers d'entraînement et les agents",
+    "excerpt": "Dans treize jours, les sites Cloudflare financés par la publicité bloqueront par défaut les robots d'entraînement IA et les agents, tout en laissant passer les moteurs de recherche. Une bascule silencieuse qui redéfinit le rapport de force entre éditeurs, SEO et labos d'IA — et qu'il vaut mieux anticiper avant l'échéance.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "2 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1331",
+    "title": "Apple enchaîne : événement spécial le 9 septembre, puis deux journées 100 % développeurs les 10 et 11",
+    "excerpt": "Cupertino verrouille sa rentrée : un « special event » est convoqué le 9 septembre, immédiatement suivi de rendez-vous en ligne pour les développeurs les 10 et 11 septembre 2026. Après une WWDC placée sous le signe de l'IA, l'écosystème Apple retient son souffle.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "apple"
+  },
+  {
+    "id": "1332",
+    "title": "Hermes Agent v0.21.0 « Panthéon » : des bots nommés, des agents qui se parlent et des tâches planifiées dotées de mémoire",
+    "excerpt": "Nous Research a livré le 31 août la mise à jour la plus ambitieuse de son agent open source : Bot Mode intégré à l'app desktop, messagerie directe entre agents, cron jobs à mémoire persistante et pilotage des sous-agents en direct. Bienvenue dans la « société d'agents ».",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "hermes-agent"
+  },
+  {
+    "id": "1333",
+    "title": "Gemini 3.7 Flash : Google casse les prix, double la cadence et fait de l'ombre à son propre flagship",
+    "excerpt": "Trois semaines seulement après son prédécesseur, Google lance Gemini 3.7 Flash à moitié prix : 0,75 $ par million de tokens d'entrée. Au menu : un contexte d'un million de tokens, un bond de 17 points en codage et une stratégie claire — rendre l'IA agentique enfin abordable à grande échelle.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "gemini"
+  },
+  {
+    "id": "1334",
+    "title": "React2Shell2 : le PoC public de la faille critique Next.js sous Windows circule, patchez vos serveurs",
+    "excerpt": "Presque un an après React2Shell, une nouvelle vulnérabilité d'exécution de code à distance (CVSS 9.0) touche les serveurs Next.js hébergés sous Windows. Correctifs disponibles depuis fin août en 15.5.24 et 16.3.3 — mais un PoC public circule désormais, et toutes les équipes self-hosted n'ont pas encore migré.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "2 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "dev"
+  },
+  {
+    "id": "1335",
+    "title": "Nous Research viserait 1,5 Md$ : le pari des agents open source séduit Robot Ventures et USV",
+    "excerpt": "Selon plusieurs sources proches du dossier, le laboratoire derrière Hermes Agent finalise une levée d'au moins 75 M$ menée par Robot Ventures, avec USV, à une valorisation de 1,5 Md$. Retour sur l'ascension d'un acteur qui a fait de l'open source son arme de guerre.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "nous-research"
+  },
+  {
+    "id": "1336",
+    "title": "CVE-2026-75604 : la faille critique de Next.js sur Windows est patchée, mais un PoC traîne déjà sur GitHub",
+    "excerpt": "Un an après React2Shell, une nouvelle exécution de code à distance pré-authentification frappe Next.js, cette fois sur les serveurs Windows. Le patch d'août est sorti le 25, et un PoC public circule déjà : le moment est venu de mettre à jour sans attendre.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "nextjs"
+  },
+  {
+    "id": "1337",
+    "title": "Qwen3.8-Max-0902 : Alibaba met à jour son fleuron 2,4 T et pousse le code autonome encore plus loin",
+    "excerpt": "Sorti ce 2 septembre, le nouveau snapshot de Qwen3.8-Max promet des capacités de génération de code « inédites », taillées pour les projets d'ingénierie à grande échelle et le développement autonome de longue haleine. Le camp chinois des poids ouverts continue d'accélérer.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "2 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "qwen"
   }
 ];
