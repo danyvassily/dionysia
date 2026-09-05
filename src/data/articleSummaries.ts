@@ -4038,5 +4038,115 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "4 min",
     "featured": true,
     "tag": "Gemini"
+  },
+  {
+    "id": "1355",
+    "title": "Cursor perdra l'accès aux modèles OpenAI le 12 novembre — Anthropic tend la main aux développeurs",
+    "excerpt": "Le 28 août, OpenAI a notifié SpaceX son intention de couper l'accès de Cursor à ses modèles, avec une date butoir au 12 novembre. En cause : le rachat d'Anysphere par SpaceX pour 60 milliards de dollars. Anthropic, premier bénéficiaire, promet plus de compute et augmente les limites de Claude Code. Les développeurs, eux, doivent préparer leur migration.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "3 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "OpenAI"
+  },
+  {
+    "id": "1356",
+    "title": "OpenAI coupe les ponts avec Cursor : le 12 novembre, l'éditeur préféré des développeurs devra choisir son camp",
+    "excerpt": "OpenAI a notifié à SpaceX son intention de couper l'accès direct de Cursor à ses modèles le 12 novembre 2026. En cause : le rachat d'Anysphere par Elon Musk. Anthropic, elle, double la mise sur l'éditeur. Décryptage d'un séisme annoncé dans l'outillage des développeurs.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "3 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Cursor"
+  },
+  {
+    "id": "1357",
+    "title": "Anthropic entre en Bourse : l'IPO qui pourrait détrôner SpaceX et devenir la plus grosse levée de l'histoire",
+    "excerpt": "Le S-1 confidentiel est déposé depuis juin, le prospectus public est attendu après la Labor Day : Anthropic vise une introduction qui pourrait égaler ou dépasser le record de 86 milliards de dollars de SpaceX. Valorisation évoquée : 1 500 à 2 000 milliards. Plongée dans la machine IPO du champion de Claude.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "3 septembre 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "Anthropic"
+  },
+  {
+    "id": "1358",
+    "title": "Tencent lâche Hy4 : 770 milliards de paramètres en Apache 2.0, la grande braderie chinoise de l'IA s'accélère",
+    "excerpt": "Quatrième modèle frontière offert par un laboratoire chinois en un mois : Tencent a publié Hy4, un MoE de 770 milliards de paramètres sous licence Apache 2.0. Objectif assumé : tirer le prix de l'intelligence vers zéro et déplacer la valeur vers la couche compute. Analyse d'une stratégie qui change la donne mondiale.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "3 septembre 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "Tencent"
+  },
+  {
+    "id": "1359",
+    "title": "Muse Spark 1.3 : Meta assure avoir rejoint la frontière de l'IA — mais son meilleur mode reste sous clé",
+    "excerpt": "Quatrième Muse Spark en cinq mois, le nouveau modèle de Meta talonne les meilleurs sur le code, selon ses benchmarks. Les mesures indépendantes confirment l'essentiel — avec une nuance : le mode le plus performant n'est pas encore public.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "3 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1360",
+    "title": "Claude Commerce Agents : Anthropic ouvre le code des agents d'achat — et laisse le paiement aux marchands",
+    "excerpt": "Anthropic publie un blueprint open source pour construire des agents shopping et marchands avec Claude. Paniers +35 %, achats finalisés +60 % chez ses pilotes : des chiffres maison à prendre avec précaution, et une stratégie clairement opposée à celle d'OpenAI.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "3 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Anthropic"
+  },
+  {
+    "id": "1361",
+    "title": "Gemini 3.8 Flash Cyber : le modèle que Google entraîne à trouver les failles… et à les corriger seul",
+    "excerpt": "Troisième itération Flash en six semaines, au même prix que la 3.7 : Google a dévoilé le 2 septembre Gemini 3.8 Flash (54,9 % sur HLE-Verified) et une variante inédite « Cyber », capable de détecter des vulnérabilités et de produire des correctifs de niveau frontière — mais réservée aux défenseurs de confiance via le programme Fairwind. Un signal fort sur la place de la cybersécurité dans les modèles de fondation.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "3 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1362",
+    "title": "iPhone Ultra pliable, adieux à Tim Cook : le 9 septembre, Apple entre dans l'ère Ternus",
+    "excerpt": "Tim Cook a quitté la direction d'Apple le 2 septembre, laissant à John Ternus un premier événement à hauteur du symbole : le lancement, le 9 septembre, de l'iPhone pliable — pressenti autour de 2 000 dollars. Récapitulatif des neuf produits attendus et de ce que ce passage de témoin change pour l'écosystème.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "3 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Apple"
+  },
+  {
+    "id": "1363",
+    "title": "SwarmWorld : 200 agents IA identiques qui inventent des technologies… sans jamais se parler",
+    "excerpt": "Des chercheurs du MIT ont lâché des centaines d'agents IA identiques dans un monde simulé, sans rôles, sans consignes et sans chat. Résultat : ils se sont spécialisés, ont construit des technologies durables — et 95 % de leurs transferts de savoir se font par simple observation des objets laissés derrière eux. Une découverte qui bouscule notre vision des systèmes multi-agents.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "4 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1364",
+    "title": "GPT-6 Astra est officiel : OpenAI assure que « l'ère de l'AGI » a commencé — et le Congrès répond par un projet de loi",
+    "excerpt": "Jeudi 3 septembre, OpenAI a lancé GPT-6 Astra, son modèle le plus puissant — et le premier classé au seuil « critique » de cybersécurité. Son président Greg Brockman y voit le moment où l'AGI a été créée. Le même jour, deux élus américains ont déposé un texte pour suspendre le développement de l'IA avancée. Bienvenue dans la semaine où le mot AGI est sorti des labos.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "5 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "OpenAI"
   }
 ];
