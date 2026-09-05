@@ -34,6 +34,27 @@
     <description>Anthropic a sorti deux Claude aux poids identiques mais aux garde-fous différents ; Google a répondu avec un Gemini Flash spécial « défenseurs ». Même cerveau, deux visages : les labos transforment l&apos;accès aux capacités les plus sensibles en programmes de confiance — pendant que la guerre des prix fait rage sur les modèles du quotidien.</description>
   </item>
   <item>
+    <title>iPhone Handoff : iOS 27 va permettre à deux iPhone de partager un seul numéro</title>
+    <link>https://dionysia-blog.vercel.app/article/1368</link>
+    <guid>https://dionysia-blog.vercel.app/article/1368</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Mentionnée furtivement à la WWDC26, la fonctionnalité « iPhone Handoff » d&apos;iOS 27 se précise : une eSIM « compagne » permettra de basculer un même numéro entre deux iPhone, sans toucher à la carte SIM. Une démo publiée cette semaine dans Xcode 27 lève le voile — et pose la question du support opérateur.</description>
+  </item>
+  <item>
+    <title>AI Act : Bruxelles adresse sa première mise en demeure à plus de 30 labos d&apos;IA</title>
+    <link>https://dionysia-blog.vercel.app/article/1369</link>
+    <guid>https://dionysia-blog.vercel.app/article/1369</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 1er septembre, la Commission européenne a envoyé ses premières demandes formelles d&apos;information de l&apos;AI Act à plus de 30 développeurs de modèles d&apos;IA. Au programme : sécurité des modèles frontière, évaluations externes et résumés des données d&apos;entraînement. Les amendes peuvent atteindre 3 % du chiffre d&apos;affaires mondial.</description>
+  </item>
+  <item>
+    <title>Liquid Glass devient obligatoire : le sursis des apps iOS expire avec Xcode 27</title>
+    <link>https://dionysia-blog.vercel.app/article/1370</link>
+    <guid>https://dionysia-blog.vercel.app/article/1370</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Depuis iOS 26, la clé UIDesignRequiresCompatibility permettait aux apps de refuser le Liquid Glass. Apple l&apos;a confirmé dans sa documentation : elle est désormais purement ignorée quand on compile avec le SDK iOS 27, dont la sortie est attendue ce mois-ci. Le compte à rebours de la migration a commencé.</description>
+  </item>
+  <item>
     <title>SwarmWorld : 200 agents IA identiques qui inventent des technologies… sans jamais se parler</title>
     <link>https://dionysia-blog.vercel.app/article/1363</link>
     <guid>https://dionysia-blog.vercel.app/article/1363</guid>
@@ -333,27 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1309</guid>
     <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
     <description>Apple a officiellement confirmé la tenue de son événement de rentrée le 9 septembre. Au programme attendu : iPhone 18 Pro, iPhone 18 Pro Max, nouvelles Apple Watch — et surtout le premier iPhone pliable de son histoire, peut-être baptisé « iPhone Ultra ».</description>
-  </item>
-  <item>
-    <title>Hermes Agent v0.21.0 « Pantheon » : l&apos;agent open source de Nous Research passe au mode bot-à-bot</title>
-    <link>https://dionysia-blog.vercel.app/article/1310</link>
-    <guid>https://dionysia-blog.vercel.app/article/1310</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Le 31 août, Nous Research a livré la plus grosse mise à jour d&apos;Hermes Agent depuis sa création : Bot Mode, conversations durables entre agents, cron jobs avec mémoire et contrôle du navigateur. Décryptage de ce que la v0.21.0 change concrètement pour les développeurs.</description>
-  </item>
-  <item>
-    <title>iOS 27 bêta 8 et Xcode 27 bêta 6 : la dernière ligne droite avant la sortie publique</title>
-    <link>https://dionysia-blog.vercel.app/article/1311</link>
-    <guid>https://dionysia-blog.vercel.app/article/1311</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Apple a livré lundi la huitième bêta d&apos;iOS 27 aux développeurs, rapidement étendue aux testeurs publics. Corrections finales, Siri AI, Spotlight et AirPlay : tout converge vers l&apos;événement du 9 septembre. Xcode 27 bêta 6 accompagne le mouvement pour les développeurs.</description>
-  </item>
-  <item>
-    <title>« Surprise and shine » : Apple donne rendez-vous le 9 septembre, avec un iPhone pliable en embuscade</title>
-    <link>https://dionysia-blog.vercel.app/article/1312</link>
-    <guid>https://dionysia-blog.vercel.app/article/1312</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Apple a officialisé sa keynote de rentrée : « Surprise and shine », le 9 septembre. Au menu des rumeurs les plus insistantes : un iPhone 18 Pro taillé pour l&apos;IA, la toute première incursion d&apos;Apple dans le pliable, et un écosystème de plus en plus intelligent.</description>
   </item>
 </channel>
 </rss>

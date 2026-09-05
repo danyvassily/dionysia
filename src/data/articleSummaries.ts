@@ -4181,5 +4181,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1368",
+    "title": "iPhone Handoff : iOS 27 va permettre à deux iPhone de partager un seul numéro",
+    "excerpt": "Mentionnée furtivement à la WWDC26, la fonctionnalité « iPhone Handoff » d'iOS 27 se précise : une eSIM « compagne » permettra de basculer un même numéro entre deux iPhone, sans toucher à la carte SIM. Une démo publiée cette semaine dans Xcode 27 lève le voile — et pose la question du support opérateur.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "5 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Apple"
+  },
+  {
+    "id": "1369",
+    "title": "AI Act : Bruxelles adresse sa première mise en demeure à plus de 30 labos d'IA",
+    "excerpt": "Le 1er septembre, la Commission européenne a envoyé ses premières demandes formelles d'information de l'AI Act à plus de 30 développeurs de modèles d'IA. Au programme : sécurité des modèles frontière, évaluations externes et résumés des données d'entraînement. Les amendes peuvent atteindre 3 % du chiffre d'affaires mondial.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "5 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1370",
+    "title": "Liquid Glass devient obligatoire : le sursis des apps iOS expire avec Xcode 27",
+    "excerpt": "Depuis iOS 26, la clé UIDesignRequiresCompatibility permettait aux apps de refuser le Liquid Glass. Apple l'a confirmé dans sa documentation : elle est désormais purement ignorée quand on compile avec le SDK iOS 27, dont la sortie est attendue ce mois-ci. Le compte à rebours de la migration a commencé.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "5 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "Apple"
   }
 ];
