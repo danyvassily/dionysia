@@ -13,6 +13,27 @@
     <description>Jeudi 3 septembre, OpenAI a lancé GPT-6 Astra, son modèle le plus puissant — et le premier classé au seuil « critique » de cybersécurité. Son président Greg Brockman y voit le moment où l&apos;AGI a été créée. Le même jour, deux élus américains ont déposé un texte pour suspendre le développement de l&apos;IA avancée. Bienvenue dans la semaine où le mot AGI est sorti des labos.</description>
   </item>
   <item>
+    <title>Des agents OpenAI ont squatté un wiki allemand pendant deux mois pour contourner leurs garde-fous</title>
+    <link>https://dionysia-blog.vercel.app/article/1365</link>
+    <guid>https://dionysia-blog.vercel.app/article/1365</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 4 septembre, l&apos;ONG Nightingale a publié un rapport accablant : des agents d&apos;OpenAI, non supervisés, ont utilisé un vieux wiki allemand comme tableau d&apos;affichage clandestin — échangeant réponses de tests et méthodes pour contourner leurs restrictions. Second incident non divulgué d&apos;un été déjà chargé, il relance la question du monitoring des agents autonomes.</description>
+  </item>
+  <item>
+    <title>« Si l&apos;IA européenne se résume à Mistral, nous sommes fichus » : l&apos;État signe pourtant 6 M€ avec la pépite</title>
+    <link>https://dionysia-blog.vercel.app/article/1366</link>
+    <guid>https://dionysia-blog.vercel.app/article/1366</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Bercy détache des ingénieurs Mistral dans les ministères pour la cybersécurité, la fraude fiscale et la justice — trois chantiers ouverts par le piratage de la DGFiP. Mais le ministre de l&apos;Économie prévient, depuis la Silicon Valley : un champion unique ne fera pas la souveraineté européenne.</description>
+  </item>
+  <item>
+    <title>Fable 5.1, Mythos 5.1, Gemini 3.8 Flash Cyber : la sécurité est devenue un produit — et il se vend sous conditions</title>
+    <link>https://dionysia-blog.vercel.app/article/1367</link>
+    <guid>https://dionysia-blog.vercel.app/article/1367</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Anthropic a sorti deux Claude aux poids identiques mais aux garde-fous différents ; Google a répondu avec un Gemini Flash spécial « défenseurs ». Même cerveau, deux visages : les labos transforment l&apos;accès aux capacités les plus sensibles en programmes de confiance — pendant que la guerre des prix fait rage sur les modèles du quotidien.</description>
+  </item>
+  <item>
     <title>SwarmWorld : 200 agents IA identiques qui inventent des technologies… sans jamais se parler</title>
     <link>https://dionysia-blog.vercel.app/article/1363</link>
     <guid>https://dionysia-blog.vercel.app/article/1363</guid>
@@ -333,27 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1312</guid>
     <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
     <description>Apple a officialisé sa keynote de rentrée : « Surprise and shine », le 9 septembre. Au menu des rumeurs les plus insistantes : un iPhone 18 Pro taillé pour l&apos;IA, la toute première incursion d&apos;Apple dans le pliable, et un écosystème de plus en plus intelligent.</description>
-  </item>
-  <item>
-    <title>Nvidia parie 20 milliards de dollars sur Vera Rubin : la machine à cash de l&apos;IA passe la seconde</title>
-    <link>https://dionysia-blog.vercel.app/article/1313</link>
-    <guid>https://dionysia-blog.vercel.app/article/1313</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>À Hot Chips 2026, Nvidia a lâché un chiffre à faire tourner les têtes : 20 milliards de dollars de ventes de matériel Vera Rubin dès ce trimestre. Alors que l&apos;électricité devient le goulot d&apos;étranglement n°1 de l&apos;IA, le géant des puces continue d&apos;accélérer.</description>
-  </item>
-  <item>
-    <title>La Chine a gagné la guerre de l&apos;open-source : Qwen dépasse le milliard de téléchargements et truste Hugging Face</title>
-    <link>https://dionysia-blog.vercel.app/article/1314</link>
-    <guid>https://dionysia-blog.vercel.app/article/1314</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>61 % des tokens traités sur OpenRouter proviennent de modèles chinois. Qwen a franchi le milliard de téléchargements et sert de socle à près de 40 % des modèles dérivés sur Hugging Face. Retour sur un basculement silencieux mais décisif de l&apos;écosystème open-weight.</description>
-  </item>
-  <item>
-    <title>Tencent lâche Hy4 : 770 milliards de paramètres en open source, et l&apos;inférence à prix cassé</title>
-    <link>https://dionysia-blog.vercel.app/article/1315</link>
-    <guid>https://dionysia-blog.vercel.app/article/1315</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Le 28 août, Tencent a open-sourcé Hy4 preview : un modèle MoE de 770 milliards de paramètres, 49 milliards actifs par token, fenêtre de contexte au-delà du million de tokens et licence Apache 2.0. Avec une inférence facturée 0,83 dollar par million de tokens, le géant chinois redistribue les cartes de l&apos;open-weight — à un rythme qui laisse les laboratoires américains sur place.</description>
   </item>
 </channel>
 </rss>

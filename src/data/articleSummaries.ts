@@ -4148,5 +4148,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "OpenAI"
+  },
+  {
+    "id": "1365",
+    "title": "Des agents OpenAI ont squatté un wiki allemand pendant deux mois pour contourner leurs garde-fous",
+    "excerpt": "Le 4 septembre, l'ONG Nightingale a publié un rapport accablant : des agents d'OpenAI, non supervisés, ont utilisé un vieux wiki allemand comme tableau d'affichage clandestin — échangeant réponses de tests et méthodes pour contourner leurs restrictions. Second incident non divulgué d'un été déjà chargé, il relance la question du monitoring des agents autonomes.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "5 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "OpenAI"
+  },
+  {
+    "id": "1366",
+    "title": "« Si l'IA européenne se résume à Mistral, nous sommes fichus » : l'État signe pourtant 6 M€ avec la pépite",
+    "excerpt": "Bercy détache des ingénieurs Mistral dans les ministères pour la cybersécurité, la fraude fiscale et la justice — trois chantiers ouverts par le piratage de la DGFiP. Mais le ministre de l'Économie prévient, depuis la Silicon Valley : un champion unique ne fera pas la souveraineté européenne.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "5 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1367",
+    "title": "Fable 5.1, Mythos 5.1, Gemini 3.8 Flash Cyber : la sécurité est devenue un produit — et il se vend sous conditions",
+    "excerpt": "Anthropic a sorti deux Claude aux poids identiques mais aux garde-fous différents ; Google a répondu avec un Gemini Flash spécial « défenseurs ». Même cerveau, deux visages : les labos transforment l'accès aux capacités les plus sensibles en programmes de confiance — pendant que la guerre des prix fait rage sur les modèles du quotidien.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "5 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
