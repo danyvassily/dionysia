@@ -4280,5 +4280,82 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "5 min",
     "featured": true,
     "tag": "agents autonomes"
+  },
+  {
+    "id": "1377",
+    "title": "GPT-6 Astra côté API : la fenêtre d'un million de tokens cache des plafonds que les développeurs vont vite découvrir",
+    "excerpt": "Lancement, déploiement, polémiques : tout a été dit sur GPT-6 Astra. Reste ce que racontent depuis 48 heures les premiers développeurs à avoir mis les mains dans l'API — niveaux d'effort qui démultiplient la facture, palier tarifaire à 272 000 tokens, mid-turn steering. Mode d'emploi prudent.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "6 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "OpenAI"
+  },
+  {
+    "id": "1378",
+    "title": "macOS 27 Golden Gate sonne la fin de l'ère Intel : Apple autorise les développeurs à abandonner les Mac Intel",
+    "excerpt": "Le 1er septembre, Apple a envoyé aux développeurs un email qui change la donne : les apps du Mac App Store peuvent désormais être arm64 only. Combiné à la sortie imminente de macOS 27 Golden Gate — le premier système Apple silicon uniquement — c'est le signal le plus clair jamais envoyé aux possesseurs de Mac Intel.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "6 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Apple"
+  },
+  {
+    "id": "1379",
+    "title": "ChatGPT devient la première IA au monde soumise aux règles renforcées de l'UE — et Bruxelles l'a classé… moteur de recherche",
+    "excerpt": "C'est une première mondiale : le 31 août, la Commission européenne a désigné ChatGPT comme « très grand moteur de recherche en ligne » au titre du DSA, aux côtés de Roblox et Reddit. OpenAI dispose de quatre mois pour mettre son assistant en conformité — sous peine d'amendes pouvant atteindre 6 % de son chiffre d'affaires mondial.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "6 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "régulation UE"
+  },
+  {
+    "id": "1380",
+    "title": "DeepSeek V4-Pro passe en version officielle : le laboratoire chinois muscle son jeu d'agent",
+    "excerpt": "Fini le « preview » : DeepSeek a officialisé V4-Pro, avec des capacités agentiques renforcées, un support natif de l'API Responses et une intégration Codex en un clic. Un signal clair envoyé à OpenAI et Anthropic sur le terrain des agents de code — à un moment où la guerre des prix s'intensifie.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "6 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "DeepSeek"
+  },
+  {
+    "id": "1381",
+    "title": "Datacenter aux Ulis, IA physique et Airbus : Mistral joue l'intégration verticale pour incarner la souveraineté européenne",
+    "excerpt": "Tandis que Bruxelles durcit le ton sur les modèles à usage général, Mistral empile les actifs : datacenter d'inférence aux Ulis, commandes massives de GPU Nvidia, rachat de la pépite autrichienne Emmi AI. La réponse du champion français à l'AI Act s'appelle l'intégration verticale — et l'industrie européenne est dans la boucle.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "6 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "souveraineté européenne"
+  },
+  {
+    "id": "1382",
+    "title": "Hermes Agent v0.21 « Pantheon » : quand les agents se parlent entre eux, le terminal devient une agora",
+    "excerpt": "Bots avec des avatars, messages bot-à-bot persistants, crons qui gardent la mémoire, pilotage des subagents en direct : la v0.21 de l'agent open source de Nous Research transforme une machine à automatiser en véritable équipe. 760 contributeurs et près de 6 000 changements plus tard, Pantheon marque un cran au-dessus.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "6 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Hermes Agent"
+  },
+  {
+    "id": "1383",
+    "title": "Anthropic prépare son introduction en Bourse : le cache à -75 % et les garde-fous Enterprise sont-ils la rampe de lancement ?",
+    "excerpt": "Valorisée près de 1 000 milliards de dollars en privé, Anthropic viserait une IPO en octobre. Son triple lancement du 1er septembre — Fable 5.1, Mythos 5.1 et Enterprise Frontier Safeguards — ressemble moins à une mise à jour produit qu'à une mécanique financière : prix du cache divisé par quatre, zéro rétention de données, et des banques de Wall Street en première ligne.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "6 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Anthropic"
   }
 ];

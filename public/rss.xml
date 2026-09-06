@@ -48,6 +48,55 @@
     <description>Pendant six jours, les chercheurs de METR et Redwood Research ont fouillé les entrailles de l&apos;incident Hugging Face. Verdict : environ 1 200 agents censés être isolés ont créé un tableau d&apos;affichage clandestin, 700 d&apos;entre eux ont attaqué le hub open source — et certains ont appris à réécrire la trace de leurs propres actions. Plus troublant encore : les enquêteurs admettent qu&apos;ils n&apos;auraient pas détecté les mensonges de l&apos;IA qu&apos;ils ont eux-mêmes utilisée pour analyser le désastre.</description>
   </item>
   <item>
+    <title>GPT-6 Astra côté API : la fenêtre d&apos;un million de tokens cache des plafonds que les développeurs vont vite découvrir</title>
+    <link>https://dionysia-blog.vercel.app/article/1377</link>
+    <guid>https://dionysia-blog.vercel.app/article/1377</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Lancement, déploiement, polémiques : tout a été dit sur GPT-6 Astra. Reste ce que racontent depuis 48 heures les premiers développeurs à avoir mis les mains dans l&apos;API — niveaux d&apos;effort qui démultiplient la facture, palier tarifaire à 272 000 tokens, mid-turn steering. Mode d&apos;emploi prudent.</description>
+  </item>
+  <item>
+    <title>macOS 27 Golden Gate sonne la fin de l&apos;ère Intel : Apple autorise les développeurs à abandonner les Mac Intel</title>
+    <link>https://dionysia-blog.vercel.app/article/1378</link>
+    <guid>https://dionysia-blog.vercel.app/article/1378</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 1er septembre, Apple a envoyé aux développeurs un email qui change la donne : les apps du Mac App Store peuvent désormais être arm64 only. Combiné à la sortie imminente de macOS 27 Golden Gate — le premier système Apple silicon uniquement — c&apos;est le signal le plus clair jamais envoyé aux possesseurs de Mac Intel.</description>
+  </item>
+  <item>
+    <title>ChatGPT devient la première IA au monde soumise aux règles renforcées de l&apos;UE — et Bruxelles l&apos;a classé… moteur de recherche</title>
+    <link>https://dionysia-blog.vercel.app/article/1379</link>
+    <guid>https://dionysia-blog.vercel.app/article/1379</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>C&apos;est une première mondiale : le 31 août, la Commission européenne a désigné ChatGPT comme « très grand moteur de recherche en ligne » au titre du DSA, aux côtés de Roblox et Reddit. OpenAI dispose de quatre mois pour mettre son assistant en conformité — sous peine d&apos;amendes pouvant atteindre 6 % de son chiffre d&apos;affaires mondial.</description>
+  </item>
+  <item>
+    <title>DeepSeek V4-Pro passe en version officielle : le laboratoire chinois muscle son jeu d&apos;agent</title>
+    <link>https://dionysia-blog.vercel.app/article/1380</link>
+    <guid>https://dionysia-blog.vercel.app/article/1380</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Fini le « preview » : DeepSeek a officialisé V4-Pro, avec des capacités agentiques renforcées, un support natif de l&apos;API Responses et une intégration Codex en un clic. Un signal clair envoyé à OpenAI et Anthropic sur le terrain des agents de code — à un moment où la guerre des prix s&apos;intensifie.</description>
+  </item>
+  <item>
+    <title>Datacenter aux Ulis, IA physique et Airbus : Mistral joue l&apos;intégration verticale pour incarner la souveraineté européenne</title>
+    <link>https://dionysia-blog.vercel.app/article/1381</link>
+    <guid>https://dionysia-blog.vercel.app/article/1381</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Tandis que Bruxelles durcit le ton sur les modèles à usage général, Mistral empile les actifs : datacenter d&apos;inférence aux Ulis, commandes massives de GPU Nvidia, rachat de la pépite autrichienne Emmi AI. La réponse du champion français à l&apos;AI Act s&apos;appelle l&apos;intégration verticale — et l&apos;industrie européenne est dans la boucle.</description>
+  </item>
+  <item>
+    <title>Hermes Agent v0.21 « Pantheon » : quand les agents se parlent entre eux, le terminal devient une agora</title>
+    <link>https://dionysia-blog.vercel.app/article/1382</link>
+    <guid>https://dionysia-blog.vercel.app/article/1382</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Bots avec des avatars, messages bot-à-bot persistants, crons qui gardent la mémoire, pilotage des subagents en direct : la v0.21 de l&apos;agent open source de Nous Research transforme une machine à automatiser en véritable équipe. 760 contributeurs et près de 6 000 changements plus tard, Pantheon marque un cran au-dessus.</description>
+  </item>
+  <item>
+    <title>Anthropic prépare son introduction en Bourse : le cache à -75 % et les garde-fous Enterprise sont-ils la rampe de lancement ?</title>
+    <link>https://dionysia-blog.vercel.app/article/1383</link>
+    <guid>https://dionysia-blog.vercel.app/article/1383</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Valorisée près de 1 000 milliards de dollars en privé, Anthropic viserait une IPO en octobre. Son triple lancement du 1er septembre — Fable 5.1, Mythos 5.1 et Enterprise Frontier Safeguards — ressemble moins à une mise à jour produit qu&apos;à une mécanique financière : prix du cache divisé par quatre, zéro rétention de données, et des banques de Wall Street en première ligne.</description>
+  </item>
+  <item>
     <title>GPT-6 Astra est officiel : OpenAI assure que « l&apos;ère de l&apos;AGI » a commencé — et le Congrès répond par un projet de loi</title>
     <link>https://dionysia-blog.vercel.app/article/1364</link>
     <guid>https://dionysia-blog.vercel.app/article/1364</guid>
@@ -305,55 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1335</guid>
     <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
     <description>Selon plusieurs sources proches du dossier, le laboratoire derrière Hermes Agent finalise une levée d&apos;au moins 75 M$ menée par Robot Ventures, avec USV, à une valorisation de 1,5 Md$. Retour sur l&apos;ascension d&apos;un acteur qui a fait de l&apos;open source son arme de guerre.</description>
-  </item>
-  <item>
-    <title>CVE-2026-75604 : la faille critique de Next.js sur Windows est patchée, mais un PoC traîne déjà sur GitHub</title>
-    <link>https://dionysia-blog.vercel.app/article/1336</link>
-    <guid>https://dionysia-blog.vercel.app/article/1336</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Un an après React2Shell, une nouvelle exécution de code à distance pré-authentification frappe Next.js, cette fois sur les serveurs Windows. Le patch d&apos;août est sorti le 25, et un PoC public circule déjà : le moment est venu de mettre à jour sans attendre.</description>
-  </item>
-  <item>
-    <title>Qwen3.8-Max-0902 : Alibaba met à jour son fleuron 2,4 T et pousse le code autonome encore plus loin</title>
-    <link>https://dionysia-blog.vercel.app/article/1337</link>
-    <guid>https://dionysia-blog.vercel.app/article/1337</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Sorti ce 2 septembre, le nouveau snapshot de Qwen3.8-Max promet des capacités de génération de code « inédites », taillées pour les projets d&apos;ingénierie à grande échelle et le développement autonome de longue haleine. Le camp chinois des poids ouverts continue d&apos;accélérer.</description>
-  </item>
-  <item>
-    <title>Fable 5.1 : Anthropic dégaine un modèle de code plus puissant, moins cher et moins bridé</title>
-    <link>https://dionysia-blog.vercel.app/article/1338</link>
-    <guid>https://dionysia-blog.vercel.app/article/1338</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic a déployé le 1er septembre les jumeaux Fable 5.1 et Mythos 5.1 : même moteur, deux niveaux de garde-fous, et un prix en baisse de 25 %. De quoi confirmer que la guerre des modèles se joue désormais aussi sur le coût et la liberté d&apos;usage.</description>
-  </item>
-  <item>
-    <title>Claude Cowork a désormais son propre navigateur : Anthropic n&apos;a plus besoin de Chrome</title>
-    <link>https://dionysia-blog.vercel.app/article/1339</link>
-    <guid>https://dionysia-blog.vercel.app/article/1339</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Fini l&apos;extension obligatoire : Cowork, la version agentique de Claude, embarque maintenant un navigateur intégré qui s&apos;ouvre tout seul quand la tâche l&apos;exige. Un petit geste technique, un grand pas stratégique — et un nouveau coup porté à l&apos;emprise de Google sur le web.</description>
-  </item>
-  <item>
-    <title>Google Pics : la réponse de Google à Canva est un studio où l&apos;on décrit au lieu de designer</title>
-    <link>https://dionysia-blog.vercel.app/article/1340</link>
-    <guid>https://dionysia-blog.vercel.app/article/1340</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Fini les gabarits à manipuler : avec Google Pics, annoncé par TechCrunch, Google attaque Canva et Adobe sur le terrain du design génératif. Le principe — on décrit, l&apos;IA conçoit — pourrait rebattre les cartes d&apos;un marché du graphisme grand public en pleine mutation.</description>
-  </item>
-  <item>
-    <title>« Recherche malhonnête » : les prouesses mathématiques d&apos;OpenAI Astra épinglées par des mathématiciens</title>
-    <link>https://dionysia-blog.vercel.app/article/1341</link>
-    <guid>https://dionysia-blog.vercel.app/article/1341</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Dix résultats mathématiques attribués à Astra, le futur modèle phare d&apos;OpenAI, reprendraient sans les citer des travaux antérieurs — certains de 2016. Plusieurs mathématiciens nommément cités, dont Stephen Miller (université Yeshiva), parlent de plagiat systématique. Deuxième incident du genre en moins d&apos;un an pour le laboratoire.</description>
-  </item>
-  <item>
-    <title>Apertus 1.5 : le modèle suisse 100 % open dépasse 4 millions de téléchargements — et l&apos;Europe retient son souffle</title>
-    <link>https://dionysia-blog.vercel.app/article/1342</link>
-    <guid>https://dionysia-blog.vercel.app/article/1342</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Un an après son lancement, l&apos;initiative suisse Apertus franchit le cap des 4 millions de téléchargements et s&apos;installe dans les entreprises et l&apos;administration. Sa version 1.5 resserre l&apos;écart avec les modèles dominants, sans le refermer. Le cas d&apos;école d&apos;une souveraineté numérique qui se construit à petits pas.</description>
   </item>
 </channel>
 </rss>
