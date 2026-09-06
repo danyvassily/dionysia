@@ -4357,5 +4357,71 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "Anthropic"
+  },
+  {
+    "id": "1384",
+    "title": "46,4 % des tokens d'OpenRouter partent vers des modèles chinois : DeepSeek détrône Anthropic chez les développeurs",
+    "excerpt": "En dix-huit mois, la part des modèles chinois sur OpenRouter est passée de 4,5 % à 46,4 % du trafic. DeepSeek est devenu le premier fournisseur de l'agrégateur, devant Anthropic — et les labos américains répondent par la distillation, les baisses de prix et les contrôles de dépenses.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "6 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "OpenRouter"
+  },
+  {
+    "id": "1385",
+    "title": "GPT-6 Astra passe enfin entre toutes les mains : que valent les premiers tests indépendants ?",
+    "excerpt": "Le feuilleton du lancement d'Astra se clôt : OpenAI annonce le déploiement complet auprès des abonnés Pro, Enterprise et Business Premium. Pendant ce temps, les premiers tests indépendants — Matt Wolfe, Fireship — livrent un verdict plus nuancé que la communication officielle.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "6 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "OpenAI"
+  },
+  {
+    "id": "1386",
+    "title": "NVIDIA sort l'IA du cloud : Hermes Agent passe en un clic et vos PC inoccupés deviennent un datacenter",
+    "excerpt": "À l'IFA 2026, NVIDIA a transformé sa keynote en manifeste local-first : Hermes Agent s'installe en un clic sur les GPU RTX, le routeur open source PAIR mutualise les machines de la maison, et les mini-PC RTX Spark arrivent en octobre. L'IA de salon n'est plus un hobby de bricoleurs — c'est une stratégie industrielle.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "6 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "IA locale"
+  },
+  {
+    "id": "1387",
+    "title": "Des LLM qui choisissent où regarder : deux papiers préparent les agents à un monde de 1 million de tokens",
+    "excerpt": "Et si le modèle décidait lui-même les passages de son contexte qu'il doit lire ? Deux papiers déposés cette semaine sur arXiv attaquent le vrai goulet d'étranglement de l'IA agentique : le coût. L'un taille l'attention pour les contextes géants, l'autre apprend aux agents de terminal à s'entraîner là où le travail se passe vraiment.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "6 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Recherche IA"
+  },
+  {
+    "id": "1388",
+    "title": "Mistral entraîne ses modèles sur vos conversations par défaut : le champion européen de la privacy pris en flagrant délit",
+    "excerpt": "Le champion français de l'IA, qui a bâti sa marque sur la souveraineté des données et le RGPD, a discrètement basculé ses utilisateurs gratuits dans ses programmes d'entraînement. Une volte-face qui agite Hacker News, embarrasse les entreprises européennes régulées… et tombe au pire moment pour la « privacy-washing » à la française.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "6 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "Mistral"
+  },
+  {
+    "id": "1389",
+    "title": "5 millions d'utilisateurs, 20 % de non-développeurs : Codex gagne la guerre des agents par la distribution, pas par les benchmarks",
+    "excerpt": "Pendant que les labos s'écharpent sur les scores de Terminal-Bench, OpenAI joue une tout autre partie : transformer Codex en produit de masse pour le knowledge work. Avec 5 millions d'utilisateurs hebdomadaires et des « travailleurs de la connaissance » qui adoptent trois fois plus vite que les développeurs, la question n'est plus qui a le meilleur modèle — mais qui contrôle la porte d'entrée.",
+    "category": "dev",
+    "categoryLabel": "Developpement Web",
+    "date": "6 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "agents-de-code"
   }
 ];

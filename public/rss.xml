@@ -97,6 +97,48 @@
     <description>Valorisée près de 1 000 milliards de dollars en privé, Anthropic viserait une IPO en octobre. Son triple lancement du 1er septembre — Fable 5.1, Mythos 5.1 et Enterprise Frontier Safeguards — ressemble moins à une mise à jour produit qu&apos;à une mécanique financière : prix du cache divisé par quatre, zéro rétention de données, et des banques de Wall Street en première ligne.</description>
   </item>
   <item>
+    <title>46,4 % des tokens d&apos;OpenRouter partent vers des modèles chinois : DeepSeek détrône Anthropic chez les développeurs</title>
+    <link>https://dionysia-blog.vercel.app/article/1384</link>
+    <guid>https://dionysia-blog.vercel.app/article/1384</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>En dix-huit mois, la part des modèles chinois sur OpenRouter est passée de 4,5 % à 46,4 % du trafic. DeepSeek est devenu le premier fournisseur de l&apos;agrégateur, devant Anthropic — et les labos américains répondent par la distillation, les baisses de prix et les contrôles de dépenses.</description>
+  </item>
+  <item>
+    <title>GPT-6 Astra passe enfin entre toutes les mains : que valent les premiers tests indépendants ?</title>
+    <link>https://dionysia-blog.vercel.app/article/1385</link>
+    <guid>https://dionysia-blog.vercel.app/article/1385</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le feuilleton du lancement d&apos;Astra se clôt : OpenAI annonce le déploiement complet auprès des abonnés Pro, Enterprise et Business Premium. Pendant ce temps, les premiers tests indépendants — Matt Wolfe, Fireship — livrent un verdict plus nuancé que la communication officielle.</description>
+  </item>
+  <item>
+    <title>NVIDIA sort l&apos;IA du cloud : Hermes Agent passe en un clic et vos PC inoccupés deviennent un datacenter</title>
+    <link>https://dionysia-blog.vercel.app/article/1386</link>
+    <guid>https://dionysia-blog.vercel.app/article/1386</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>À l&apos;IFA 2026, NVIDIA a transformé sa keynote en manifeste local-first : Hermes Agent s&apos;installe en un clic sur les GPU RTX, le routeur open source PAIR mutualise les machines de la maison, et les mini-PC RTX Spark arrivent en octobre. L&apos;IA de salon n&apos;est plus un hobby de bricoleurs — c&apos;est une stratégie industrielle.</description>
+  </item>
+  <item>
+    <title>Des LLM qui choisissent où regarder : deux papiers préparent les agents à un monde de 1 million de tokens</title>
+    <link>https://dionysia-blog.vercel.app/article/1387</link>
+    <guid>https://dionysia-blog.vercel.app/article/1387</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Et si le modèle décidait lui-même les passages de son contexte qu&apos;il doit lire ? Deux papiers déposés cette semaine sur arXiv attaquent le vrai goulet d&apos;étranglement de l&apos;IA agentique : le coût. L&apos;un taille l&apos;attention pour les contextes géants, l&apos;autre apprend aux agents de terminal à s&apos;entraîner là où le travail se passe vraiment.</description>
+  </item>
+  <item>
+    <title>Mistral entraîne ses modèles sur vos conversations par défaut : le champion européen de la privacy pris en flagrant délit</title>
+    <link>https://dionysia-blog.vercel.app/article/1388</link>
+    <guid>https://dionysia-blog.vercel.app/article/1388</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le champion français de l&apos;IA, qui a bâti sa marque sur la souveraineté des données et le RGPD, a discrètement basculé ses utilisateurs gratuits dans ses programmes d&apos;entraînement. Une volte-face qui agite Hacker News, embarrasse les entreprises européennes régulées… et tombe au pire moment pour la « privacy-washing » à la française.</description>
+  </item>
+  <item>
+    <title>5 millions d&apos;utilisateurs, 20 % de non-développeurs : Codex gagne la guerre des agents par la distribution, pas par les benchmarks</title>
+    <link>https://dionysia-blog.vercel.app/article/1389</link>
+    <guid>https://dionysia-blog.vercel.app/article/1389</guid>
+    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Pendant que les labos s&apos;écharpent sur les scores de Terminal-Bench, OpenAI joue une tout autre partie : transformer Codex en produit de masse pour le knowledge work. Avec 5 millions d&apos;utilisateurs hebdomadaires et des « travailleurs de la connaissance » qui adoptent trois fois plus vite que les développeurs, la question n&apos;est plus qui a le meilleur modèle — mais qui contrôle la porte d&apos;entrée.</description>
+  </item>
+  <item>
     <title>GPT-6 Astra est officiel : OpenAI assure que « l&apos;ère de l&apos;AGI » a commencé — et le Congrès répond par un projet de loi</title>
     <link>https://dionysia-blog.vercel.app/article/1364</link>
     <guid>https://dionysia-blog.vercel.app/article/1364</guid>
@@ -312,48 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1329</guid>
     <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
     <description>Le 26 août, Z.ai (Zhipu) a ouvert GLM-5.3-Flash : premier GLM-5 nativement multimodal, 320 milliards de paramètres dont 18 actifs, licence MIT et contexte d&apos;un million de tokens. Un modèle taillé pour faire tourner des agents toute la journée, à un prix qui relance la guerre de l&apos;inférence.</description>
-  </item>
-  <item>
-    <title>Bots IA : dès le 15 septembre, Cloudflare bloque par défaut les crawlers d&apos;entraînement et les agents</title>
-    <link>https://dionysia-blog.vercel.app/article/1330</link>
-    <guid>https://dionysia-blog.vercel.app/article/1330</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Dans treize jours, les sites Cloudflare financés par la publicité bloqueront par défaut les robots d&apos;entraînement IA et les agents, tout en laissant passer les moteurs de recherche. Une bascule silencieuse qui redéfinit le rapport de force entre éditeurs, SEO et labos d&apos;IA — et qu&apos;il vaut mieux anticiper avant l&apos;échéance.</description>
-  </item>
-  <item>
-    <title>Apple enchaîne : événement spécial le 9 septembre, puis deux journées 100 % développeurs les 10 et 11</title>
-    <link>https://dionysia-blog.vercel.app/article/1331</link>
-    <guid>https://dionysia-blog.vercel.app/article/1331</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Cupertino verrouille sa rentrée : un « special event » est convoqué le 9 septembre, immédiatement suivi de rendez-vous en ligne pour les développeurs les 10 et 11 septembre 2026. Après une WWDC placée sous le signe de l&apos;IA, l&apos;écosystème Apple retient son souffle.</description>
-  </item>
-  <item>
-    <title>Hermes Agent v0.21.0 « Panthéon » : des bots nommés, des agents qui se parlent et des tâches planifiées dotées de mémoire</title>
-    <link>https://dionysia-blog.vercel.app/article/1332</link>
-    <guid>https://dionysia-blog.vercel.app/article/1332</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Nous Research a livré le 31 août la mise à jour la plus ambitieuse de son agent open source : Bot Mode intégré à l&apos;app desktop, messagerie directe entre agents, cron jobs à mémoire persistante et pilotage des sous-agents en direct. Bienvenue dans la « société d&apos;agents ».</description>
-  </item>
-  <item>
-    <title>Gemini 3.7 Flash : Google casse les prix, double la cadence et fait de l&apos;ombre à son propre flagship</title>
-    <link>https://dionysia-blog.vercel.app/article/1333</link>
-    <guid>https://dionysia-blog.vercel.app/article/1333</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Trois semaines seulement après son prédécesseur, Google lance Gemini 3.7 Flash à moitié prix : 0,75 $ par million de tokens d&apos;entrée. Au menu : un contexte d&apos;un million de tokens, un bond de 17 points en codage et une stratégie claire — rendre l&apos;IA agentique enfin abordable à grande échelle.</description>
-  </item>
-  <item>
-    <title>React2Shell2 : le PoC public de la faille critique Next.js sous Windows circule, patchez vos serveurs</title>
-    <link>https://dionysia-blog.vercel.app/article/1334</link>
-    <guid>https://dionysia-blog.vercel.app/article/1334</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Presque un an après React2Shell, une nouvelle vulnérabilité d&apos;exécution de code à distance (CVSS 9.0) touche les serveurs Next.js hébergés sous Windows. Correctifs disponibles depuis fin août en 15.5.24 et 16.3.3 — mais un PoC public circule désormais, et toutes les équipes self-hosted n&apos;ont pas encore migré.</description>
-  </item>
-  <item>
-    <title>Nous Research viserait 1,5 Md$ : le pari des agents open source séduit Robot Ventures et USV</title>
-    <link>https://dionysia-blog.vercel.app/article/1335</link>
-    <guid>https://dionysia-blog.vercel.app/article/1335</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Selon plusieurs sources proches du dossier, le laboratoire derrière Hermes Agent finalise une levée d&apos;au moins 75 M$ menée par Robot Ventures, avec USV, à une valorisation de 1,5 Md$. Retour sur l&apos;ascension d&apos;un acteur qui a fait de l&apos;open source son arme de guerre.</description>
   </item>
 </channel>
 </rss>
