@@ -4423,5 +4423,104 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "4 min",
     "featured": false,
     "tag": "agents-de-code"
+  },
+  {
+    "id": "1390",
+    "title": "389 ans d'attente, 11 jours de travail : des agents Claude viennent de formaliser le dernier théorème de Fermat",
+    "excerpt": "Le 4 septembre, Anthropic annonçait la première formalisation complète, vérifiée par machine, du dernier théorème de Fermat : 13 millions de lignes Lean écrites par une armée d'agents Claude en onze jours. Un projet humain doté d'un million de livres et de cinq ans de financement vient de se faire doubler. Et le vaincu tire lui-même les leçons.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "preuve-formelle"
+  },
+  {
+    "id": "1391",
+    "title": "99,9 % ou 62,7 % : qui a vraiment testé GPT-6 Astra ? Bienvenue dans la guerre des harnais",
+    "excerpt": "OpenAI a proclamé l'entrée dans « l'ère de l'AGI » avec un score de 99,9 % sur ARC-AGI-3. Problème : quand l'ARC Prize Foundation teste le même modèle avec son propre harnais, indépendant et neutre, GPT-6 Astra tombe à 62,7 %. Le thermomètre est devenu un champ de bataille — et l'industrie vend désormais des harnais comme des produits.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "benchmarks"
+  },
+  {
+    "id": "1392",
+    "title": "Grok 4.7 débarque le 12 septembre : 2 100 milliards de paramètres, et les données SpaceX dans le moteur",
+    "excerpt": "Elon Musk a lancé le compte à rebours : Grok 4.7 sort dans dix jours, avec un pré-entraînement de 2,1 billions de paramètres — le premier vrai saut d'échelle de xAI depuis des mois — et un entraînement complémentaire sur les données internes de SpaceX. Le pari le plus spectaculaire, et le plus risqué, de la semaine IA du 12 septembre.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "xAI"
+  },
+  {
+    "id": "1393",
+    "title": "160 000 puces Huawei, 2,6 milliards de dollars : le plan de DeepSeek pour se passer de Nvidia",
+    "excerpt": "Selon Bloomberg, DeepSeek prévoit de déployer au moins 160 000 accélérateurs Huawei Ascend 950DT dans un data center d'échelle gigawatt en Mongolie intérieure. Une commande estimée à 2,6 milliards de dollars qui résume à elle seule la stratégie du laboratoire chinois : s'émanciper de Nvidia pour l'inférence, sans pour autant renoncer à ses GPU pour l'entraînement.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "DeepSeek"
+  },
+  {
+    "id": "1394",
+    "title": "Deux iPhone, un seul numéro : iOS 27 dévoile « iPhone Handoff » — et Siri roule déjà sur Gemini",
+    "excerpt": "À deux jours de l'événement « Rise & Shine » du 9 septembre, la huitième bêta d'iOS 27 confirme une fonction intrigante repérée sur une slide de la WWDC : « iPhone Handoff », qui permet de basculer entre deux iPhone avec le même numéro grâce à une eSIM compagnon. Dans le même temps, l'architecture de la nouvelle Siri se précise : Apple en garde la façade, Google en fournit le cerveau, sur des GPU Nvidia.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "Apple"
+  },
+  {
+    "id": "1395",
+    "title": "Étiqueter chaque image, enregistrer chaque algorithme : la Chine fait tourner son régime IA « plus dur que l'AI Act » depuis un an",
+    "excerpt": "Pendant que Bruxelles durcit l'AI Act — ChatGPT classé « moteur de recherche », règles de marquage en vigueur depuis le 2 août —, la Chine applique déjà, depuis le 1er septembre 2025, une norme nationale obligatoire d'étiquetage des contenus générés par IA, doublée d'un régime d'enregistrement des algorithmes au rythme bimensuel. Une analyse parue le 5 septembre y voit le verrouillage silencieux d'un « moat d'État », avec une conséquence stratégique inattendue pour les modèles open-weight.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "régulation"
+  },
+  {
+    "id": "1396",
+    "title": "Anthropic verrouille 15 milliards de dollars avant son IPO — et refuse la guerre des prix d'OpenAI",
+    "excerpt": "À quelques semaines d'une introduction en Bourse qui pourrait pulvériser le record de SpaceX, Anthropic boucle la plus grosse ligne de crédit pré-IPO de l'histoire de l'IA. Sa réponse à la guerre des prix d'OpenAI ? Ne pas baisser ses tarifs, mais rendre les agents 45 % moins chers à faire tourner.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "7 septembre 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "Anthropic"
+  },
+  {
+    "id": "1397",
+    "title": "160 000 puces Huawei pour DeepSeek : l'inférence chinoise tourne le dos à Nvidia",
+    "excerpt": "Selon Bloomberg, DeepSeek prévoit d'installer au moins 160 000 accélérateurs Huawei Ascend 950DT dans son data center géant d'Ulanqab, en Mongolie intérieure — uniquement pour faire tourner ses modèles, pas pour les entraîner. Une commande qui, si elle se confirme, ferait passer à l'échelle industrielle le premier grand pari chinois sur une pile d'inférence 100 % domestique.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "7 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "infrastructure"
+  },
+  {
+    "id": "1398",
+    "title": "Apple enterre la taxe par installation : commission unique de 5 % et barème 26/20/15 dès le 1er octobre dans l'UE",
+    "excerpt": "Fini le demi-euro par installation au-delà d'un million de téléchargements : Apple remplace la Core Technology Fee par une commission de 5 % sur les transactions numériques distribuées hors App Store, et abaisse ses commissions à 26/20/15 % dans l'Union européenne. Les nouveaux termes, signables depuis le 19 août, entrent en vigueur dans trois semaines — les développeurs européens ont un choix à faire.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "7 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Apple"
   }
 ];

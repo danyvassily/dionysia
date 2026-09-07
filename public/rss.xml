@@ -6,6 +6,69 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>389 ans d&apos;attente, 11 jours de travail : des agents Claude viennent de formaliser le dernier théorème de Fermat</title>
+    <link>https://dionysia-blog.vercel.app/article/1390</link>
+    <guid>https://dionysia-blog.vercel.app/article/1390</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 4 septembre, Anthropic annonçait la première formalisation complète, vérifiée par machine, du dernier théorème de Fermat : 13 millions de lignes Lean écrites par une armée d&apos;agents Claude en onze jours. Un projet humain doté d&apos;un million de livres et de cinq ans de financement vient de se faire doubler. Et le vaincu tire lui-même les leçons.</description>
+  </item>
+  <item>
+    <title>99,9 % ou 62,7 % : qui a vraiment testé GPT-6 Astra ? Bienvenue dans la guerre des harnais</title>
+    <link>https://dionysia-blog.vercel.app/article/1391</link>
+    <guid>https://dionysia-blog.vercel.app/article/1391</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>OpenAI a proclamé l&apos;entrée dans « l&apos;ère de l&apos;AGI » avec un score de 99,9 % sur ARC-AGI-3. Problème : quand l&apos;ARC Prize Foundation teste le même modèle avec son propre harnais, indépendant et neutre, GPT-6 Astra tombe à 62,7 %. Le thermomètre est devenu un champ de bataille — et l&apos;industrie vend désormais des harnais comme des produits.</description>
+  </item>
+  <item>
+    <title>Grok 4.7 débarque le 12 septembre : 2 100 milliards de paramètres, et les données SpaceX dans le moteur</title>
+    <link>https://dionysia-blog.vercel.app/article/1392</link>
+    <guid>https://dionysia-blog.vercel.app/article/1392</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Elon Musk a lancé le compte à rebours : Grok 4.7 sort dans dix jours, avec un pré-entraînement de 2,1 billions de paramètres — le premier vrai saut d&apos;échelle de xAI depuis des mois — et un entraînement complémentaire sur les données internes de SpaceX. Le pari le plus spectaculaire, et le plus risqué, de la semaine IA du 12 septembre.</description>
+  </item>
+  <item>
+    <title>160 000 puces Huawei, 2,6 milliards de dollars : le plan de DeepSeek pour se passer de Nvidia</title>
+    <link>https://dionysia-blog.vercel.app/article/1393</link>
+    <guid>https://dionysia-blog.vercel.app/article/1393</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Selon Bloomberg, DeepSeek prévoit de déployer au moins 160 000 accélérateurs Huawei Ascend 950DT dans un data center d&apos;échelle gigawatt en Mongolie intérieure. Une commande estimée à 2,6 milliards de dollars qui résume à elle seule la stratégie du laboratoire chinois : s&apos;émanciper de Nvidia pour l&apos;inférence, sans pour autant renoncer à ses GPU pour l&apos;entraînement.</description>
+  </item>
+  <item>
+    <title>Deux iPhone, un seul numéro : iOS 27 dévoile « iPhone Handoff » — et Siri roule déjà sur Gemini</title>
+    <link>https://dionysia-blog.vercel.app/article/1394</link>
+    <guid>https://dionysia-blog.vercel.app/article/1394</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>À deux jours de l&apos;événement « Rise &amp; Shine » du 9 septembre, la huitième bêta d&apos;iOS 27 confirme une fonction intrigante repérée sur une slide de la WWDC : « iPhone Handoff », qui permet de basculer entre deux iPhone avec le même numéro grâce à une eSIM compagnon. Dans le même temps, l&apos;architecture de la nouvelle Siri se précise : Apple en garde la façade, Google en fournit le cerveau, sur des GPU Nvidia.</description>
+  </item>
+  <item>
+    <title>Étiqueter chaque image, enregistrer chaque algorithme : la Chine fait tourner son régime IA « plus dur que l&apos;AI Act » depuis un an</title>
+    <link>https://dionysia-blog.vercel.app/article/1395</link>
+    <guid>https://dionysia-blog.vercel.app/article/1395</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Pendant que Bruxelles durcit l&apos;AI Act — ChatGPT classé « moteur de recherche », règles de marquage en vigueur depuis le 2 août —, la Chine applique déjà, depuis le 1er septembre 2025, une norme nationale obligatoire d&apos;étiquetage des contenus générés par IA, doublée d&apos;un régime d&apos;enregistrement des algorithmes au rythme bimensuel. Une analyse parue le 5 septembre y voit le verrouillage silencieux d&apos;un « moat d&apos;État », avec une conséquence stratégique inattendue pour les modèles open-weight.</description>
+  </item>
+  <item>
+    <title>Anthropic verrouille 15 milliards de dollars avant son IPO — et refuse la guerre des prix d&apos;OpenAI</title>
+    <link>https://dionysia-blog.vercel.app/article/1396</link>
+    <guid>https://dionysia-blog.vercel.app/article/1396</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>À quelques semaines d&apos;une introduction en Bourse qui pourrait pulvériser le record de SpaceX, Anthropic boucle la plus grosse ligne de crédit pré-IPO de l&apos;histoire de l&apos;IA. Sa réponse à la guerre des prix d&apos;OpenAI ? Ne pas baisser ses tarifs, mais rendre les agents 45 % moins chers à faire tourner.</description>
+  </item>
+  <item>
+    <title>160 000 puces Huawei pour DeepSeek : l&apos;inférence chinoise tourne le dos à Nvidia</title>
+    <link>https://dionysia-blog.vercel.app/article/1397</link>
+    <guid>https://dionysia-blog.vercel.app/article/1397</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Selon Bloomberg, DeepSeek prévoit d&apos;installer au moins 160 000 accélérateurs Huawei Ascend 950DT dans son data center géant d&apos;Ulanqab, en Mongolie intérieure — uniquement pour faire tourner ses modèles, pas pour les entraîner. Une commande qui, si elle se confirme, ferait passer à l&apos;échelle industrielle le premier grand pari chinois sur une pile d&apos;inférence 100 % domestique.</description>
+  </item>
+  <item>
+    <title>Apple enterre la taxe par installation : commission unique de 5 % et barème 26/20/15 dès le 1er octobre dans l&apos;UE</title>
+    <link>https://dionysia-blog.vercel.app/article/1398</link>
+    <guid>https://dionysia-blog.vercel.app/article/1398</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Fini le demi-euro par installation au-delà d&apos;un million de téléchargements : Apple remplace la Core Technology Fee par une commission de 5 % sur les transactions numériques distribuées hors App Store, et abaisse ses commissions à 26/20/15 % dans l&apos;Union européenne. Les nouveaux termes, signables depuis le 19 août, entrent en vigueur dans trois semaines — les développeurs européens ont un choix à faire.</description>
+  </item>
+  <item>
     <title>Gemini apprend à zapper dans les vidéos : jusqu&apos;à 88 % de tokens en moins pour analyser une heure d&apos;images</title>
     <link>https://dionysia-blog.vercel.app/article/1371</link>
     <guid>https://dionysia-blog.vercel.app/article/1371</guid>
@@ -291,69 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1358</guid>
     <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
     <description>Quatrième modèle frontière offert par un laboratoire chinois en un mois : Tencent a publié Hy4, un MoE de 770 milliards de paramètres sous licence Apache 2.0. Objectif assumé : tirer le prix de l&apos;intelligence vers zéro et déplacer la valeur vers la couche compute. Analyse d&apos;une stratégie qui change la donne mondiale.</description>
-  </item>
-  <item>
-    <title>Muse Spark 1.3 : Meta assure avoir rejoint la frontière de l&apos;IA — mais son meilleur mode reste sous clé</title>
-    <link>https://dionysia-blog.vercel.app/article/1359</link>
-    <guid>https://dionysia-blog.vercel.app/article/1359</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Quatrième Muse Spark en cinq mois, le nouveau modèle de Meta talonne les meilleurs sur le code, selon ses benchmarks. Les mesures indépendantes confirment l&apos;essentiel — avec une nuance : le mode le plus performant n&apos;est pas encore public.</description>
-  </item>
-  <item>
-    <title>Claude Commerce Agents : Anthropic ouvre le code des agents d&apos;achat — et laisse le paiement aux marchands</title>
-    <link>https://dionysia-blog.vercel.app/article/1360</link>
-    <guid>https://dionysia-blog.vercel.app/article/1360</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic publie un blueprint open source pour construire des agents shopping et marchands avec Claude. Paniers +35 %, achats finalisés +60 % chez ses pilotes : des chiffres maison à prendre avec précaution, et une stratégie clairement opposée à celle d&apos;OpenAI.</description>
-  </item>
-  <item>
-    <title>Gemini 3.8 Flash Cyber : le modèle que Google entraîne à trouver les failles… et à les corriger seul</title>
-    <link>https://dionysia-blog.vercel.app/article/1361</link>
-    <guid>https://dionysia-blog.vercel.app/article/1361</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Troisième itération Flash en six semaines, au même prix que la 3.7 : Google a dévoilé le 2 septembre Gemini 3.8 Flash (54,9 % sur HLE-Verified) et une variante inédite « Cyber », capable de détecter des vulnérabilités et de produire des correctifs de niveau frontière — mais réservée aux défenseurs de confiance via le programme Fairwind. Un signal fort sur la place de la cybersécurité dans les modèles de fondation.</description>
-  </item>
-  <item>
-    <title>iPhone Ultra pliable, adieux à Tim Cook : le 9 septembre, Apple entre dans l&apos;ère Ternus</title>
-    <link>https://dionysia-blog.vercel.app/article/1362</link>
-    <guid>https://dionysia-blog.vercel.app/article/1362</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Tim Cook a quitté la direction d&apos;Apple le 2 septembre, laissant à John Ternus un premier événement à hauteur du symbole : le lancement, le 9 septembre, de l&apos;iPhone pliable — pressenti autour de 2 000 dollars. Récapitulatif des neuf produits attendus et de ce que ce passage de témoin change pour l&apos;écosystème.</description>
-  </item>
-  <item>
-    <title>Anthropic devance OpenAI dans la course aux milliards — et l&apos;IPO de l&apos;automne se joue maintenant</title>
-    <link>https://dionysia-blog.vercel.app/article/1325</link>
-    <guid>https://dionysia-blog.vercel.app/article/1325</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Pour la première fois, Anthropic affiche un revenu annualisé supérieur à celui d&apos;OpenAI : plus de 30 milliards de dollars contre 25. Avec un S-1 déposé en juin et une fenêtre d&apos;introduction en Bourse évoquée pour septembre-octobre, le duel des deux labs les plus valués de la planète entre dans sa phase décisive.</description>
-  </item>
-  <item>
-    <title>Apple contre OpenAI : la guerre des secrets industriels se jouera au tribunal le 1er octobre</title>
-    <link>https://dionysia-blog.vercel.app/article/1326</link>
-    <guid>https://dionysia-blog.vercel.app/article/1326</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>La plainte d&apos;Apple contre OpenAI pour vol de secrets industriels connaît un rebondissement majeur : OpenAI demande le rejet de l&apos;affaire, qualifiant la procédure de « pourrie jusqu&apos;à l&apos;os ». Une audience décisive est fixée au 1er octobre.</description>
-  </item>
-  <item>
-    <title>Hermes Agent passe en Bot Mode : votre agent IA devient une équipe de bots qui se parlent</title>
-    <link>https://dionysia-blog.vercel.app/article/1327</link>
-    <guid>https://dionysia-blog.vercel.app/article/1327</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Nous Research intègre le Bot Mode en standard dans Hermes Desktop : chaque profil devient un bot nommé, avec sa propre mémoire, ses skills et son modèle — et les bots peuvent dialoguer entre eux. La multi-agentisation des assistants personnels prend un tour concret.</description>
-  </item>
-  <item>
-    <title>Bots IA : Cloudflare instaure le code de la route du web — Search, Agent, Training, chacun sa voie</title>
-    <link>https://dionysia-blog.vercel.app/article/1328</link>
-    <guid>https://dionysia-blog.vercel.app/article/1328</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Fini le bouton unique anti-bots. Cloudflare classe désormais les robots d&apos;IA en trois catégories — moteurs de recherche, agents et crawlers d&apos;entraînement — et bloque par défaut les deux dernières sur les pages financées par la publicité. Une bascule discrète mais structurelle pour les webmasters, et un précédent qui redessine l&apos;économie du web face à l&apos;IA.</description>
-  </item>
-  <item>
-    <title>GLM-5.3-Flash : Z.ai casse le prix des agents multimodaux avec un modèle MIT à 18 milliards de paramètres actifs</title>
-    <link>https://dionysia-blog.vercel.app/article/1329</link>
-    <guid>https://dionysia-blog.vercel.app/article/1329</guid>
-    <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Le 26 août, Z.ai (Zhipu) a ouvert GLM-5.3-Flash : premier GLM-5 nativement multimodal, 320 milliards de paramètres dont 18 actifs, licence MIT et contexte d&apos;un million de tokens. Un modèle taillé pour faire tourner des agents toute la journée, à un prix qui relance la guerre de l&apos;inférence.</description>
   </item>
 </channel>
 </rss>
