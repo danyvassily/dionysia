@@ -55,13 +55,6 @@
     <description>À quelques semaines d&apos;une introduction en Bourse qui pourrait pulvériser le record de SpaceX, Anthropic boucle la plus grosse ligne de crédit pré-IPO de l&apos;histoire de l&apos;IA. Sa réponse à la guerre des prix d&apos;OpenAI ? Ne pas baisser ses tarifs, mais rendre les agents 45 % moins chers à faire tourner.</description>
   </item>
   <item>
-    <title>160 000 puces Huawei pour DeepSeek : l&apos;inférence chinoise tourne le dos à Nvidia</title>
-    <link>https://dionysia-blog.vercel.app/article/1397</link>
-    <guid>https://dionysia-blog.vercel.app/article/1397</guid>
-    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Selon Bloomberg, DeepSeek prévoit d&apos;installer au moins 160 000 accélérateurs Huawei Ascend 950DT dans son data center géant d&apos;Ulanqab, en Mongolie intérieure — uniquement pour faire tourner ses modèles, pas pour les entraîner. Une commande qui, si elle se confirme, ferait passer à l&apos;échelle industrielle le premier grand pari chinois sur une pile d&apos;inférence 100 % domestique.</description>
-  </item>
-  <item>
     <title>Apple enterre la taxe par installation : commission unique de 5 % et barème 26/20/15 dès le 1er octobre dans l&apos;UE</title>
     <link>https://dionysia-blog.vercel.app/article/1398</link>
     <guid>https://dionysia-blog.vercel.app/article/1398</guid>
@@ -354,6 +347,13 @@
     <guid>https://dionysia-blog.vercel.app/article/1358</guid>
     <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
     <description>Quatrième modèle frontière offert par un laboratoire chinois en un mois : Tencent a publié Hy4, un MoE de 770 milliards de paramètres sous licence Apache 2.0. Objectif assumé : tirer le prix de l&apos;intelligence vers zéro et déplacer la valeur vers la couche compute. Analyse d&apos;une stratégie qui change la donne mondiale.</description>
+  </item>
+  <item>
+    <title>Muse Spark 1.3 : Meta assure avoir rejoint la frontière de l&apos;IA — mais son meilleur mode reste sous clé</title>
+    <link>https://dionysia-blog.vercel.app/article/1359</link>
+    <guid>https://dionysia-blog.vercel.app/article/1359</guid>
+    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Quatrième Muse Spark en cinq mois, le nouveau modèle de Meta talonne les meilleurs sur le code, selon ses benchmarks. Les mesures indépendantes confirment l&apos;essentiel — avec une nuance : le mode le plus performant n&apos;est pas encore public.</description>
   </item>
 </channel>
 </rss>

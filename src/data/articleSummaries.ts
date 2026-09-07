@@ -4502,17 +4502,6 @@ export const articleSummaries: ArticleSummary[] = [
     "tag": "Anthropic"
   },
   {
-    "id": "1397",
-    "title": "160 000 puces Huawei pour DeepSeek : l'inférence chinoise tourne le dos à Nvidia",
-    "excerpt": "Selon Bloomberg, DeepSeek prévoit d'installer au moins 160 000 accélérateurs Huawei Ascend 950DT dans son data center géant d'Ulanqab, en Mongolie intérieure — uniquement pour faire tourner ses modèles, pas pour les entraîner. Une commande qui, si elle se confirme, ferait passer à l'échelle industrielle le premier grand pari chinois sur une pile d'inférence 100 % domestique.",
-    "category": "tech",
-    "categoryLabel": "Technologie",
-    "date": "7 septembre 2026",
-    "readTime": "3 min",
-    "featured": false,
-    "tag": "infrastructure"
-  },
-  {
     "id": "1398",
     "title": "Apple enterre la taxe par installation : commission unique de 5 % et barème 26/20/15 dès le 1er octobre dans l'UE",
     "excerpt": "Fini le demi-euro par installation au-delà d'un million de téléchargements : Apple remplace la Core Technology Fee par une commission de 5 % sur les transactions numériques distribuées hors App Store, et abaisse ses commissions à 26/20/15 % dans l'Union européenne. Les nouveaux termes, signables depuis le 19 août, entrent en vigueur dans trois semaines — les développeurs européens ont un choix à faire.",
