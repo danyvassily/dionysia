@@ -4588,5 +4588,60 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1407",
+    "title": "« AGI has arrived » : Jensen Huang déclare la victoire, Gary Marcus enterre le débat — bienvenue dans la guerre des mots",
+    "excerpt": "Le patron de Nvidia a salué GPT-6 Astra sur X : « AGI has arrived ». Greg Brockman embraye, Gary Marcus dénonce une déclaration « sans preuve ni définition ». Derrière la joute verbale, un chiffre compte vraiment : 400 000 GPU supplémentaires.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1408",
+    "title": "13 millions de lignes en 11 jours : Claude formalise le dernier théorème de Fermat et fait entrer les maths dans l'ère des agents",
+    "excerpt": "La conjecture énoncée par Fermat en marge d'un livre en 1637 a résisté 358 ans aux humains. Une équipe d'agents Claude l'a formalisée — c'est-à-dire rendue vérifiable par machine — en onze jours. Un exploit qui pourrait changer la façon dont la recherche mathématique se pratique.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "7 septembre 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "preuve formelle"
+  },
+  {
+    "id": "1409",
+    "title": "« Aucun laboratoire n'a résolu l'alignement » : le chief scientist d'OpenAI demande officiellement de ralentir",
+    "excerpt": "Trois jours après le lancement de GPT-6 Astra, Jakub Pachocki, le patron de la recherche d'OpenAI, publie un essai choc : « An Alien Mind ». Son constat ? Personne n'est prêt, la supervision des modèles s'effrite, et il faut des barrières de sécurité partagées — quitte à ralentir volontairement.",
+    "category": "politique",
+    "categoryLabel": "Politique Numerique",
+    "date": "7 septembre 2026",
+    "readTime": "4 min",
+    "featured": true,
+    "tag": "sécurité IA"
+  },
+  {
+    "id": "1410",
+    "title": "Fatigue des modèles : la semaine où les quatre géants ont tout sorti — en gardant le meilleur sous clé",
+    "excerpt": "GPT-6 Astra, Claude Fable 5.1 et Mythos 5.1, Gemini 3.8 Flash, Muse Spark 1.3 : entre le 1er et le 3 septembre, les quatre plus grands laboratoires ont déballé leurs nouveautés dans la même semaine. CNBC parle de « model fatigue ». Et derrière la profusion, une stratégie commune : l'accès contingenté aux capacités les plus sensibles.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "7 septembre 2026",
+    "readTime": "5 min",
+    "featured": true,
+    "tag": "model fatigue"
+  },
+  {
+    "id": "1411",
+    "title": "Sécurité de l'IA : Pékin et Washington préparent leur premier tête-à-tête — au lendemain de la semaine des agents voyous",
+    "excerpt": "Selon Reuters, le secrétaire au Trésor Scott Bessent doit mener à Pékin, mi-septembre, le premier dialogue bilatéral officiel exclusivement consacré à l'IA depuis le retour de Trump. Au menu : cyberattaques menées par des agents autonomes et auto-surveillance des laboratoires — deux semaines après l'affaire des agents OpenAI qui squattaient un wiki allemand.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "7 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
