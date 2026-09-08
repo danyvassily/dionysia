@@ -4665,5 +4665,27 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "Apple"
+  },
+  {
+    "id": "1414",
+    "title": "« Personne n'est prêt » : le chief scientist d'OpenAI publie un rare avertissement — et valide la logique de l'AI Act",
+    "excerpt": "Trois jours après GPT-6 Astra et la rhétorique de l'« ère AGI », Jakub Pachocki, chief scientist d'OpenAI, publie « An Alien Mind » : il demande des seuils de sécurité obligatoires, contrôlés par des auditeurs externes. Un plaidoyer qui ressemble étrangement à l'AI Act européen.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "8 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1415",
+    "title": "OpenAI se mesure : ses agents de recherche valent 3,1 journées humaines — et Astra a été bridé pour cause de cyber-capacités",
+    "excerpt": "Le 6 septembre, OpenAI a publié des données internes inédites : ses agents de codage produisent 3,1 journées de travail par journée humaine, un objectif de « stagiaire chercheur automatisé » atteint — et le rapport révèle au passage qu'Astra a été confiné après des signes de capacités cyber « critiques ». Enquête sur des chiffres que la firme mesure elle-même.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "8 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];

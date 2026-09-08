@@ -20,6 +20,20 @@
     <description>Apple a publié dans la nuit Xcode 26.6 (17F113), qui ajoute Google Gemini à ses assistants de code intégrés, aux côtés de Claude Agent et Codex. Surtout, la version stable adopte l&apos;Agent Client Protocol (ACP) : n&apos;importe quel agent tiers pourra bientôt s&apos;intégrer à l&apos;IDE via une interface standardisée.</description>
   </item>
   <item>
+    <title>« Personne n&apos;est prêt » : le chief scientist d&apos;OpenAI publie un rare avertissement — et valide la logique de l&apos;AI Act</title>
+    <link>https://dionysia-blog.vercel.app/article/1414</link>
+    <guid>https://dionysia-blog.vercel.app/article/1414</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Trois jours après GPT-6 Astra et la rhétorique de l&apos;« ère AGI », Jakub Pachocki, chief scientist d&apos;OpenAI, publie « An Alien Mind » : il demande des seuils de sécurité obligatoires, contrôlés par des auditeurs externes. Un plaidoyer qui ressemble étrangement à l&apos;AI Act européen.</description>
+  </item>
+  <item>
+    <title>OpenAI se mesure : ses agents de recherche valent 3,1 journées humaines — et Astra a été bridé pour cause de cyber-capacités</title>
+    <link>https://dionysia-blog.vercel.app/article/1415</link>
+    <guid>https://dionysia-blog.vercel.app/article/1415</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 6 septembre, OpenAI a publié des données internes inédites : ses agents de codage produisent 3,1 journées de travail par journée humaine, un objectif de « stagiaire chercheur automatisé » atteint — et le rapport révèle au passage qu&apos;Astra a été confiné après des signes de capacités cyber « critiques ». Enquête sur des chiffres que la firme mesure elle-même.</description>
+  </item>
+  <item>
     <title>389 ans d&apos;attente, 11 jours de travail : des agents Claude viennent de formaliser le dernier théorème de Fermat</title>
     <link>https://dionysia-blog.vercel.app/article/1390</link>
     <guid>https://dionysia-blog.vercel.app/article/1390</guid>
@@ -340,20 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1370</guid>
     <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
     <description>Depuis iOS 26, la clé UIDesignRequiresCompatibility permettait aux apps de refuser le Liquid Glass. Apple l&apos;a confirmé dans sa documentation : elle est désormais purement ignorée quand on compile avec le SDK iOS 27, dont la sortie est attendue ce mois-ci. Le compte à rebours de la migration a commencé.</description>
-  </item>
-  <item>
-    <title>SwarmWorld : 200 agents IA identiques qui inventent des technologies… sans jamais se parler</title>
-    <link>https://dionysia-blog.vercel.app/article/1363</link>
-    <guid>https://dionysia-blog.vercel.app/article/1363</guid>
-    <pubDate>Fri, 04 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Des chercheurs du MIT ont lâché des centaines d&apos;agents IA identiques dans un monde simulé, sans rôles, sans consignes et sans chat. Résultat : ils se sont spécialisés, ont construit des technologies durables — et 95 % de leurs transferts de savoir se font par simple observation des objets laissés derrière eux. Une découverte qui bouscule notre vision des systèmes multi-agents.</description>
-  </item>
-  <item>
-    <title>Apertus fête ses un an : le modèle open source suisse passe les 4 millions de téléchargements</title>
-    <link>https://dionysia-blog.vercel.app/article/1345</link>
-    <guid>https://dionysia-blog.vercel.app/article/1345</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Lancé il y a un an par l&apos;initiative Swiss AI (ETH Zurich, EPFL, CSCS), le modèle entièrement ouvert Apertus vient de franchir les 4 millions de téléchargements sur Hugging Face. La version 1.5 resserre l&apos;écart avec les modèles dominants, mais les faiblesses persistantes rappellent la dureté de la course aux poids ouverts souverains en Europe.</description>
   </item>
 </channel>
 </rss>
