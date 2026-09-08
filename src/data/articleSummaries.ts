@@ -4643,5 +4643,27 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1412",
+    "title": "Qwen-Drive 1.0 : Alibaba ouvre un modèle de conduite autonome — mais ses explications ne collent pas toujours à ses manœuvres",
+    "excerpt": "Le 7 septembre, Alibaba a publié Qwen-Drive-1.0-4B, un modèle open source (Apache 2.0) qui fusionne perception 3D, compréhension du trafic et planification de trajectoire. Derrière les résultats en simulation, une limite inquiétante : le modèle justifie parfois ses actions par des raisons qui ne correspondent pas à ses manœuvres réelles.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "8 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1413",
+    "title": "Xcode 26.6 : Google Gemini entre dans l'IDE stable — et Apple ouvre Xcode aux agents tiers",
+    "excerpt": "Apple a publié dans la nuit Xcode 26.6 (17F113), qui ajoute Google Gemini à ses assistants de code intégrés, aux côtés de Claude Agent et Codex. Surtout, la version stable adopte l'Agent Client Protocol (ACP) : n'importe quel agent tiers pourra bientôt s'intégrer à l'IDE via une interface standardisée.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "8 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "Apple"
   }
 ];

@@ -6,6 +6,20 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>Qwen-Drive 1.0 : Alibaba ouvre un modèle de conduite autonome — mais ses explications ne collent pas toujours à ses manœuvres</title>
+    <link>https://dionysia-blog.vercel.app/article/1412</link>
+    <guid>https://dionysia-blog.vercel.app/article/1412</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 7 septembre, Alibaba a publié Qwen-Drive-1.0-4B, un modèle open source (Apache 2.0) qui fusionne perception 3D, compréhension du trafic et planification de trajectoire. Derrière les résultats en simulation, une limite inquiétante : le modèle justifie parfois ses actions par des raisons qui ne correspondent pas à ses manœuvres réelles.</description>
+  </item>
+  <item>
+    <title>Xcode 26.6 : Google Gemini entre dans l&apos;IDE stable — et Apple ouvre Xcode aux agents tiers</title>
+    <link>https://dionysia-blog.vercel.app/article/1413</link>
+    <guid>https://dionysia-blog.vercel.app/article/1413</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Apple a publié dans la nuit Xcode 26.6 (17F113), qui ajoute Google Gemini à ses assistants de code intégrés, aux côtés de Claude Agent et Codex. Surtout, la version stable adopte l&apos;Agent Client Protocol (ACP) : n&apos;importe quel agent tiers pourra bientôt s&apos;intégrer à l&apos;IDE via une interface standardisée.</description>
+  </item>
+  <item>
     <title>389 ans d&apos;attente, 11 jours de travail : des agents Claude viennent de formaliser le dernier théorème de Fermat</title>
     <link>https://dionysia-blog.vercel.app/article/1390</link>
     <guid>https://dionysia-blog.vercel.app/article/1390</guid>
@@ -340,20 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1345</guid>
     <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
     <description>Lancé il y a un an par l&apos;initiative Swiss AI (ETH Zurich, EPFL, CSCS), le modèle entièrement ouvert Apertus vient de franchir les 4 millions de téléchargements sur Hugging Face. La version 1.5 resserre l&apos;écart avec les modèles dominants, mais les faiblesses persistantes rappellent la dureté de la course aux poids ouverts souverains en Europe.</description>
-  </item>
-  <item>
-    <title>« Recurrent depth » : la technique d&apos;Astra qui rendrait la pensée des IA illisible</title>
-    <link>https://dionysia-blog.vercel.app/article/1346</link>
-    <guid>https://dionysia-blog.vercel.app/article/1346</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>The Information a révélé qu&apos;Astra, le futur modèle phare d&apos;OpenAI, utilise une technique de raisonnement en boucle baptisée « recurrent depth » : une partie de son calcul échapperait au chain-of-thought lisible. Les chercheurs en sécurité crient au signal d&apos;alarme, tandis qu&apos;OpenAI promet que sa chaîne de pensée restera surveillable. Au cœur du débat : la capacité à contrôler des agents toujours plus autonomes.</description>
-  </item>
-  <item>
-    <title>Hermes Agent v0.21 « Pantheon » : votre assistant devient toute une équipe</title>
-    <link>https://dionysia-blog.vercel.app/article/1347</link>
-    <guid>https://dionysia-blog.vercel.app/article/1347</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Nous Research a livré le 31 août la v0.21.0 de Hermes Agent, baptisée « Pantheon ». Au menu : un Bot Mode intégré qui transforme l&apos;agent en société de sous-agents nommés et persistants, des conversations bot-à-bot durables, des tâches planifiées à mémoire longue et un pilotage humain en pleine exécution. Avec près de 240 000 étoiles GitHub et 1,5 trillion de tokens traités sur OpenRouter, l&apos;agent open source confirme sa place centrale dans l&apos;écosystème.</description>
   </item>
 </channel>
 </rss>
