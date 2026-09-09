@@ -6,6 +6,20 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>Le Dernier Théorème de Fermat vérifié par machine : des agents Claude formalisent 358 ans de mathématiques en 11 jours</title>
+    <link>https://dionysia-blog.vercel.app/article/1418</link>
+    <guid>https://dionysia-blog.vercel.app/article/1418</guid>
+    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Anthropic annonce la première preuve complète vérifiée par ordinateur du Dernier Théorème de Fermat : 13 millions de lignes Lean écrites par des agents Claude en 11 jours. L&apos;exploit doit moins au modèle qu&apos;à Prove2Me, l&apos;infrastructure de coordination qui a permis à des dizaines d&apos;agents de ne pas se marcher dessus.</description>
+  </item>
+  <item>
+    <title>Muse, l&apos;agent personnel de Meta, passe à l&apos;action : il réserve, négocie et achète à votre place</title>
+    <link>https://dionysia-blog.vercel.app/article/1419</link>
+    <guid>https://dionysia-blog.vercel.app/article/1419</guid>
+    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Meta a lancé Muse le 8 septembre : un agent personnel qui ouvre un navigateur, remplit des formulaires et négocie des achats en autonomie. Réservé aux États-Unis pour l&apos;instant, il signale l&apos;entrée de Meta dans la course aux agents grand public — avec WhatsApp comme cheval de Troie.</description>
+  </item>
+  <item>
     <title>Qwen-Drive 1.0 : Alibaba ouvre un modèle de conduite autonome — mais ses explications ne collent pas toujours à ses manœuvres</title>
     <link>https://dionysia-blog.vercel.app/article/1412</link>
     <guid>https://dionysia-blog.vercel.app/article/1412</guid>
@@ -340,20 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1366</guid>
     <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
     <description>Bercy détache des ingénieurs Mistral dans les ministères pour la cybersécurité, la fraude fiscale et la justice — trois chantiers ouverts par le piratage de la DGFiP. Mais le ministre de l&apos;Économie prévient, depuis la Silicon Valley : un champion unique ne fera pas la souveraineté européenne.</description>
-  </item>
-  <item>
-    <title>Fable 5.1, Mythos 5.1, Gemini 3.8 Flash Cyber : la sécurité est devenue un produit — et il se vend sous conditions</title>
-    <link>https://dionysia-blog.vercel.app/article/1367</link>
-    <guid>https://dionysia-blog.vercel.app/article/1367</guid>
-    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic a sorti deux Claude aux poids identiques mais aux garde-fous différents ; Google a répondu avec un Gemini Flash spécial « défenseurs ». Même cerveau, deux visages : les labos transforment l&apos;accès aux capacités les plus sensibles en programmes de confiance — pendant que la guerre des prix fait rage sur les modèles du quotidien.</description>
-  </item>
-  <item>
-    <title>iPhone Handoff : iOS 27 va permettre à deux iPhone de partager un seul numéro</title>
-    <link>https://dionysia-blog.vercel.app/article/1368</link>
-    <guid>https://dionysia-blog.vercel.app/article/1368</guid>
-    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Mentionnée furtivement à la WWDC26, la fonctionnalité « iPhone Handoff » d&apos;iOS 27 se précise : une eSIM « compagne » permettra de basculer un même numéro entre deux iPhone, sans toucher à la carte SIM. Une démo publiée cette semaine dans Xcode 27 lève le voile — et pose la question du support opérateur.</description>
   </item>
 </channel>
 </rss>

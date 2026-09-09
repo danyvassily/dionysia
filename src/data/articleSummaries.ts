@@ -4709,5 +4709,27 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1418",
+    "title": "Le Dernier Théorème de Fermat vérifié par machine : des agents Claude formalisent 358 ans de mathématiques en 11 jours",
+    "excerpt": "Anthropic annonce la première preuve complète vérifiée par ordinateur du Dernier Théorème de Fermat : 13 millions de lignes Lean écrites par des agents Claude en 11 jours. L'exploit doit moins au modèle qu'à Prove2Me, l'infrastructure de coordination qui a permis à des dizaines d'agents de ne pas se marcher dessus.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "9 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1419",
+    "title": "Muse, l'agent personnel de Meta, passe à l'action : il réserve, négocie et achète à votre place",
+    "excerpt": "Meta a lancé Muse le 8 septembre : un agent personnel qui ouvre un navigateur, remplit des formulaires et négocie des achats en autonomie. Réservé aux États-Unis pour l'instant, il signale l'entrée de Meta dans la course aux agents grand public — avec WhatsApp comme cheval de Troie.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "9 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
