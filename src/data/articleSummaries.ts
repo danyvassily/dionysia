@@ -4742,5 +4742,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1421",
+    "title": "Navier-Stokes : OpenAI affirme avoir résolu un problème du Millénaire avec 10 000 agents — et la polémique enfle",
+    "excerpt": "Le 8 septembre, OpenAI a annoncé qu'un système interne — orchestrant environ 10 000 agents — a résolu le problème de régularité de Navier-Stokes, l'un des sept problèmes du Prix du Millénaire. Un exploit inédit pour l'IA, aussitôt suivi d'une vive dispute de crédibilité avec la communauté mathématique.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "9 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1422",
+    "title": "Agents IA : le jour où ils sont passés de la démo à la production (Public, Databricks)",
+    "excerpt": "Le 9 septembre 2026, deux signaux convergent : Public ouvre le premier marketplace d'agents d'investissement au grand public, pendant que le CEO de Databricks affirme voir enfin les agents « fonctionner » en entreprise. Tour d'horizon d'une semaine charnière pour l'agentique.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "9 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1423",
+    "title": "Managed Agents : OpenAI prépare sa plateforme d'agents pour le DevDay du 29 septembre",
+    "excerpt": "Deux médias indépendants rapportent qu'OpenAI s'apprête à dévoiler des « Managed Agents » lors de son DevDay 2026. Environnements configurables, skills, plugins, self-hosting : la firme de Sam Altman consoliderait son offre agents, un an après avoir ouvert la voie avec Frontier, Workspace Agents et Presence.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "9 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
