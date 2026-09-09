@@ -4687,5 +4687,27 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1416",
+    "title": "Mistral lève 3 Md€ : la plus grosse levée tech de l'histoire européenne, pour une souveraineté encore adossée à Nvidia",
+    "excerpt": "Annoncée ce 8 septembre, la Series D de Mistral — 3 Md€ pour une valorisation supérieure à 21 Md€, menée par Samsung avec le fonds public européen Scaleup Europe — est la plus grosse levée en fonds propres jamais réalisée par une entreprise technologique privée en Europe. Décryptage d'une victoire politique et industrielle qui révèle en creux la dépendance persistante du continent au silicium américain.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "8 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1417",
+    "title": "ARTEMIS : Google publie un système open source qui pilote Android en langage naturel — et le branche sur les agents de code",
+    "excerpt": "« Ouvre l'app, crée un compte, change les réglages, vérifie le résultat. » Le repo google/artemis, qui cartonne sur GitHub depuis le 7 septembre, promet une automation Android fiable à plus de 99 % sur le benchmark AndroidWorld. Surtout, il s'intègre nativement via MCP aux assistants de code (Claude Code, Codex, Antigravity) : la nouvelle frontière des agents ne serait plus d'écrire du logiciel, mais de l'opérer.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "8 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
