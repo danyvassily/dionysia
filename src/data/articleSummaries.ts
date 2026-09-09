@@ -4731,5 +4731,16 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1420",
+    "title": "Washington accuse six laboratoires chinois d'avoir « distillé » Claude, GPT et Gemini à l'échelle industrielle",
+    "excerpt": "La NSA, le FBI et la CISA ont publié le 8 septembre un advisory inédit : DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun et Z.AI y sont accusés de distillation industrielle des modèles américains — probablement avec l'aval de Pékin. Une accusation qui change la donne pour tous les utilisateurs d'API.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "9 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];

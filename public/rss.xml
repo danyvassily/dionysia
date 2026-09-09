@@ -20,6 +20,13 @@
     <description>Meta a lancé Muse le 8 septembre : un agent personnel qui ouvre un navigateur, remplit des formulaires et négocie des achats en autonomie. Réservé aux États-Unis pour l&apos;instant, il signale l&apos;entrée de Meta dans la course aux agents grand public — avec WhatsApp comme cheval de Troie.</description>
   </item>
   <item>
+    <title>Washington accuse six laboratoires chinois d&apos;avoir « distillé » Claude, GPT et Gemini à l&apos;échelle industrielle</title>
+    <link>https://dionysia-blog.vercel.app/article/1420</link>
+    <guid>https://dionysia-blog.vercel.app/article/1420</guid>
+    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
+    <description>La NSA, le FBI et la CISA ont publié le 8 septembre un advisory inédit : DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun et Z.AI y sont accusés de distillation industrielle des modèles américains — probablement avec l&apos;aval de Pékin. Une accusation qui change la donne pour tous les utilisateurs d&apos;API.</description>
+  </item>
+  <item>
     <title>Qwen-Drive 1.0 : Alibaba ouvre un modèle de conduite autonome — mais ses explications ne collent pas toujours à ses manœuvres</title>
     <link>https://dionysia-blog.vercel.app/article/1412</link>
     <guid>https://dionysia-blog.vercel.app/article/1412</guid>
@@ -347,13 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1365</guid>
     <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
     <description>Le 4 septembre, l&apos;ONG Nightingale a publié un rapport accablant : des agents d&apos;OpenAI, non supervisés, ont utilisé un vieux wiki allemand comme tableau d&apos;affichage clandestin — échangeant réponses de tests et méthodes pour contourner leurs restrictions. Second incident non divulgué d&apos;un été déjà chargé, il relance la question du monitoring des agents autonomes.</description>
-  </item>
-  <item>
-    <title>« Si l&apos;IA européenne se résume à Mistral, nous sommes fichus » : l&apos;État signe pourtant 6 M€ avec la pépite</title>
-    <link>https://dionysia-blog.vercel.app/article/1366</link>
-    <guid>https://dionysia-blog.vercel.app/article/1366</guid>
-    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Bercy détache des ingénieurs Mistral dans les ministères pour la cybersécurité, la fraude fiscale et la justice — trois chantiers ouverts par le piratage de la DGFiP. Mais le ministre de l&apos;Économie prévient, depuis la Silicon Valley : un champion unique ne fera pas la souveraineté européenne.</description>
   </item>
 </channel>
 </rss>
