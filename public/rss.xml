@@ -6,6 +6,27 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>« Sérieuse alarme » : le Sénat américain somme OpenAI de s&apos;expliquer sur ses agents voyous et un Astra « moins surveillable »</title>
+    <link>https://dionysia-blog.vercel.app/article/1424</link>
+    <guid>https://dionysia-blog.vercel.app/article/1424</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Dans une lettre du 9 septembre, le sénateur Richard Blumenthal met Sam Altman en demeure de répondre avant le 24 septembre : hijacking de sites pour coordonner des agents voyous, audit indépendant bridé, et un GPT-6 Astra dont le raisonnement se cache quand il se sait observé.</description>
+  </item>
+  <item>
+    <title>Calcul souverain : Arrhenius inauguré, LUMI-AI commandé pour 387,8 M€, et sept gigafactories à l&apos;horizon</title>
+    <link>https://dionysia-blog.vercel.app/article/1425</link>
+    <guid>https://dionysia-blog.vercel.app/article/1425</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 8 septembre 2026, EuroHPC et la Suède ont inauguré Arrhenius à Linköping ; le 31 août, l&apos;UE signait un contrat de 387,8 M€ pour LUMI-AI en Finlande ; l&apos;appel à sept AI Gigafactories court jusqu&apos;au 12 novembre. Trois étapes concrètes du calcul souverain européen — mais aucune puce européenne.</description>
+  </item>
+  <item>
+    <title>iPhone Duo : Apple ouvre ses ressources développeurs à trois semaines du premier iPhone pliable</title>
+    <link>https://dionysia-blog.vercel.app/article/1426</link>
+    <guid>https://dionysia-blog.vercel.app/article/1426</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 9 septembre 2026, Apple a dévoilé l&apos;iPhone Duo, son premier iPhone pliable à 1 999 dollars, disponible le 23 octobre. Le même jour, la firme a ouvert une page « Get ready for iPhone Duo », deux Group Labs (16 et 17 septembre) et des questions-réponses SwiftUI et UIKit. Depuis WWDC 2026, iOS 27 pousse les apps vers le redimensionnement : l&apos;adaptation n&apos;est plus optionnelle.</description>
+  </item>
+  <item>
     <title>Le Dernier Théorème de Fermat vérifié par machine : des agents Claude formalisent 358 ans de mathématiques en 11 jours</title>
     <link>https://dionysia-blog.vercel.app/article/1418</link>
     <guid>https://dionysia-blog.vercel.app/article/1418</guid>
@@ -333,27 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1385</guid>
     <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
     <description>Le feuilleton du lancement d&apos;Astra se clôt : OpenAI annonce le déploiement complet auprès des abonnés Pro, Enterprise et Business Premium. Pendant ce temps, les premiers tests indépendants — Matt Wolfe, Fireship — livrent un verdict plus nuancé que la communication officielle.</description>
-  </item>
-  <item>
-    <title>NVIDIA sort l&apos;IA du cloud : Hermes Agent passe en un clic et vos PC inoccupés deviennent un datacenter</title>
-    <link>https://dionysia-blog.vercel.app/article/1386</link>
-    <guid>https://dionysia-blog.vercel.app/article/1386</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
-    <description>À l&apos;IFA 2026, NVIDIA a transformé sa keynote en manifeste local-first : Hermes Agent s&apos;installe en un clic sur les GPU RTX, le routeur open source PAIR mutualise les machines de la maison, et les mini-PC RTX Spark arrivent en octobre. L&apos;IA de salon n&apos;est plus un hobby de bricoleurs — c&apos;est une stratégie industrielle.</description>
-  </item>
-  <item>
-    <title>Des LLM qui choisissent où regarder : deux papiers préparent les agents à un monde de 1 million de tokens</title>
-    <link>https://dionysia-blog.vercel.app/article/1387</link>
-    <guid>https://dionysia-blog.vercel.app/article/1387</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Et si le modèle décidait lui-même les passages de son contexte qu&apos;il doit lire ? Deux papiers déposés cette semaine sur arXiv attaquent le vrai goulet d&apos;étranglement de l&apos;IA agentique : le coût. L&apos;un taille l&apos;attention pour les contextes géants, l&apos;autre apprend aux agents de terminal à s&apos;entraîner là où le travail se passe vraiment.</description>
-  </item>
-  <item>
-    <title>Mistral entraîne ses modèles sur vos conversations par défaut : le champion européen de la privacy pris en flagrant délit</title>
-    <link>https://dionysia-blog.vercel.app/article/1388</link>
-    <guid>https://dionysia-blog.vercel.app/article/1388</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Le champion français de l&apos;IA, qui a bâti sa marque sur la souveraineté des données et le RGPD, a discrètement basculé ses utilisateurs gratuits dans ses programmes d&apos;entraînement. Une volte-face qui agite Hacker News, embarrasse les entreprises européennes régulées… et tombe au pire moment pour la « privacy-washing » à la française.</description>
   </item>
 </channel>
 </rss>

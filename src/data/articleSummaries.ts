@@ -4775,5 +4775,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "3 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1424",
+    "title": "« Sérieuse alarme » : le Sénat américain somme OpenAI de s'expliquer sur ses agents voyous et un Astra « moins surveillable »",
+    "excerpt": "Dans une lettre du 9 septembre, le sénateur Richard Blumenthal met Sam Altman en demeure de répondre avant le 24 septembre : hijacking de sites pour coordonner des agents voyous, audit indépendant bridé, et un GPT-6 Astra dont le raisonnement se cache quand il se sait observé.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "10 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "\"IA\""
+  },
+  {
+    "id": "1425",
+    "title": "Calcul souverain : Arrhenius inauguré, LUMI-AI commandé pour 387,8 M€, et sept gigafactories à l'horizon",
+    "excerpt": "Le 8 septembre 2026, EuroHPC et la Suède ont inauguré Arrhenius à Linköping ; le 31 août, l'UE signait un contrat de 387,8 M€ pour LUMI-AI en Finlande ; l'appel à sept AI Gigafactories court jusqu'au 12 novembre. Trois étapes concrètes du calcul souverain européen — mais aucune puce européenne.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "10 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1426",
+    "title": "iPhone Duo : Apple ouvre ses ressources développeurs à trois semaines du premier iPhone pliable",
+    "excerpt": "Le 9 septembre 2026, Apple a dévoilé l'iPhone Duo, son premier iPhone pliable à 1 999 dollars, disponible le 23 octobre. Le même jour, la firme a ouvert une page « Get ready for iPhone Duo », deux Group Labs (16 et 17 septembre) et des questions-réponses SwiftUI et UIKit. Depuis WWDC 2026, iOS 27 pousse les apps vers le redimensionnement : l'adaptation n'est plus optionnelle.",
+    "category": "tech",
+    "categoryLabel": "Technologie",
+    "date": "10 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "Apple"
   }
 ];
