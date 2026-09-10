@@ -5295,7 +5295,7 @@ export const articles: Article[] = [
     date: '10 septembre 2026',
     readTime: '3 min',
     featured: false,
-    tag: "\"IA\"",
+    tag: "IA",
   },
   {
     id: '1425',
