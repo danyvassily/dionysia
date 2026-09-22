@@ -4808,5 +4808,38 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "4 min",
     "featured": false,
     "tag": "Apple"
+  },
+  {
+    "id": "1427",
+    "title": "Le « harness » avant le modèle : trois papiers arXiv déposés le même jour déplacent la performance des agents vers leur structure",
+    "excerpt": "Le 8 septembre 2026, trois équipes ont publié sur arXiv un prototype d'auto-amélioration récursive (NeoHorse-1), un graphe procédural auto-évolutif pour agents longue durée et un agent full-duplex capable d'être interrompu en pleine phrase. Trois travaux primaires qui pointent la même conclusion : ce n'est plus le modèle qui décide, mais la structure qui l'entoure — le « harness ».",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "10 septembre 2026",
+    "readTime": "5 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1428",
+    "title": "Qwen3.8-Max-0902 a dépassé Claude Opus 5 sur le classement de codage d'Arena — huit jours plus tard, il n'est déjà plus premier",
+    "excerpt": "Le 2 septembre 2026, un simple changement de nom de modèle dans l'API d'Alibaba a placé Qwen3.8-Max-0902 en tête du classement Code Arena: WebDev, trois points devant Claude Opus 5 Max et à un quart de son prix. Consulté le 10 septembre, le même classement ne le place plus premier : la leçon n'est pas dans le record, mais dans l'écart tarifaire — et dans la dépendance qu'il crée.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "10 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "IA"
+  },
+  {
+    "id": "1429",
+    "title": "« Moins de six heures » : Google documente une campagne de vol d'identifiants pilotée par des agents IA",
+    "excerpt": "Dans son rapport du 8 septembre 2026, le Google Threat Intelligence Group décrit une intrusion où un acteur criminel a assemblé un framework multi-agents à partir d'un chatbot de code, d'un prompt et de playbooks Markdown pour voler des milliers d'identifiants tiers en moins de six heures. Le même document montre que la chaîne d'approvisionnement open source est devenue le vecteur principal — et qu'un pipeline d'attaque totalement autonome, lui, n'a pas encore été observé en production.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "10 septembre 2026",
+    "readTime": "4 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];

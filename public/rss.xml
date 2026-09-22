@@ -27,6 +27,27 @@
     <description>Le 9 septembre 2026, Apple a dévoilé l&apos;iPhone Duo, son premier iPhone pliable à 1 999 dollars, disponible le 23 octobre. Le même jour, la firme a ouvert une page « Get ready for iPhone Duo », deux Group Labs (16 et 17 septembre) et des questions-réponses SwiftUI et UIKit. Depuis WWDC 2026, iOS 27 pousse les apps vers le redimensionnement : l&apos;adaptation n&apos;est plus optionnelle.</description>
   </item>
   <item>
+    <title>Le « harness » avant le modèle : trois papiers arXiv déposés le même jour déplacent la performance des agents vers leur structure</title>
+    <link>https://dionysia-blog.vercel.app/article/1427</link>
+    <guid>https://dionysia-blog.vercel.app/article/1427</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 8 septembre 2026, trois équipes ont publié sur arXiv un prototype d&apos;auto-amélioration récursive (NeoHorse-1), un graphe procédural auto-évolutif pour agents longue durée et un agent full-duplex capable d&apos;être interrompu en pleine phrase. Trois travaux primaires qui pointent la même conclusion : ce n&apos;est plus le modèle qui décide, mais la structure qui l&apos;entoure — le « harness ».</description>
+  </item>
+  <item>
+    <title>Qwen3.8-Max-0902 a dépassé Claude Opus 5 sur le classement de codage d&apos;Arena — huit jours plus tard, il n&apos;est déjà plus premier</title>
+    <link>https://dionysia-blog.vercel.app/article/1428</link>
+    <guid>https://dionysia-blog.vercel.app/article/1428</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 2 septembre 2026, un simple changement de nom de modèle dans l&apos;API d&apos;Alibaba a placé Qwen3.8-Max-0902 en tête du classement Code Arena: WebDev, trois points devant Claude Opus 5 Max et à un quart de son prix. Consulté le 10 septembre, le même classement ne le place plus premier : la leçon n&apos;est pas dans le record, mais dans l&apos;écart tarifaire — et dans la dépendance qu&apos;il crée.</description>
+  </item>
+  <item>
+    <title>« Moins de six heures » : Google documente une campagne de vol d&apos;identifiants pilotée par des agents IA</title>
+    <link>https://dionysia-blog.vercel.app/article/1429</link>
+    <guid>https://dionysia-blog.vercel.app/article/1429</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Dans son rapport du 8 septembre 2026, le Google Threat Intelligence Group décrit une intrusion où un acteur criminel a assemblé un framework multi-agents à partir d&apos;un chatbot de code, d&apos;un prompt et de playbooks Markdown pour voler des milliers d&apos;identifiants tiers en moins de six heures. Le même document montre que la chaîne d&apos;approvisionnement open source est devenue le vecteur principal — et qu&apos;un pipeline d&apos;attaque totalement autonome, lui, n&apos;a pas encore été observé en production.</description>
+  </item>
+  <item>
     <title>Le Dernier Théorème de Fermat vérifié par machine : des agents Claude formalisent 358 ans de mathématiques en 11 jours</title>
     <link>https://dionysia-blog.vercel.app/article/1418</link>
     <guid>https://dionysia-blog.vercel.app/article/1418</guid>
@@ -333,27 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1382</guid>
     <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
     <description>Bots avec des avatars, messages bot-à-bot persistants, crons qui gardent la mémoire, pilotage des subagents en direct : la v0.21 de l&apos;agent open source de Nous Research transforme une machine à automatiser en véritable équipe. 760 contributeurs et près de 6 000 changements plus tard, Pantheon marque un cran au-dessus.</description>
-  </item>
-  <item>
-    <title>Anthropic prépare son introduction en Bourse : le cache à -75 % et les garde-fous Enterprise sont-ils la rampe de lancement ?</title>
-    <link>https://dionysia-blog.vercel.app/article/1383</link>
-    <guid>https://dionysia-blog.vercel.app/article/1383</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Valorisée près de 1 000 milliards de dollars en privé, Anthropic viserait une IPO en octobre. Son triple lancement du 1er septembre — Fable 5.1, Mythos 5.1 et Enterprise Frontier Safeguards — ressemble moins à une mise à jour produit qu&apos;à une mécanique financière : prix du cache divisé par quatre, zéro rétention de données, et des banques de Wall Street en première ligne.</description>
-  </item>
-  <item>
-    <title>46,4 % des tokens d&apos;OpenRouter partent vers des modèles chinois : DeepSeek détrône Anthropic chez les développeurs</title>
-    <link>https://dionysia-blog.vercel.app/article/1384</link>
-    <guid>https://dionysia-blog.vercel.app/article/1384</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
-    <description>En dix-huit mois, la part des modèles chinois sur OpenRouter est passée de 4,5 % à 46,4 % du trafic. DeepSeek est devenu le premier fournisseur de l&apos;agrégateur, devant Anthropic — et les labos américains répondent par la distillation, les baisses de prix et les contrôles de dépenses.</description>
-  </item>
-  <item>
-    <title>GPT-6 Astra passe enfin entre toutes les mains : que valent les premiers tests indépendants ?</title>
-    <link>https://dionysia-blog.vercel.app/article/1385</link>
-    <guid>https://dionysia-blog.vercel.app/article/1385</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Le feuilleton du lancement d&apos;Astra se clôt : OpenAI annonce le déploiement complet auprès des abonnés Pro, Enterprise et Business Premium. Pendant ce temps, les premiers tests indépendants — Matt Wolfe, Fireship — livrent un verdict plus nuancé que la communication officielle.</description>
   </item>
 </channel>
 </rss>
