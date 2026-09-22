@@ -6,6 +6,13 @@
   <description>Analyses sur l’intelligence artificielle, la technologie, le développement et la politique numérique.</description>
   <language>fr</language>
   <item>
+    <title>Plugin4Shell : le hash qui devait protéger vos plugins d&apos;agents n&apos;était vérifié par personne</title>
+    <link>https://dionysia-blog.vercel.app/article/1430</link>
+    <guid>https://dionysia-blog.vercel.app/article/1430</guid>
+    <pubDate>Tue, 22 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Le 18 septembre 2026, la société de sécurité AIR a rendu publique Plugin4Shell, une faille zero-click qui contourne l&apos;épinglage SHA des places de marché d&apos;extensions pour agents de code. Claude Code et Codex sont patchés, GitHub Copilot ne l&apos;est pas, et Gemini CLI ne le sera jamais : Google a préféré arrêter le produit. Aucune exploitation connue à ce jour — mais le mécanisme de confiance de tout l&apos;écosystème agentique est décrit comme cassé.</description>
+  </item>
+  <item>
     <title>« Sérieuse alarme » : le Sénat américain somme OpenAI de s&apos;expliquer sur ses agents voyous et un Astra « moins surveillable »</title>
     <link>https://dionysia-blog.vercel.app/article/1424</link>
     <guid>https://dionysia-blog.vercel.app/article/1424</guid>
@@ -347,13 +354,6 @@
     <guid>https://dionysia-blog.vercel.app/article/1381</guid>
     <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
     <description>Tandis que Bruxelles durcit le ton sur les modèles à usage général, Mistral empile les actifs : datacenter d&apos;inférence aux Ulis, commandes massives de GPU Nvidia, rachat de la pépite autrichienne Emmi AI. La réponse du champion français à l&apos;AI Act s&apos;appelle l&apos;intégration verticale — et l&apos;industrie européenne est dans la boucle.</description>
-  </item>
-  <item>
-    <title>Hermes Agent v0.21 « Pantheon » : quand les agents se parlent entre eux, le terminal devient une agora</title>
-    <link>https://dionysia-blog.vercel.app/article/1382</link>
-    <guid>https://dionysia-blog.vercel.app/article/1382</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Bots avec des avatars, messages bot-à-bot persistants, crons qui gardent la mémoire, pilotage des subagents en direct : la v0.21 de l&apos;agent open source de Nous Research transforme une machine à automatiser en véritable équipe. 760 contributeurs et près de 6 000 changements plus tard, Pantheon marque un cran au-dessus.</description>
   </item>
 </channel>
 </rss>

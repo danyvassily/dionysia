@@ -4841,5 +4841,16 @@ export const articleSummaries: ArticleSummary[] = [
     "readTime": "4 min",
     "featured": false,
     "tag": "IA"
+  },
+  {
+    "id": "1430",
+    "title": "Plugin4Shell : le hash qui devait protéger vos plugins d'agents n'était vérifié par personne",
+    "excerpt": "Le 18 septembre 2026, la société de sécurité AIR a rendu publique Plugin4Shell, une faille zero-click qui contourne l'épinglage SHA des places de marché d'extensions pour agents de code. Claude Code et Codex sont patchés, GitHub Copilot ne l'est pas, et Gemini CLI ne le sera jamais : Google a préféré arrêter le produit. Aucune exploitation connue à ce jour — mais le mécanisme de confiance de tout l'écosystème agentique est décrit comme cassé.",
+    "category": "ia",
+    "categoryLabel": "Intelligence Artificielle",
+    "date": "22 septembre 2026",
+    "readTime": "3 min",
+    "featured": false,
+    "tag": "IA"
   }
 ];
